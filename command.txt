@@ -1,0 +1,7635 @@
+
+
+
+
+
+
+
+
+
+host == sisstagingvm.centralindia.cloudapp.azure.com
+port == 3306
+user == sanjeevr
+passwd == Sanjeev@123
+
+
+============================================================
+
+key=gtKFFx
+salt=eCwWELxi
+payuUrl=https://test.payu.in
+#erpUrl=http://localhost:8080/serosoft-academia-web
+erpUrl=http://localhost:18080/testing_bedaya
+#erpUrl=https://testing-bedaya.academiaerp.com/
+authPart1=client_id=publicclient&client_secret=$edu%23pub@21&code=PUBLIC_PORTAL&grant_type=password&password=
+authPart2=&portal_code=PUBLIC_PORTAL&username=PUBLIC_PORTAL_USER
+password=password
+productinfo=velocity_formsubmission
+# surl=http://tempstasy.academiaerp.com/applynow/redirect/success
+# furl=http://tempstasy.academiaerp.com/applynow/redirect/failure
+surl=https://testing-bedaya.academiaerp.com/applynow/redirect/success
+furl=https://testing-bedaya.academiaerp.com/applynow/redirect/failure
+service_provider=payu_paisa
+payu_url=https://staging.payu.co.za/service/PayUAPI
+pay_redirectUrl=https://staging.payu.co.za/rpp.do?PayUReference=
+SAFEFTY_KEY={07F70723-1B96-4B97-B891-7BF708594EEA}
+MERCHANT_REF=gtKFFx
+basePath=/opt/serosoft/v2_uploads/temp
+
+
+------------------------
+
+key=gtKFFx
+salt=eCwWELxi
+payuUrl=https://test.payu.in
+#erpUrl=http://localhost:8080/serosoft-academia-web
+erpUrl=http://localhost:8080/bedaya
+authPart1=client_id=publicclient&client_secret=$edu%23pub@21&code=PUBLIC_PORTAL&grant_type=password&password=
+authPart2=&portal_code=PUBLIC_PORTAL&username=PUBLIC_PORTAL_USER
+password=password
+productinfo=velocity_formsubmission
+# surl=http://tempstasy.academiaerp.com/applynow/redirect/success
+# furl=http://tempstasy.academiaerp.com/applynow/redirect/failure
+surl=https://sis.arganbedaya.com/applynow/redirect/success
+furl=https://sis.arganbedaya.com/applynow/redirect/failure
+service_provider=payu_paisa
+payu_url=https://staging.payu.co.za/service/PayUAPI
+pay_redirectUrl=https://staging.payu.co.za/rpp.do?PayUReference=
+SAFEFTY_KEY={07F70723-1B96-4B97-B891-7BF708594EEA}
+MERCHANT_REF=gtKFFx
+basePath=/opt/serosoft/v2_uploads/temp
+
+
+
+
+
+
+
+http://sisstagingvm.centralindia.cloudapp.azure.com:18080/testing_bedaya/
+
+
+183.182.84.235,52.172.192.63,20.193.140.236,20.193.140.240,20.193.140.242,20.193.140.243,20.193.140.244,20.193.140.245,20.193.140.246,20.193.139.248,20.193.140.11,20.193.140.52,20.193.140.98,20.193.140.247,52.172.157.211,52.172.163.207,52.172.161.171,52.172.133.177,104.211.88.227,52.172.160.202,20.204.96.223,52.172.238.229,20.204.131.0,20.204.131.154,20.204.51.18,20.204.98.135,52.140.106.225,20.207.68.236,20.207.68.240,20.207.68.250,20.207.68.254,20.207.69.1,20.207.69.2,20.207.69.13,20.207.69.15,20.207.69.21,20.207.69.22,20.207.69.25,20.204.239.215,20.207.69.26,20.207.69.29,20.207.69.35,20.207.69.39,20.204.235.70,20.207.64.44,20.207.64.155,20.207.64.168,20.204.200.211,20.204.202.150,20.204.207.175,20.207.98.126,20.192.170.8
+
+
+
+export JAVA_OPTS="$JAVA_OPTS  -Xmx12g -Xms12g -Xverify:none -Djava.awt.headless=true -Dfile.encoding=UTF-8 -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSClassUnloadingEnabled -XX:+CMSParallelRemarkEnabled -XX:+CMSCompactWhenClearAllSoftRefs -XX:CMSInitiatingOccupancyFraction=85 -XX:+CMSScavengeBeforeRemark -XX:+CMSConcurrentMTEnabled -XX:ParallelCMSThreads=4 -XX:+DisableExplicitGC -XX:MaxHeapFreeRatio=70 -XX:MinHeapFreeRatio=40 -XX:MaxTenuringThreshold=2 -XX:NewSize=6g -XX:MaxNewSize=6g -XX:SurvivorRatio=2 -XX:TargetSurvivorRatio=85 -XX:InitialCodeCacheSize=256m -XX:ReservedCodeCacheSize=512m -XX:ParallelGCThreads=4 -XX:ConcGCThreads=4"
+export JAVA_HOME='/usr/lib/jvm/java-8-openjdk-amd64/jre'
+JAVA_OPTS="$JAVA_OPTS -javaagent:/opt/newrelic/newrelic.jar"
+
+
+
+
+
+https://sis.arganbedaya.com/applynow/brandcampus.html
+sudo a2enmod proxy proxy_http proxy_balancer lbmethod_byrequests
+
+===============  02-jan-2023 ===================================
+
+=============================================================
+
+
+ssh logadmin@riyadhotp2.centralindia.cloudapp.azure.com
+passwd -- logadmin@123
+cd /opt/serosoft/tomcat_arch/logs 
+tail -f catalina.out 
+
+
+
+ssh seroadmin@riyadhotp2.centralindia.cloudapp.azure.com
+
+
+
+host == demo-db-2.centralindia.cloudapp.azure.com
+port == 3306
+user == shubhamr
+passwd == Shubham@123
+
+
+
+
+we need to take back up on Backup time: 27-12-2022 at 05:30 PM
+
+Database Details: - 
+Database Name :: rgi and rgi_audit
+IP Address == 10.0.5.11
+Path for database backup == /home/seroadmin/dbdump
+use for this command taking dump. So easy for me extract dump ==>>> mysqldump --user=ss_root --host=localhost --password=AXf8t9NzkFxXj8H3be3h6UsvXt23SQ --routines --events --databases  --complete-insert --single-transaction --set-gtid-purged=OFF "rgi" "rgi_audit" > rgi_2712022.sql
+
+
+
+====================================
+
+/opt/serosoft/jenkins/jenkinsWorkspace/workspace/CodeCheckout1/CriteriaBuilder/CriteriaBuilderConfigurer\src\main\resources\XMLParser\savedSearches
+
+
+
+we need to take back up on Backup time: 23-12-2022 at 09:30 PM
+
+Database Details: - 
+Database Name :: krmu and krmu_audit
+IP Address == 10.0.5.11
+Path for database backup == /home/seroadmin/dbdump
+use for this command taking dump. So easy for me extract dump ==>>> 
+mysqldump --user=ss_root --host=localhost --password=AXf8t9NzkFxXj8H3be3h6UsvXt23SQ --routines --events --databases --complete-insert --single-transaction --set-gtid-purged=OFF "krmu" "krmu_audit" > krmu_23122022.sql
+
+
+==================================
+
+host == 218.248.31.251
+port == 3306
+user -- rounak
+Passwd == Rounak@123
+db - tsm-demo
+
+
+necb_demo_2022_12_23_15_12_56_DB.sql
+
+
+720-OS-disk23dec-Disk
+
+720-OS-disk23dec-snap
+
+
+
+ll |grep FinanceDataForSageX3.log
+
+
+
+FinanceDataForSageX3.log
+
+
+
+
+
+
+=====================================
+
+Login with Azure","AZURE_AD_NEW_URL":"https://sutraining-azure-ad.academiaerp.com/authacademiacontroller/secureazurepage"
+
+
+
+
+
+
+
+testing-sis-21dec
+
+
+testing-sis-21dec2
+
+
+
+
+
+
+
+host ==  103.93.115.247
+port == 3306
+user == abhisheks
+Passwd == Abhishek@123
+
+===========================================================================================
+
+
+183.182.84.235
+
+9893085055
+
+
+Please provide approval for increse HDD - Dit-live web server present HDD- 30 GB
+
+we already increased HDD 50 GB, Now totally 30+50=80 GB
+
+
+https://phoenixnap.com/kb/how-to-generate-ssh-key-centos-7
+
+https://bytexd.com/how-to-pass-password-to-scp-command-in-linux-using-sshpass/
+
+
+host == proddb.centralindia.cloudapp.azure.com
+port == 3306
+user = ranveers
+passwd == Ranveer@123
+db == bedaya_chatbot
+
+
+
+
+bedaya_chatbot
+
+
+
+================= 15-12-2022====================
+
+host == od-db-4.centralindia.cloudapp.azure.com
+port == 3306
+user == shubhamj
+passwd == Shubham@123
+
+
+
+
+/opt/serosoft/jenkins/jenkinsWorkspace/workspace/CodeCheckout1/CriteriaBuilder/CriteriaBuilderConfigurer\src\main\resources\XMLParser\savedSearches
+
+
+Tanay@123
+ALTER USER 'tanays'@'%' PASSWORD EXPIRE INTERVAL 1 DAY;
+
+
+
+===========================
+
+
+#!/bin/bash
+#kill $(cat /home/academia/serosoft/installation/AcademiaIntegrationModule/pid.file)
+proc_name=`ps -ef | grep AcademiaIntegrationModule | grep -v "grep" | awk '{print $2}'`
+if (! pidof process_name)
+then
+echo "$proc_name running"
+kill -9 $(lsof -t -i:9090)
+#kill -9 $(pidof process_name)
+echo "$proc_name  got killed"
+else
+echo "$proc_name is not running/stopped"
+fi
+
+
+
+========
+#!/bin/bash
+var=$(date +"%FORMAT_STRING")
+now=$(date +"%m_%d_%Y")
+printf "%s\n" $now
+today=$(date +"%Y-%m-%d.%H:%M:%S")
+
+nohup java -Xms4G -Xmx8G -jar /home/academia/serosoft/installation/AcademiaIntegrationModule/AcademiaIntegrationModule-0.0.1.jar > /home/academia/serosoft/installation/AcademiaIntegrationModule/log-${today}.txt 2>&1 &
+echo $! > /home/academia/serosoft/installation/AcademiaIntegrationModule/pid.file
+
+====================
+
+
+
+
+
+a2enmod proxy*
+sudo apt-get install mod_proxy
+
+a2enmod ProxyPass
+
+apt-get install ProxyPass
+
+=============
+
+<VirtualHost *:443>
+
+   ServerName au-api.academiaerp.com
+RewriteEngine on
+    ProxyPass      /  ajp://10.31.80.44:9091/
+    ProxyPassReverse  /  ajp://10.31.80.44:9091/
+RewriteCond $1 !(\.js|\.css|\.jpg|\.png\.gif)$ [NC]
+RewriteRule ^/$ /resources/homepage.html [R,L]
+
+RewriteEngine on
+    ProxyPass         /resources/index.html  ajp://10.31.80.44:9091/
+    ProxyPassReverse  /resources/index.html  ajp://10.31.80.44:9091/
+    RewriteCond $1 !(\.js|\.css|\.jpg|\.png\.gif)$ [NC]
+RewriteRule ^/$ /resources/index.html/ [R,L]   
+
+RewriteEngine on
+    ProxyPass         /v2/api-docs  ajp://10.31.80.44:9091/
+    ProxyPassReverse  /v2/api-docs  ajp://10.31.80.44:9091/
+RewriteRule ^/$ /v2/api-docs/ [R,L]
+
+RewriteEngine on
+    ProxyPass         /academia/api/v1/auth/ ajp://10.31.80.44:9091/
+    ProxyPassReverse  /academia/api/v1/auth/  ajp://10.31.80.44:9091/
+RewriteRule ^/$ /academia/api/v1/auth/ [R,L]
+
+RewriteEngine on
+SSLEngine on
+       SSLCertificateFile /etc/apache2/ssl/ssl_academiaerp/server.crt
+       SSLCertificateKeyFile /etc/apache2/ssl/ssl_academiaerp/server.key
+       SSLCertificateChainFile /etc/apache2/ssl/ssl_academiaerp/server.csr
+</VirtualHost>
+
+
+
+-----------
+au-api.academiaerp.com >>>>>>> 41.220.16.98
+
+
+
+
+port == 9090, 9091
+
+API database name   ==  au_api
+Database port == 13306
+
+Main db -- au 
+API database IP   ==  10.31.80.45
+API database user/pass  == ss_root / s3r0s0ft
+ERP tomcat port number == 8080
+ERP folder name inside webapp folder  == au
+ERP tomcat ssh connection ==
+
+ssh academia@41.220.16.98 
+Password : sero#au17#
+Tomcat- ssh academia@10.31.80.44
+
+
+
+API database access  == 
+host == od-erp-3.centralindia.cloudapp.azure.com
+port == 3306
+ss_root / s3r0s0ft
+
+
+
+==============
+
+can't find the operating system you are looking for? try selecting the next most recent version displayed or use the "Generic" entry
+
+host ==proddb.centralindia.cloudapp.azure.com
+port == 3306
+user == tanays
+passwd == Tanay@123
+db == bedaya
+
+
+
+
+
+
+
+
+==================== 13 - 12 - 2022 ================================
+
+
+we need to take back up on Backup time: 12-dec-2022 at 02:00 PM
+
+Database Details: - 
+Database Name :: aei and aei_audit
+IP Address == 10.0.5.11
+Path for database backup == /home/seroadmin/dbdump
+use for this command taking dump. So easy for me extract dump ==>>> mysqldump --user=ss_root --host=localhost --password=AXf8t9NzkFxXj8H3be3h6UsvXt23SQ --routines --events --databases --set-gtid-purged=OFF "aei" "aei_audit" > aei_12122022.sql
+
+
+
+
+sis.arganbedaya.com
+
+===================  12 - 12- 2022 ======================================================
+od-db-3.centralindia.cloudapp.azure.com
+
+
+
+host == od-db-3.centralindia.cloudapp.azure.com
+port == 3306
+user == shubhamr
+passwd == Shubham@123
+db buzz
+
+
+
+
+
+host == buzz-uat-db.southafricanorth.cloudapp.azure.com
+port == 3306
+user == shubhamr
+passwd == Shubham@123
+
+db buzz-uat
+
+
+
+=====================
+
+
+proddb.centralindia.cloudapp.azure.com
+
+host == proddb.centralindia.cloudapp.azure.com
+port == 306
+user == amleshk
+passwd == Amlesh@123
+
+
+
+host == java8testing.centralindia.cloudapp.azure.com
+port == 306
+user == amleshk
+passwd == Amlesh@123
+
+
+
+
+we need to take back up on Backup time: 09-Dec-2022 at 9:00 PM
+
+Database Details: - 
+Database Name :: ku and ku_audit
+IP Address == 10.0.5.7
+Path for database backup == /home/seroadmin/dbdump
+use for this command taking dump. So easy for me extract dump ==>>> 
+mysqldump --user=ss_root --host=localhost --password=AXf8t9NzkFxXj8H3be3h6UsvXt23SQ --routines --events --databases --complete-insert --single-transaction --set-gtid-purged=OFF "ku" "ku_audit" > ku_09122022.sql
+
+
+
+
+
+
+host == proddb.centralindia.cloudapp.azure.com
+port == 3306
+user == shubhamr
+passwd == Shubham@123
+
+db -ku
+
+ALTER USER 'shubhamr'@'%' PASSWORD EXPIRE INTERVAL 1 DAY;
+
+
+
+=========================================
+/opt/newrelic/newrelic.yml
+
+curl -Ls https://download.newrelic.com/install/newrelic-cli/scripts/install.sh | bash && sudo  NEW_RELIC_API_KEY=NRAK-3MSGJ80EUTDBCY6AF02EUB6TL90 NEW_RELIC_ACCOUNT_ID=2971009 /usr/local/bin/newrelic install -n java-agent-installer
+
+seroadm+  1901     1  0 05:31 ?        00:01:39 java -Xms128m -Xmx256m -jar in.serosoft.ms-0.0.1-SNAPSHOT.jar
+seroadm+  1911     1  0 05:31 ?        00:01:29 java -Xmx2000m -Xss512k -jar serosoft-email-sync-0.0.1-SNAPSHOT.jar
+
+
+sudo rabbitmqctl add_user sis s3r0s0ft
+sudo rabbitmqctl set_user_tags sis administrator
+sudo rabbitmqctl set_permissions -p / sis ".*" ".*" ".*"
+
+messaging.host=10.0.11.9
+messaging.username=sis
+messaging.password=s3r0s0ft
+messaging.virtualhost=sisVH
+messaging.exchange=sisEX
+
+
+
+
+
+==============================================================
+Job Separate VM
+VM Name: SIS-live-Job
+ssh seroadmin@sis-live-job.centralindia.cloudapp.azure.com
+
+Password 6nwF7gStopfe7JNAVJkp75
+job downtime mile tak kar dena
+aaj hi karna hai
+
+
+
+
+host == accrachstesting.centralindia.cloudapp.azure.com
+port == 3306
+user == sourabhm
+passwd == sourabh@123
+
+db testing-inifd
+
+
+
+
+
+=========================== 05-Dec-2022 ==============
+
+=======================================
+
+
+server {
+    listen 80;
+    listen [::]:80;
+
+    root /var/www/example.com/public_html;
+
+    index index.html;
+
+    server_name example.com www.example.com;
+
+    access_log /var/log/nginx/example.com.access.log;
+    error_log /var/log/nginx/example.com.error.log;
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+}
+
+
+
+
+host ==proddb.centralindia.cloudapp.azure.com
+port == 3306
+user == tanays
+passwd == Tanay@123
+db == sis
+
+
+ALTER USER 'tanay'@'%' PASSWORD EXPIRE INTERVAL 1 DAY;
+
+=======================
+
+       LOGIN_AZURE_BTN_TEXT: 'Login with SSO',
+                AZURE_AD_NEW_URL: 'https://buzzuat-azure-ad.academiaerp.com/authacademiacontroller/secureazurepage',
+
+
+
+http://10.251.243.15:8080/buzz_uat
+
+
+sis-koha
+
+
+#MySql Database Properties
+
+jdbc.koha.driverClassName=com.mysql.cj.jdbc.Driver
+jdbc.koha.url=jdbc\:mysql\://20.235.120.135\:3306/koha?autoReconnect\=true&useSSL\=false&useUnicode\=true&characterEncoding\=utf-8
+jdbc.koha.username=koha
+jdbc.koha.password=koha@MariaDB
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
+#MySql Database Properties
+
+jdbc.koha.driverClassName=com.mysql.cj.jdbc.Driver
+jdbc.koha.url=jdbc\:mysql\://123.252.208.155\:3306/koha_aef_library?autoReconnect\=true&useSSL\=false&useUnicode\=true&characterEncoding\=utf-8
+jdbc.koha.username=ss_root
+jdbc.koha.password=s3r0s0ft
+
+
+
+
+========================
+mysql -u ss_root -p sommet_demo < all_city_table_data.sql
+
+
+=========== erp-tomcat==============================
+
+export JAVA_OPTS="$JAVA_OPTS -Xmx67g -Xms67g -Xverify:none -Djava.awt.headless=true -Dfile.encoding=UTF-8 -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSClassUnloadingEnabled -XX:+CMSParallelRemarkEnabled -XX:+CMSCompactWhenClearAllSoftRefs -XX:CMSInitiatingOccupancyFraction=85 -XX:+CMSScavengeBeforeRemark -XX:+CMSConcurrentMTEnabled -XX:ParallelCMSThreads=27 -XX:+DisableExplicitGC -XX:MaxHeapFreeRatio=70 -XX:MinHeapFreeRatio=40 -XX:MaxTenuringThreshold=4 -XX:NewSize=33g -XX:MaxNewSize=33g -XX:SurvivorRatio=2 -XX:TargetSurvivorRatio=85 -XX:InitialCodeCacheSize=1g -XX:ReservedCodeCacheSize=2g -XX:ParallelGCThreads=27 -XX:ConcGCThreads=6"
+JAVA_OPTS="$JAVA_OPTS -javaagent:/opt/newrelic/newrelic.jar"
+
+
+=========== job-tomcat==============================
+
+export JAVA_OPTS="$JAVA_OPTS -Xmx24g -Xms24g -Xverify:none -Djava.awt.headless=true -Dfile.encoding=UTF-8 -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSClassUnloadingEnabled -XX:+CMSParallelRemarkEnabled -XX:+CMSCompactWhenClearAllSoftRefs -XX:CMSInitiatingOccupancyFraction=85 -XX:+CMSScavengeBeforeRemark -XX:+CMSConcurrentMTEnabled -XX:ParallelCMSThreads=28 -XX:+DisableExplicitGC -XX:MaxHeapFreeRatio=70 -XX:MinHeapFreeRatio=40 -XX:MaxTenuringThreshold=2 -XX:NewSize=12g -XX:MaxNewSize=12g -XX:SurvivorRatio=4 -XX:TargetSurvivorRatio=85 -XX:InitialCodeCacheSize=1g -XX:ReservedCodeCacheSize=2g -XX:ParallelGCThreads=28 -XX:ConcGCThreads=7"
+
+
+=========== msg-tomcat==============================
+
+export JAVA_OPTS="$JAVA_OPTS -Xmx8g -Xms8g -Xverify:none -Djava.awt.headless=true -Dfile.encoding=UTF-8 -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSClassUnloadingEnabled -XX:+CMSParallelRemarkEnabled -XX:+CMSCompactWhenClearAllSoftRefs -XX:CMSInitiatingOccupancyFraction=85 -XX:+CMSScavengeBeforeRemark -XX:+CMSConcurrentMTEnabled -XX:ParallelCMSThreads=12 -XX:+DisableExplicitGC -XX:MaxHeapFreeRatio=70 -XX:MinHeapFreeRatio=40 -XX:MaxTenuringThreshold=2 -XX:NewSize=4g -XX:MaxNewSize=4g -XX:SurvivorRatio=4 -XX:TargetSurvivorRatio=85 -XX:InitialCodeCacheSize=256m -XX:ReservedCodeCacheSize=512m -XX:ParallelGCThreads=12 -XX:ConcGCThreads=3"
+
+
+
+======================================================
+
+
+
+
+mysqldump --user=ss_root --host=localhost --password --routines --events --databases  --complete-insert --single-transaction --set-gtid-purged=OFF "dit" "dit_audit" > dit_30nov.sql
+
+
+--job - sis
+
+export JAVA_OPTS="$JAVA_OPTS -Xmx24g -Xms24g -Xverify:none -Djava.awt.headless=true -Dfile.encoding=UTF-8 -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSClassUnloadingEnabled -XX:+CMSParallelRemarkEnabled -XX:+CMSCompactWhenClearAllSoftRefs -XX:CMSInitiatingOccupancyFraction=85 -XX:+CMSScavengeBeforeRemark -XX:+CMSConcurrentMTEnabled -XX:ParallelCMSThreads=28 -XX:+DisableExplicitGC -XX:MaxHeapFreeRatio=70 -XX:MinHeapFreeRatio=40 -XX:MaxTenuringThreshold=2 -XX:NewSize=12g -XX:MaxNewSize=12g -XX:SurvivorRatio=4 -XX:TargetSurvivorRatio=85 -XX:InitialCodeCacheSize=1g -XX:ReservedCodeCacheSize=2g -XX:ParallelGCThreads=28 -XX:ConcGCThreads=7"
+
+
+
+
+----erp---- sis
+export JAVA_OPTS="$JAVA_OPTS -Xmx68g -Xms68g -Xverify:none -Djava.awt.headless=true -Dfile.encoding=UTF-8 -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSClassUnloadingEnabled -XX:+CMSParallelRemarkEnabled -XX:+CMSCompactWhenClearAllSoftRefs -XX:CMSInitiatingOccupancyFraction=85 -XX:+CMSScavengeBeforeRemark -XX:+CMSConcurrentMTEnabled -XX:ParallelCMSThreads=30 -XX:+DisableExplicitGC -XX:MaxHeapFreeRatio=70 -XX:MinHeapFreeRatio=40 -XX:MaxTenuringThreshold=2 -XX:NewSize=35g -XX:MaxNewSize=35g -XX:SurvivorRatio=4 -XX:TargetSurvivorRatio=85 -XX:InitialCodeCacheSize=1g -XX:ReservedCodeCacheSize=2g -XX:ParallelGCThreads=30 -XX:ConcGCThreads=8
+
+
+
+
+------------------
+
+
+SELECT TABLE_SCHEMA AS `Database`,  ROUND(SUM(DATA_LENGTH + INDEX_LENGTH) / 1024 / 1024 / 1024, 2) AS `Size (GB)`  FROM information_schema.TABLES WHERE TABLE_SCHEMA="anantu";
+
+=============================
+
+
+              URL_LOGIN_AZURE_AD:'rest/authentication/loginWithADUser',
+                LOGIN_AZURE_VISIBLE: true,
+                LOGIN_AZURE_BTN_TEXT: 'Login with SSO',
+                AZURE_AD_NEW_URL: 'https://buzzuat-azure-ad.academiaerp.com/authacademiacontroller/secureazurepage',
+
+
+
+
+host == sudemo-db.southafricanorth.cloudapp.azure.com
+port == 3306
+user == shubhama
+passwd == Shubham@123
+
+DB == sunshine
+
+
+
+===================== 28-Nov-2022 ===============================================
+
+host == unyp-testing-vm.westeurope.cloudapp.azure.com
+port == 3306
+user == mahendrav
+passwd == Mahendra@123
+db -- testing-sommet
+
+host == accraiimt.centralindia.cloudapp.azure.com
+port == 3306
+user == manishaw
+passwd == Manisha@123
+
+
+
+
+ssh logadmin@unyp-testing-vm.westeurope.cloudapp.azure.com
+passwd == logadmin@123
+cd /opt/serosoft/tomcat_sommet/logs
+tail -f catalina.out
+
+
+
+
+host == unyp-testing-vm.westeurope.cloudapp.azure.com
+port == 3306
+user == tanays
+passwd == Tanay@123
+db -- testing-sommet
+
+
+
+host == dit-live-db.centralindia.cloudapp.azure.com
+port == 3306
+user == amleshk
+passwd == Amlesh@123
+
+
+
+ALTER USER 'amleshk'@'%' PASSWORD EXPIRE INTERVAL 1 DAY;
+
+
+
+host == 122.187.0.170
+port == 3306
+user == narendraj
+passwd == Narendra@123
+db - ugi
+
+
+=========================
+
+ugi -- 3306
+ugidemo == 13306
+
+ugikoha == 23306
+
+
+
+
+===========================
+
+server {
+    listen 80;
+    server_name 192.168.122.40;
+
+    location = /favicon.ico { access_log off; log_not_found off; }
+    location /static/ {
+        root /home/extra/django/Dentread-master;
+    }
+
+    location / {
+        include proxy_params;
+        proxy_pass http://unix:/run/gunicorn.sock;
+    }
+}
+
+
+
+
+
+==========================================
+host == proddb.centralindia.cloudapp.azure.com
+port == 3306
+user == shubhamr
+passwd == Shubham@123
+
+db == anantu
+
+
+ALTER USER 'shubhamr'@'%' PASSWORD EXPIRE INTERVAL 1 DAY;
+
+========================
+host == 218.248.31.250
+port == 13306
+user = amleshk
+passwd == Amleshk@123
+
+db -- tsm
+
+
+
+==================================
+
+we need to take back up on Backup time: 24-Nov-2022 at 10:00 PM
+
+Database Details: - 
+Database Name :: ku and ku_audit
+IP Address == 10.0.5.7
+Path for database backup == /home/seroadmin/dbdump
+use for this command taking dump. So easy for me extract dump ==>>> 
+mysqldump --user=ss_root --host=localhost --password=AXf8t9NzkFxXj8H3be3h6UsvXt23SQ --routines --events --databases --complete-insert --single-transaction --set-gtid-purged=OFF "ku" "ku_audit" > ku_24112022.sql
+
+
+
+
+================================================
+25,587,2587
+
+
+
+host == sudemo-db.southafricanorth.cloudapp.azure.com
+port == 3306
+user == shubhamj
+passwd == Shubham@123
+
+db == sunshine
+
+ALTER USER 'shubhamj'@'%' PASSWORD EXPIRE INTERVAL 1 DAY;
+
+
+host == buzz-uat-db.southafricanorth.cloudapp.azure.com
+port == 3306
+user == shubhamj
+passwd == Shubham@123
+
+db == buzz
+
+ALTER USER 'shubhamj'@'%' PASSWORD EXPIRE INTERVAL 1 DAY;
+
+
+
+
+*/10 * * * * curl -k https://buzz-uat.academiaerp.com/paymentprocess/curlPaymentVerification.php
+
+=================================
+    URL_LOGIN_AZURE_AD:'rest/authentication/loginWithADUser',
+                LOGIN_AZURE_VISIBLE: true,
+                LOGIN_AZURE_BTN_TEXT: 'Login with Azure',
+                AZURE_AD_NEW_URL: 'https://su-preprod-azuread.academiaerp.com/authacademiacontroller/secureazurepage',
+
+
+
+
+
+https://testing-velocity.academiaerp.com/applynow/brandcampus.html
+
+host == sudemo-db.southafricanorth.cloudapp.azure.com
+port == 3306
+user == shubhamj
+passwd == Shubham@123
+
+db == sunshine
+
+ALTER USER 'shubhamj'@'%' PASSWORD EXPIRE INTERVAL 1 DAY;
+
+
+======================  ============================================
+
+
+I will not be able to join on 1st December, Now 5 januarry my last working day, I will join your company 6-january-2023, I requrest to you please extend my joining date,
+
+I am sharing my resignation, of my current company
+
+
+[11:17 pm, 30/11/2022] Dt Sourav Dev: sftp://97.74.94.110
+[11:18 pm, 30/11/2022] Dt Sourav Dev: amitkumar
+Amit@9911
+ssh amitkumar@97.74.94.110
+
+
+buzz-uat
+ssh 
+183.182.84.235,223.231.130.75
+
+
+
+==============================
+
+Buzz-db-server-22nov-disk_snap
+
+
+
+20.204.113.62
+
+
+
+*/1 * * * * /opt/serosoft/uwc_monitoring/start.sh
+
+
+host == velocity-db.southafricanorth.cloudapp.azure.com
+port == 3306
+user == narendraj
+passwd == Narendra@123
+db - stasy
+
+==============================
+
+host == demo-db-2.centralindia.cloudapp.azure.com
+port == 3306
+user == shubhamr
+passwd == Shubham@123
+
+
+============================================
+
+183.182.84.235,104.211.93.70
+
+
+
+
+============14.04 to 16.04 os upgrade ==============
+
+https://www.linode.com/docs/guides/upgrade-to-ubuntu-16-04/
+
+
+apt-get update && apt-get upgrade
+apt-get install update-manager-core
+vim /etc/update-manager/release-upgrades  (check this == >>> Open /etc/update-manager/release-upgrades and verify that the Prompt value is set to lts: >> Prompt=lts) 
+do-release-upgrade (it's taking time )
+lsb_release -a
+cat /etc/os-release 
+ after VM restart 
+
+==== ======== 16.04 to 18.04 ===============
+
+
+ cat /etc/os-release 
+ apt-get update
+ apt-get upgrade 
+ apt dist-upgrade 
+ apt-get install update-manager-core 
+ do-release-upgrade 
+ cat /etc/os-release 
+ after VM restart 
+
+
+
+===========================================================================
+
+handson_OSDisk_19_snapshoot
+
+
+
+
+================================
+we need to take back up on Backup time: 18 November 2022 at 11:00 PM
+
+Database Details: - 
+Database Name :: gna and gna_audit
+IP Address == 10.0.5.7
+Path for database backup == /home/seroadmin/dbdump
+use for this command taking dump. So easy for me extract dump ==>>> mysqldump --user=ss_root --host=localhost --password=AXf8t9NzkFxXj8H3be3h6UsvXt23SQ --routines --events --databases --set-gtid-purged=OFF "gna" "gna_audit" > gna_18112022.sql
+
+
+
+Shubham@123
+
+ALTER USER 'shubhamR'@'%' PASSWORD EXPIRE INTERVAL 1 DAY;
+
+========================================
+
+#!/bin/bash
+#kill $(cat /opt/serosoft/uwc_monitoring/pid.file)
+proc_name=`ps -ef | grep UwcMonitoring | grep -v "grep" | awk '{print $2}'`
+#if (! pidof process_name)
+then
+echo "$proc_name running"
+#kill -9 $(lsof -t -i:9090)
+#kill -9 $(pidof process_name)
+echo "$proc_name  got killed"
+else
+echo "$proc_name is not running/stopped"
+fi
+
+
+
+
+=============================================
+
+#!/bin/bash
+var=$(date +"%FORMAT_STRING")
+now=$(date +"%m_%d_%Y")
+printf "%s\n" $now
+today=$(date +"%Y-%m-%d.%H:%M:%S")
+
+nohup java -Xms512m -Xmx1G -jar /opt/serosoft/uwc_monitoring/UwcMonitoring.jar > /opt/serosoft/uwc_monitoring/log-${today}.txt 2>&1 &
+echo $! > /opt/serosoft/uwc_monitoring/pid.file
+
+
+=========================================
+
+/opt/serosoft/uwc_monitoring/UwcMonitoring.jar
+
+
+
+host == mysqleightdemodb.centralindia.cloudapp.azure.com
+port == 3306
+user == narendraJ
+passwd == Narendra@123
+db - gna_demo
+
+ALTER USER 'narendj'@'%' PASSWORD EXPIRE INTERVAL 1 DAY;
+
+
+===================
+host == 41.220.16.98
+port == 13306
+user == shubhamr
+passwd == shubham@123
+
+db = au
+
+ALTER USER 'shubhamr'@'%' PASSWORD EXPIRE INTERVAL 1 DAY;
+ALTER USER 'test'@'%' PASSWORD EXPIRE INTERVAL 1 DAY;
+
+
+ssh academia@41.220.16.98 
+
+
+
+============================== 18 Nov 22 ========================================
+
+
+host == seroafricaprod.southafricanorth.cloudapp.azure.com
+port == 3306
+user == narendj
+passwd == Narend@123
+db - falsebay
+
+
+ALTER USER 'narendj'@'%' PASSWORD EXPIRE INTERVAL 1 DAY;
+
+
+host == 41.220.16.98
+port == 3306
+user == tanays
+passwd == Tanay@123
+
+
+ALTER USER 'tanays'@'%' PASSWORD EXPIRE INTERVAL 1 DAY;
+=============================================
+
+host == proddb.centralindia.cloudapp.azure.com
+port == 3306
+user == narendj
+passwd == Narend@123
+
+
+
+
+create user 'prod_root'@'%' identified by 's3r0s0ftprod';
+
+
+s3r0s0ftprod
+
+CREATE USER 'tanays'@'%' identified by 'Tanay@123';                            
+ALTER USER 'narendj'@'%' PASSWORD EXPIRE INTERVAL 1 DAY;
+
+
+host ==114.143.176.181
+port == 3306
+user == tanays
+passwd == Tanay@123
+
+
+host == od-db-4.centralindia.cloudapp.azure.com
+port == 3306
+user == sumits
+passwd -- Sumits@123
+DB - sunshine
+
+host == buzz-db-server.southafricanorth.cloudapp.azure.com
+port == 3306
+user == shubhamR
+passwd == shubham@123 
+
+
+
+
+==================================================================
+
+host == 
+port == 3306
+user == sohanc
+passwd == Sohan@123
+db- sunshine
+
+
+
+CREATE USER 'test'@'%' identified by 's3r0s0ft';                            
+ALTER USER 'shubhamr'@'%' PASSWORD EXPIRE INTERVAL 1 DAY;
+select user, host, password_lifetime from mysql.user where user like 'shubhamr';
+select user from mysql.user;                                                           ====>>>> to check the user
+
+
+host =  41.220.16.98
+port == 13306
+user == shubhamr
+passwd == Shubham@123
+db - au
+
+
+
+vm-Name == Testing-3
+subcription == Serosoft-POC
+
+==================
+OS disk
+handson_OSDisk_14November
+
+
+snapshoot
+handson_OSDisk_14nov22
+
+host == 
+
+s3r0s0ft
+
+s
+old disk
+
+Handson_OsDisk_11may22
+
+
+
+ssh logadmin@sommet-uat-erp.westeurope.cloudapp.azure.com
+passwd == logadmin@123
+cd /opt/serosoft/tomcat7_dit_demo/logs
+tail -f catalina.out
+
+
+
+Please map below url with DNS
+
+testing-skgi.academiaerp.com >>>>>>>   sisstagingvm.centralindia.cloudapp.azure.com 
+
+
+
+
+==================================== 14 Nov 2022======================================================
+
+
+                Query to create a user for 1 Day password expiration.
+
+CREATE USER 'test'@'%' identified by 's3r0s0ft';                            
+ALTER USER 'test'@'%' PASSWORD EXPIRE INTERVAL 1 DAY;
+select user, host, password_lifetime from mysql.user where user like 'test';
+select user from mysql.user;                                                           ====>>>> to check the user
+ALTER USER `test`@`%` IDENTIFIED BY 'qwerty';                       ======>>>>> to re-assign new password for existing user
+ALTER USER 'test'@'%' PASSWORD EXPIRE INTERVAL 1 DAY;  ==>>>>> again run this command for 1 day password expiry
+
+
+===============================================
+buzz-uat-db
+
+ssh ===>>>>> 183.182.84.235,223.231.130.75
+
+
+
+============================
+host == 3.111.119.37
+port == 3306
+user == nishantj
+passwd == Nishant@123
+
+
+
+
+------------------------
+
+host == mysqleightdemodb.centralindia.cloudapp.azure.com
+port == 3306
+user == sanjeevr
+passwd == Sanjeev@123
+db = krmu_applynow
+
+==========================================================================
+
+nohup JAVA_OPTS="$JAVA_OPTS  -Xmx4g -Xms4g -Xverify:none -Djava.awt.headless=true -Dfile.encoding=UTF-8 -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSClassUnloadingEnabled -XX:+CMSParallelRemarkEnabled -XX:+CMSCompactWhenClearAllSoftRefs -XX:CMSInitiatingOccupancyFraction=85 -XX:+CMSScavengeBeforeRemark -XX:+CMSConcurrentMTEnabled -XX:ParallelCMSThreads=2 -XX:+DisableExplicitGC -XX:MaxHeapFreeRatio=70 -XX:MinHeapFreeRatio=40 -XX:MaxTenuringThreshold=2 -XX:NewSize=2g -XX:MaxNewSize=2g -XX:SurvivorRatio=2 -XX:TargetSurvivorRatio=85 -XX:InitialCodeCacheSize=256m -XX:ReservedCodeCacheSize=512m -XX:ParallelGCThreads=2 -XX:ConcGCThreads=2" -jar /opt/serosoft/NSCJar/nsc.jar > /opt/serosoft/NSCJar/logs/log-${today}.txt 2>&1 &
+
+
+
+nohup java -Xmx12g -Xms12g -Xverify:none -Djava.awt.headless=true -Dfile.encoding=UTF-8 -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSClassUnloadingEnabled -XX:+CMSParallelRemarkEnabled -XX:ParallelCMSThreads=2 -XX:+DisableExplicitGC -XX:MaxHeapFreeRatio=70 -XX:MinHeapFreeRatio=40 -XX:MaxTenuringThreshold=15 -XX:NewSize=3g -XX:MaxNewSize=3g -XX:SurvivorRatio=8 -XX:ReservedCodeCacheSize=256m -jar /opt/serosoft/NSCJar/nsc.jar > /opt/serosoft/NSCJar/logs/log-${today}.txt 2>&1 &
+
+
+==========
+
+export JAVA_OPTS="$JAVA_OPTS  -Xmx4g -Xms4g -Xverify:none -Djava.awt.headless=true -Dfile.encoding=UTF-8 -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSClassUnloadingEnabled -XX:+CMSParallelRemarkEnabled -XX:+CMSCompactWhenClearAllSoftRefs -XX:CMSInitiatingOccupancyFraction=85 -XX:+CMSScavengeBeforeRemark -XX:+CMSConcurrentMTEnabled -XX:ParallelCMSThreads=2 -XX:+DisableExplicitGC -XX:MaxHeapFreeRatio=70 -XX:MinHeapFreeRatio=40 -XX:MaxTenuringThreshold=2 -XX:NewSize=2g -XX:MaxNewSize=2g -XX:SurvivorRatio=2 -XX:TargetSurvivorRatio=85 -XX:InitialCodeCacheSize=256m -XX:ReservedCodeCacheSize=512m -XX:ParallelGCThreads=2 -XX:ConcGCThreads=2"
+
+
+-------------
+
+export JAVA_OPTS="$JAVA_OPTS  -Xmx23g -Xms23g -Xverify:none -Djava.awt.headless=true -Dfile.encoding=UTF-8 -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSClassUnloadingEnabled -XX:+CMSParallelRemarkEnabled -XX:+CMSCompactWhenClearAllSoftRefs -XX:CMSInitiatingOccupancyFraction=85 -XX:+CMSScavengeBeforeRemark -XX:+CMSConcurrentMTEnabled -XX:ParallelCMSThreads=6 -XX:+DisableExplicitGC -XX:MaxHeapFreeRatio=70 -XX:MinHeapFreeRatio=40 -XX:MaxTenuringThreshold=2 -XX:NewSize=11g -XX:MaxNewSize=11g -XX:SurvivorRatio=2 -XX:TargetSurvivorRatio=85 -XX:InitialCodeCacheSize=512m -XX:ReservedCodeCacheSize=1g -XX:ParallelGCThreads=6 -XX:ConcGCThreads=2"
+
+export JAVA_HOME='/usr/lib/jvm/java-8-openjdk-amd64/jre'
+
+============================
+
+Django-python-sqllite
+
+
+
+
+
+
+
+pip3.9 install overlap
+
+python3.9 manage.py runserver 0.0.0.0:8000
+python manage.py runserver
+
+pip3.9 install -r requirements.txt
+
+source nenv/Script/activate
+
+
+https://www.youtube.com/watch?v=koo3bF2EPqk
+for producation 
+https://www.youtube.com/watch?v=_MbZSSXdM8s
+---------
+https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-server-blocks-virtual-hosts-on-ubuntu-16-04
+
+https://www.digitalocean.com/community/tutorials/how-to-install-the-django-web-framework-on-ubuntu-22-04
+================================
+
+host == sudemo-db.southafricanorth.cloudapp.azure.com
+port == 3306
+user == mahendrav
+passwd == Mahendra@123
+
+
+============================
+
+
+#30 23 9 12 * sh /home/seroadmin/dbbackup.sh
+
+15 20 * * * sh /home/seroadmin/dbbackup.sh
+
+
+mysqldump --user=ss_root --host=localhost --password=s3r0s0ft --routines --events --databases --set-gtid-purged=OFF "au" > au08Nov.sql
+mysqldump --user=ss_root --host=localhost --password=s3r0s0ft --routines --events --databases --set-gtid-purged=OFF "au_audit" > au_audit08Nov.sql
+
+
+
+===============
+
+we need to take back up on Backup time: 08th November 2022 at 09:30 PM
+
+Database Details: - 
+Database Name :: upng and upng_audit
+IP Address == 10.0.5.7
+Path for database backup == /home/seroadmin/dbdump
+use for this command taking dump. So easy for me extract dump ==>>> 
+mysqldump --user=ss_root --host=localhost --password=AXf8t9NzkFxXj8H3be3h6UsvXt23SQ --routines --events --databases --complete-insert --single-transaction --set-gtid-purged=OFF "upng" "upng_audit" > upng_08112022.sql
+
+========================================
+
+https://www.sqlshack.com/azure-kubernetes-service-aks-managing-sql-server-database-files/
+
+host -- 103.112.11.69
+port == 3306
+Username: powerbi
+Password: Serosoft#123
+
+host == od-db-3.centralindia.cloudapp.azure.com
+port == 3306
+user == sanjeevr
+passwd == Sanjeev@123
+
+DB - buzz_applynow
+
+===========================================
+
+host == sdapp.centralindia.cloudapp.azure.com
+port = 3306
+user ==pradeepn
+passwd == Pradeep@123
+db - aus-demo
+
+
+
+================================================================
+
+Aei-school_OsDisk05Nov
+
+https://mobileappcommunicator.auth.microsoft.com/activate/896358350/KRS
+
+Pooja@123
+
+FDA- approval 
+SOC2 complain
+
+
+HL7
+HIPAA
+
+linux 2 servir = test.dendrad.com
+
+producation 
+cloud.dendra
+
+we need to take back up on Backup time: 04th November 2022 at 11:00 PM
+
+Database Details: - 
+Database Name :: rgi and rgi_audit
+IP Address == 10.0.5.7
+Path for database backup == /home/seroadmin/dbdump
+use for this command taking dump. So easy for me extract dump ==>>> mysqldump --user=ss_root --host=localhost --password=AXf8t9NzkFxXj8H3be3h6UsvXt23SQ --routines --events --databases  --complete-insert --single-transaction --set-gtid-purged=OFF "rgi" "rgi_audit" > rgi_04112022.sql
+
+
+
+
+
+host == od-db-1.centralindia.cloudapp.azure.com
+port == 3306
+user == shubhamr
+passwd == Shubham@123
+db name = stacyiee
+
+
+
+
+sudo mount 11.0.4.18:/var/www/html/regression1 /var/www/html/regression1 
+
+sudo mount 192.168.30.40:/opt/serosoft/v2_uploads /opt/serosoft/v2_uploads
+
+
+we can work with together in issues, please let me know your availability
+
+Sir, which time we can perform kernel downgrade activity for (DR) - Velocity-ERP
+
+
+host == 3.111.119.37
+port == 3306
+user == soorajp
+passwd == Sooraj@123
+
+rbu-live
+
+
+
+
+5.4.0-1091-azure 
+
+Aei-school_OsDisk_02nov_snap
+
+********************* Kernel Downgrade ************************
+
+
+#To Check Current Kernel Version
+uname -r
+
+#To check installed kernel version
+find /boot/vml*
+
+#Install kernel version - 1070
+sudo apt install linux-image-5.4.0-1091-azure 
+
+find /boot/vml*
+
+#To Remove kernel version - 1085
+sudo apt remove linux-image-5.4.0-1085-azure
+sudo apt remove linux-image-unsigned-5.4.0-1085-azure
+
+#To remove kernel version - 1086
+sudo apt remove linux-image-5.4.0-1086-azure
+sudo apt remove linux-image-unsigned-5.4.0-1086-azure
+
+find /boot/vml*
+
+#To remove module kernel version 1085 & 1086
+cd /boot/
+sudo rm -rf *-5.4.0-1085-azure
+sudo rm -rf *-5.4.0-1086-azure 
+
+===================
+
+ssh logadmin@fbcprodapp.southafricanorth.cloudapp.azure.com
+passwd == logadmin@123
+cd /opt/serosoft/tomcat_aef_live/logs
+tail -f catalina.out
+
+
+
+
+host == accraiihmr.centralindia.cloudapp.azure.com
+port == 3306
+user == mahendrav
+passwd == Mahendra@123
+mahendrav
+
+
+==================
+
+host == demo-db-2.centralindia.cloudapp.azure.com
+port == 3306
+user == sourabhm
+passwd === Sourabh@123
+
+
+
+
+43.204.122.70 >>>> prod.rbuerp.com
+port -- 80, 443
+
+=================
+
+#!/bin/bash
+sh /home/serosoft/sero/installation/erp_tomcat/bin/startup.sh
+
+
+
+host == regression-db-2.centralindia.cloudapp.azure.com
+passwd == s3r0s0ft
+user == shubhamr
+passwd == Shubham@123
+Db-name == au
+
+
+
+
+@reboot sh /opt/serosoft/apache-tomcat-7.0.94/bin/startup.sh
+
+
+
+
+@reboot sh /opt/biometric/biometric-data-sync-jar/startup.sh
+
+/opt/biometric/biometric-data-sync-jar
+
+
+
+
+Hi Abhishek Mhaski,
+
+We have provided the correct command to create user , Kindly check the below log,
+
+Create user:
+
+CREATE USER 'jeffrey'@'localhost' identified by 'PASSWORD';
+
+Interval 1 day:
+
+ALTER USER 'jeffrey'@'localhost' PASSWORD EXPIRE INTERVAL 1 DAY;
+
+
+=============
+CREATE USER 'somesh'@'localhost' identified by 'Somesh@123';
+
+Interval 1 day:
+
+ALTER USER 'somesh'@'localhost' PASSWORD EXPIRE INTERVAL 1 DAY;
+
+================
+
+
+
+host == 41.220.16.98
+port == 23306
+user - prakashs
+passwd = Prakash@123
+
+
+
+host == od-db-4.centralindia.cloudapp.azure.com
+port == 3306
+user ==  sanjay
+passwd == Sanjay@123
+
+
+host ==  114.143.176.181
+port == 23306
+user == pradeepn
+passwd == Pradeep@123
+db - aus-demo
+
+======================== 31 - oct =- 2022=================
+
+
+CREATE USER 'somesh'@'localhost' IDENTIFIED BY 's3r0s0ft' PASSWORD EXPIRE INTERVAL 01 DAY; 
+
+SELECT user, host, password_lifetime, password_expired, password_last_changed FROM mysql.user WHERE user = 'somesh'\G
+
+
+tag-ML-SerosoftR-1.0.122
+tag-GA-SerosoftR-1.0.122
+
+
+
+Please map below url with ip
+
+accra0opjgu-testing.centralindia.cloudapp.azure.com  >>> testing-snjbschool.academiaerp.com
+
+
+
+# Define 1 real worker using ajp13
+worker.list=workersnjbschool
+# Set properties for worker (ajp13)
+worker.workersnjbschool.type=ajp13
+worker.workersnjbschool.host=localhost
+worker.workersnjbschool.port=58009
+
+testing-snjbschool.academiaerp.com
+
+port 58080
+58009
+
+
+SNJB School
+AEI School
+
+
+host == unyp-staging-db.westeurope.cloudapp.azure.com
+port == 3306
+user == vikasy
+passwd == Vikas@123
+db == cecosdemo
+
+
+
+
+
+host == unyp-testing-vm.westeurope.cloudapp.azure.com
+port == 3306
+user == manishaw
+passwd == Manisha@123
+db -- testing-rru
+
+
+
+https://dev.mysql.com/doc/refman/5.7/en/password-management.html
+
+
+CREATE USER 'somesh'@'localhost' PASSWORD EXPIRE INTERVAL 01 DAY;
+
+CREATE USER &#39;somesh&#39;@&#39;hostname&#39; PASSWORD EXPIRE INTERVAL 01 DAY;
+
+CREATE USER &#39;somesh&#39;@&#39;localhost&#39; PASSWORD EXPIRE INTERVAL 01 DAY;
+
+
+====================== 27 oct ==============================
+
+ivanhoe kalaw
+pallavi.g@twsol.com
+
+host == sudemo-db.southafricanorth.cloudapp.azure.com
+port == 3306
+user == ravindram
+passwd == Ravindra@123
+
+
+==================EFS============================
+
+create directory
+/efs
+
+install packeges 
+
+go to efs 
+sudo mount -t efs -o tls fs-054154515465:/efs
+
+
+===============s3===================
+ 
+ sudo apt-get update
+ 
+ sudo apt install s3fs awscli -y
+ 
+ which s3fs
+ 
+ /usr/bin/s3fs
+
+user secreaty key /access key 
+vim /etc/passwd-s3fs
+change the permission
+
+chmod 640 /etc/passwd-s3fs
+
+mkdir /mys3bucket
+mys3bucket /mys3bucket -o passwd_file=/etc/passwd-s3fs
+df -h
+
+
+
+====================================== 21 oct =====================
+
+host == od-db-2.centralindia.cloudapp.azure.com
+port == 3306
+user == dharmendrag
+passwd == Dharmendra@123
+db name == stacyiie
+
+======================
+8.8.8.8
+103.15.64.66
+
+https://bootstrapmade.com/ninestars-free-bootstrap-3-theme-for-creative/download/
+
+
+https://bootstrapmade.com/ninestars-free-bootstrap-3-theme-for-creative/download/#download-template
+
+
+
+https://html.design/download/birdim-bird-care-html-template/
+
+https://www.free-css.com/free-css-templates/page283/teaser
+
+https://www.free-css.com/assets/files/free-css-templates/download/page283/teaser.zip
+
+
+
+
+AcademiaIntegrationModule-0.0.122sept2022.jar
+
+
+
+Please map below url with ip 
+
+
+audemo-api.academiaerp.com >>>> 41.220.16.101
+
+
+Create new database for API and share IP address, user, pass, database name
+
+
+api port == 9090
+ERP tomcat port number  :: 28080
+ERP folder name inside webapp  >>> au_demo
+
+ERP tomcat SSH connection :: 
+
+API database access ===
+Db name >> au_demo_api
+Ip >> 10.31.80.42
+port == 23306 
+
+
+
+
+
+
+
+
+
+
+host == 
+port == 3306
+user == abhishekt
+Passwd == Abhishek@123
+
+
+==============================
+
+
+
+
+Below IP- 172.0.2.5
+
+We want to change hardare configuration RAM 32 to 64 GB
+
+
+
+systemctl is-enabled nfs-common
+sudo systemctl enable nfs-common
+file /lib/systemd/system/nfs-common.service
+sudo rm /lib/systemd/system/nfs-common.service
+​
+go to root user by- sudo su 
+
+systemctl daemon-reload
+​systemctl status nfs-common
+​systemctl start nfs-common
+​systemctl enable nfs-common
+​systemctl is-enabled nfs-common
+
+======================================
+
+host == velocity-erp.southafricanorth.cloudapp.azure.com
+user == iieftp
+passwd == IIeftp#Sero
+
+
+host == 121.243.17.135
+port == 3306
+user == rahulp
+passwd == Rahul@123
+
+
+host ==  mysqleightdemodb.centralindia.cloudapp.azure.com
+port == 3306
+user == amang	
+passwd == Aman@123
+
+DB- kku-demo
+
+
+===========================13 oct - 2022 =====================
+
+host == accrachstesting.centralindia.cloudapp.azure.com
+port == 3306
+user == manasl
+Passwd == Manas@123
+
+DB== sersoft
+
+
+Username :- sysadmin
+Password :- RRU@123  
+
+
+
+
+ssh sysadmin@119.160.198.196
+
+ssh sysadmin@150.107.112.2
+
+ssh sysadmin@117.236.127.225:22
+
+
+
+lp-demo
+
+host == africauat8.southafricanorth.cloudapp.azure.com
+port == 3306
+User : powerbi
+Password: Serosoft#123
+
+
+lp-live 
+host == lp-live-db.southafricanorth.cloudapp.azure.com
+port == 3306
+User : powerbi
+Password: Serosoft#123
+
+host == demo-db-2.centralindia.cloudapp.azure.com
+port ==3306
+user == amleshk
+passwd == Amlesh@123
+Db = fbctemp
+
+
+temp-stasy-11oct-HDD
+
+temp-stasy-11oct-snap
+
+=========================
+
+New -------------
+
+stasy-uat1b-dbdisk-10oct2022
+
+Present HDD --------------
+datadisk1-for-uat1B
+
+============================
+
+buzz-live-snap8oct
+
+
+
+Migration V20220609120757__Alter_QrCodeTypeChange.sql failed
+
+Migration V20220606123431__Alter_QRAttendance.sql failed
+
+ERROR: Schema `au` contains a failed migration to version 20220304185552 !
+Migration V20220304184433__Create_sp_tvet_programmeenrolmentdetails.sql failed
+Migration V20220304175720__Create_sp_tvet_persondetails.sql failed
+
+
+
+
+
+====================================
+
+ssh logadmin@123.252.208.154
+passwd == logadmin@123
+cd /opt/serosoft/tomcat_aef_live/logs
+tail -f catalina.out
+
+
+===========================
+
+ssh logadmin@accrachstesting.centralindia.cloudapp.azure.com
+
+
+grep -in "Oct 06, 2022 12:" catalina.2022-10-06.log
+
+==============
+
+grep -in "2022-02-02 14:" catalina.out
+grep -in "2022-02-02 15:" catalina.out
+sed -n -e '1263781,1293568p' catalina.out > catlinalog_2feb.txt
+
+
+host == accrachstesting.centralindia.cloudapp.azure.com
+port == 3306
+user == ravindram
+passwd == Ravindra@123
+
+
+======================================
+ssh sysadmin@10.20.41.101
+
+Dear Vivek Sir,
+
+PFA Server IP Details:
+RRUWEB01	18.5 SERVER OS	10.20.41.101
+RRUWEB02	18.5 SERVER OS	10.20.41.102
+RRUERP01	18.5 SERVER OS	10.20.41.103
+RRUDB01	18.5 SERVER OS	10.20.41.104
+RRUJENKINS	18.5 SERVER OS	10.20.41.105
+RRUFTP	18.5 SERVER OS	10.20.41.106
+RRUPOWERBI	SERVER 2022	10.20.41.107
+
+Credentials for mentioned VMs:
+Linux server
+Username :- sysadmin
+Password :- RRU@123
+Windows Server
+Username :- administrator
+Password :- RRU@123
+
+
+
+
+
+==================== 04-10-2022======================================
+
+
+host == 218.248.31.251
+port == 3306
+user == tanays
+passwd == Tanay@123
+
+
+
+============ passwd policy ===============================
+
+Please find the default password policy details and please provide the new values which have to be configured. 
+=========================
+Configuration file name /etc/login_defs 
+Default current settings in Linux server is  - Please provide the new details which have to be configured. 
+PASS_MAX_DAYS   99999
+PASS_MIN_DAYS   0
+PASS_WARN_AGE   30
+#PASS_MIN_LEN: 5
+
+==================
+Session timeout not configured we need to configure  please mention the timeout timing
+
+sudo visudo (in this file we need to set the session timeout)
+Defaults        env_reset , timestamp_timeout=60
+==================
+
+Login attempt (Currently login attempt not configured in this file) we need to configure in below files but please let me know about deny value.
+
+# grep pam_tally2 /etc/pam.d/common-auth
+
+auth required pam_tally2.so onerr=fail deny=10
+
+=================== 30-09-2022========================
+
+host == od-db-4.centralindia.cloudapp.azure.com
+port -- 3306
+user == manishaw
+passwd == Manisha@123
+db -- sunshine
+
+
+
+
+you have to create survery before execute lime-survey job from academia.
+
+https://lp.academiaerp.com/limesurvey/index.php/admin/authentication/sa/login
+
+user == admin
+passwd == Admin@123
+
+https://lp.academiaerp.com/limesurvey/index.php
+
+https://serosoft.atlassian.net/browse/ASR-47984
+
+https://lp.academiaerp.com/limesurvey/index.php/admin/authentication/sa/login
+=====================================
+
+http://lp-limesurvey.academiaerp.com/index.php/admin/remotecontrol 
+lp-limesurvey.academiaerp.com
+
+admin
+Admin@123
+lp_limesurvey
+
+=====================================
+we need to take back up on Backup time: 28th September 2022 at 05:00 PM
+
+Database Details: - 
+Database Name :: krmu and krmu_audit
+IP Address == 10.0.5.7
+Path for database backup == /home/seroadmin/dbdump
+use for this command taking dump. So easy for me extract dump ==>>> 
+mysqldump --user=ss_root --host=localhost --password=AXf8t9NzkFxXj8H3be3h6UsvXt23SQ --routines --events --databases --complete-insert --single-transaction --set-gtid-purged=OFF "krmu" "krmu_audit" > krmu_28092022.sql
+
+
+create user 'ss_root'@'%' identified by 's3r0ibhiasldkfs0ft@sdlf';
+==========================================-To check size of database in GB================
+
+----To check size of database in GB ------
+SELECT TABLE_SCHEMA AS `Database`,  ROUND(SUM(DATA_LENGTH + INDEX_LENGTH) / 1024 / 1024 / 1024, 2) AS `Size (GB)`  FROM information_schema.TABLES WHERE TABLE_SCHEMA="db_name";
+
+----To check size of database in MB ------
+SELECT TABLE_SCHEMA AS `Database`,  ROUND(SUM(DATA_LENGTH + INDEX_LENGTH) / 1024 / 1024, 2) AS `Size (MB)`  FROM information_schema.TABLES WHERE TABLE_SCHEMA="db_name";
+
+
+----To check size of All databases in GB ------
+SELECT table_schema AS "Database Name",
+ROUND(SUM(data_length + index_length) / 1024 / 1024 / 1024, 2) AS "Size in (GB)"
+FROM information_schema.TABLES
+GROUP BY table_schema; 
+
+----To check size of All databases in MB ------
+SELECT table_schema AS "Database Name",
+ROUND(SUM(data_length + index_length) / 1024 / 1024, 2) AS "Size in (MB)"
+FROM information_schema.TABLES
+GROUP BY table_schema; 
+
+===================================================================================
+host == buzz-uat-db.southafricanorth.cloudapp.azure.com
+port == 3306
+user == harshitp
+passwd == Harshit@123
+db name == buzz
+
+
+we need to take back up on Backup time: 27th September 2022 at 05:00 PM
+
+Database Details: - 
+Database Name :: krmu and krmu_audit
+IP Address == 10.0.5.7
+Path for database backup == /home/seroadmin/dbdump
+use for this command taking dump. So easy for me extract dump ==>>> 
+mysqldump --user=ss_root --host=localhost --password=AXf8t9NzkFxXj8H3be3h6UsvXt23SQ --routines --events --databases --complete-insert --single-transaction --set-gtid-purged=OFF "krmu" "krmu_audit" > krmu_27092022.sql
+
+
+===========================================================================================
+
+we need to take back up on Backup time: 27th September 2022 at 01:15 PM
+
+Database Details: - 
+Database Name :: iiitb and iiitb_audit
+IP Address == 10.0.5.7
+Path for database backup == /home/seroadmin/dbdump
+use for this command taking dump. So easy for me extract dump ==>>> 
+mysqldump --user=ss_root --host=localhost --password=AXf8t9NzkFxXj8H3be3h6UsvXt23SQ --routines --events --databases --complete-insert --single-transaction --set-gtid-purged=OFF "iiitb" "iiitb_audit" > iiitb_27092022.sql
+
+
+
+=================================
+host == mysqleightdemodb.centralindia.cloudapp.azure.com
+port == 3306
+user == nishantj
+passwd == Nishant@123
+
+db - bedaya_uat
+
+
+
+
+=================    24-09-2022  ==============================================
+
+ssh logadmin@123.252.208.154
+passwd == logadmin@123
+cd /opt/serosoft/tomcat_aef_live/logs
+tail -f catalina.out
+
+
+
+/opt/serosoft/tomcat_aef_live/logs
+
+===================================
+
+host == od-db-4.centralindia.cloudapp.azure.com
+port == 3306
+user == chanchalp
+passwd == Chanchal@123
+
+
+
+@reboot /bin/sleep 300 ; sh /opt/serosoft/AcademiaIntegrationModule/start.sh
+
+---------------
+
+we need to take back up on Backup time: 23th September 2022 at 11:55 AM
+
+Database Details: - 
+Database Name :: upng and upng_audit
+IP Address == 10.0.5.7
+Path for database backup == /home/seroadmin/dbdump
+use for this command taking dump. So easy for me extract dump ==>>> 
+mysqldump --user=ss_root --host=localhost --password=AXf8t9NzkFxXj8H3be3h6UsvXt23SQ --routines --events --databases --complete-insert --single-transaction --set-gtid-purged=OFF "upng" "upng_audit" > upng_23092022.sql
+
+
+==============================================
+
+host == mysqleightdemodb.centralindia.cloudapp.azure.com
+port ==3306
+user == amleshk
+passwd == Amlesh@123
+db -- inifd_demo
+
+
+
+=========================================
+Please map below url with ip 
+
+testing-buzz-api.academiaerp.com  >>> 52.172.220.19
+
+
+API database name   ==  academiaintegrationdb
+API database IP   ==  11.0.4.12
+API database user/pass  == ss_root / s3r0s0ft
+ERP tomcat port number == 9090
+ERP folder name inside webapp folder  == testing_buzz
+ERP tomcat ssh connection ==
+
+ssh  seroadmin@od-erp-3.centralindia.cloudapp.azure.com
+Password : Password@123
+
+
+API database access  == 
+host == od-erp-3.centralindia.cloudapp.azure.com
+port == 3306
+ss_root / s3r0s0ft
+
+====================
+
+host -- mysqleightdemodb.centralindia.cloudapp.azure.com
+port == 3306
+user == shashankj
+passwd Shashank@123
+
+
+
+
+------
+0 5 */15 * * cat /dev/null > /opt/serosoft/tomcat-dit-msg/logs/catalina.out
+0 5 */15 * * cat /dev/null > /opt/serosoft/tomcat-dit-job/logs/catalina.out
+
+@reboot sh /opt/serosoft/tomcat-dit-job/bin/startup.sh
+@reboot sh /opt/serosoft/tomcat-dit-msg/bin/startup.sh
+
+----
+0 5 */15 * * cat /dev/null > /opt/serosoft/tomcat-dit-live/logs/catalina.out
+
+@reboot sh /opt/serosoft/tomcat-dit-live/bin/startup.sh
+
+0 5 */15 * * cat /dev/null > /opt/serosoft/falsebay-tomcat-7/logs/catalina.out
+
+
+host == od-db-4.centralindia.cloudapp.azure.com
+port == 3306
+user == ashutoshs
+passwd == Ashutosh@123
+
+db == sunshine
+
+===========================================
+kubectl top pod -A
+kubectl top node
+
+
+---------------
+
+kubectl create secret docker-registry extra-acr-secret \
+    --docker-server=extra.azurecr.io \
+    --docker-username=extra \
+    --docker-password=H0UN7xClvyZtjZPqoIkz/s=NEz1to16B
+ =================== 
+
+kubectl get secret -n dev
+
+
+kubectl create secret docker-registry acr-secret \
+    --namespace=dev \
+    --docker-server=devacrrepo23.azurecr.io \
+    --docker-username=devacrrepo23 \
+    --docker-password=sh3SZ09SIaFT99g7TDJHxzNDFph+ijyZ
+
+
+imagepullsecret
+
+generic 
+
+docker-regitstry >>>> imagepullsecreate
+
+tls secreate  >>>>> https ssl
+
+
+
+docker push extra.azurecr.io/node:latest
+
+docker tag node:latest extra.azurecr.io/node:latest
+
+
+
+
+
+
+-----------------------
+
+
+
+
+host == 168.167.88.117
+port == 3306
+user == harshitp
+passwd == Harshit@123
+db name == necb_demo
+
+
+20.204.210.178
+
+host == od-db-3.centralindia.cloudapp.azure.com
+port == 3306
+user == amandeeps
+passwd == Amandeep@123
+
+
+DB == lp_limesurvey
+
+Please map below url with ip 
+
+
+lp-limesurvey.academiaerp.com   >>>>> 102.37.44.36
+
+
+===============================================
+
+host == demo-db-2.centralindia.cloudapp.azure.com
+port == 3306
+user == sourabhm
+passwd === Sourabh@123
+
+
+
+ssh logadmin@ukdemovm.centralindia.cloudapp.azure.com
+passwd == logadmin@123
+cd /opt/serosoft/apache-tomcat-7.0.26/logs
+tail -f catalina.out
+
+
+
+
+=====================
+
+host == 103.112.11.69
+port == 3306
+User- powerbi
+password -  Serosoft#123
+
+=============================
+Hi Team,
+
+
+Please map below url with ip 
+
+
+lp-limesurvey.academiaerp.com   >>>>> 102.37.44.36
+
+anantu-limesurvey.academiaerp.com
+
+lp.limesurvey.academiaerp.com
+
+
+lp.limesurvey.academiaerp.com   >>>>> 102.37.44.36
+
+
+========================================================
+
+
+host == demo-db-2.centralindia.cloudapp.azure.com
+port == 3306
+user == harshitp
+passwd == Harshit@123
+db name == ukschool
+
+
+host == mysqleightdemodb.centralindia.cloudapp.azure.com
+port == 3306
+user == harshitp
+passwd == Harshit@123
+db name == imt
+
+
+Need to point below URL with web-server Public ip, Discuss with client and confirm me. after that we will be perform this activity
+ 
+1- prod.rbuerp.com >>>>>  43.204.122.70
+
+2- demo.rbuerp.com >>>>>  43.204.122.70
+
+
+================
+
+echo "test-1"; die();
+
+
+
+
+host == unyp-testing-vm.westeurope.cloudapp.azure.com
+port == 3306
+user = manasl
+passwd == Manas@123
+db == testing-sommet
+
+
+-------------
+
+
+host == accrachstesting.centralindia.cloudapp.azure.com
+port == 3306
+user ==  sanjeevr
+passwd == Sanjeev@123
+
+db - testing_inifd
+
+
+
+grep -in "2022-02-02 14:" catalina.out
+grep -in "2022-02-02 15:" catalina.out
+sed -n -e '1263781,1293568p' catalina.out > catlinalog_2feb.txt
+
+
+
+host == riyadhotp2.centralindia.cloudapp.azure.com
+passwd == s3r0s0ft
+user == shubhamr
+passwd == Shubham@123
+
+db - testing_uws
+
+
+=================  19-09-2022=========================
+
+host == africauat8.southafricanorth.cloudapp.azure.com
+port ==3306
+user == amleshk
+passwd == Amlesh@123
+db -- lp_demo
+
+=======================================
+
+host ==  riyadcgc.centralindia.cloudapp.azure.com
+port == 3306
+user == amang	
+passwd == Aman@123
+
+
+Stasy-test-jenkins_15sept_snap
+
+====================
+
+apt remove linux-image-unsigned-5.4.0-1090-azure
+
+apt remove linux-image-unsigned-5.4.0-1089-azure
+
+
+
+Anantu-live-ERP_OsDisk_kernal_down14sept
+
+
+old name
+Anantu-live-ERP_OsDisk_1_836485cd17e440229aae42cbfb4fe1a2
+
+
+
+=========================================
+
+demo db- 2 / testing-buzznew hdd change karna h
+
+
+disk-dit-kernal-13sept-snapt
+
+pressent hdd == disk-dit
+
+
+
+Dit-live-DB-vm
+
+==========>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+apt install linux-image-5.4.0-1086-azure
+
+5.4.0-1086-azure
+
+Present v == 5.4.0-1090-azure
+
+
+
+KRMU-LIVE-ERP_OsDisk_kernal_down_13sept
+
+KRMU-LIVE-ERP_OsDisk_
+
+5.4.0-1091-azure
+
+
+********************* Kernel Downgrade ************************
+
+
+#To Check Current Kernel Version
+uname -r
+
+#To check installed kernel version
+find /boot/vml*
+
+#Install kernel version - 1070
+sudo apt install linux-image-5.4.0-100-azure
+
+find /boot/vml*
+
+#To Remove kernel version - 1085
+sudo apt remove linux-image-5.4.0-1085-azure
+sudo apt remove linux-image-unsigned-5.4.0-1085-azure
+
+#To remove kernel version - 1086
+sudo apt remove linux-image-5.4.0-1086-azure
+sudo apt remove linux-image-unsigned-5.4.0-1086-azure
+
+find /boot/vml*
+
+#To remove module kernel version 1085 & 1086
+cd /boot/
+sudo rm -rf *-5.4.0-1085-azure
+sudo rm -rf *-5.4.0-1086-azure 
+
+=========================================
+
+Hi Team,
+
+
+Please map below url with ip 
+
+testing-buzz-azure-ad.academiaerp.com  >>>> 104.211.75.92
+
+
+ http://testing-buzznew-azure-ad.academiaerp.com/
+
+
+https://unypstaging-azure-ad.academiaerp.com/authacademiacontroller/secureazurepage
+
+
+host ==  41.220.16.98
+port == 23306
+user == pradeepn
+passwd == Pradeep@123
+
+
+Abhishek@123
+
+
+
+
+
+
+
+host ==  od-db-2.centralindia.cloudapp.azure.com
+port == 3306
+user == abhisheks		
+passwd == Abhishek@123
+
+
+
+
+=============================== 09- 09- 2022 =======================
+messaging.host=127.0.0.1
+messaging.username=buzz
+messaging.password=s3r0s0ft
+messaging.virtualhost=buzzVH
+messaging.exchange=buzzEX
+
+
+
+
+
+sudo rabbitmqctl add_user buzz s3r0s0ft
+sudo rabbitmqctl set_user_tags buzz administrator
+sudo rabbitmqctl set_permissions -p / buzz ".*" ".*" ".*"
+
+
+
+
+Perfact@9713
+
+
+
+host ==  mysqleightdemodb.centralindia.cloudapp.azure.com
+port == 3306
+user == aashisht
+passwd == Aashish@123
+
+
+
+host = africauat8.southafricanorth.cloudapp.azure.com
+port == 3306
+user == akanksha
+passwd == Akanksha@123
+
+
+
+
+ssh logadmin@imt-marketing.centralindia.cloudapp.azure.com
+passwd == logadmin@123
+cd /opt/serosoft/tomcat_v2/logs
+tail -f catalina.out
+
+
+
+====================
+
+ssh logadmin@ukdemovm.centralindia.cloudapp.azure.com
+passwd == logadmin@123
+cd /opt/serosoft/apache-tomcat-7.0.26/logs
+tail -f catalina.out
+
+
+
+====================================================================
+ssh logadmin@cecos-demo-erp.westeurope.cloudapp.azure.com
+passwd == logadmin@123
+cd /opt/serosoft/tomcat-cecos-demo/logs
+tail -f catalina.out
+
+
+
+ssh logadmin@3.111.84.175
+passwd == logadmin@123
+cd /opt/serosoft/tomcat-7/logs
+tail -f catalina.out
+
+
+
+
+host ==  demo-db-2.centralindia.cloudapp.azure.com
+port == 3306
+user == abhisheks		
+passwd == Abhishek@123
+db -- kku_demo
+
+
+
+
+host == sisstagingvm.centralindia.cloudapp.azure.com
+port == 3306
+user == narendraj
+passwd == Narendra@123
+
+db - sunshine
+
+
+
+host ==  demo-db-2.centralindia.cloudapp.azure.com
+port == 3306
+user == amang	
+passwd == Aman@123
+
+db name -- falsebay demo and fbctemp
+
+---------------
+
+
+host ==  demo-db-2.centralindia.cloudapp.azure.com
+port == 3306
+user == shubhamr
+passwd == Shubham@123
+
+==================== 01- 09- 2022 ==============
+Extra@123456789
+
+host == buzz-uat-db.southafricanorth.cloudapp.azure.com
+port == 3306
+user == shubhamj
+passwd == Shubham@123
+
+host == cecos-prod-db.westeurope.cloudapp.azure.com
+port == 3306
+User- powerbi
+password -Serosoft#123
+
+
+
+
+we need to take back up on Backup time: 29th Auguest 2022 at 11:30 AM
+
+Database Details: - 
+Database Name :: krmu and krmu_audit
+IP Address == 10.0.5.7
+Path for database backup == /home/seroadmin/dbdump
+use for this command taking dump. So easy for me extract dump ==>>> 
+mysqldump --user=ss_root --host=localhost --password=AXf8t9NzkFxXj8H3be3h6UsvXt23SQ --routines --events --databases --complete-insert --single-transaction --set-gtid-purged=OFF "krmu" "krmu_audit" > krmu_29082022.sql
+
+
+=========================
+host == serotest.centralindia.cloudapp.azure.com
+port == 3306
+user == abhisheks
+passwd == Abhishek@123
+db name == stasyiie
+testing_velocity_audit
+
+
+
+=================== 29 - 08-2022============
+
+V20220214151105__Create_ApplicationAdhocDocHistoryTable.sq
+
+
+20220304185552
+
+V20220304184433__Create_sp_tvet_programmeenrolmentdetails.sql
+V20220304175720__Create_sp_tvet_persondetails.sql
+
+
+
+
+we need to take back up on Backup time: 24th Auguest 2022 at 11:30 PM
+
+Database Details: - 
+Database Name :: falsebay and falsebay_audit
+IP Address == 172.0.2.4
+Path for database backup == /home/seroadmin/dbdump
+use for this command taking dump. So easy for me extract dump ==>>> mysqldump --user=ss_root --host=localhost --password=ccb96846e4cf9a08189a541 --routines --events --databases --complete-insert --single-transaction --set-gtid-purged=OFF "falsebay" "falsebay_audit" > falsebay_24082022.sql
+
+
+
+
+
+
+
+
+host ==  demo-db-2.centralindia.cloudapp.azure.com
+port == 3306
+user == abhisheks
+passwd == Abhishek@123
+
+
+workerbedayademo
+
+
+http://bedaya.academiaerp.com/
+
+
+
+
+
+
+
+we need to take back up on Backup time: 24th Auguest 2022 at 02:00 PM
+
+Database Details: - 
+Database Name :: ku and ku_audit
+IP Address == 10.0.5.7
+Path for database backup == /home/seroadmin/dbdump
+use for this command taking dump. So easy for me extract dump ==>>> 
+mysqldump --user=ss_root --host=localhost --password=AXf8t9NzkFxXj8H3be3h6UsvXt23SQ --routines --events --databases --complete-insert --single-transaction --set-gtid-purged=OFF "ku" "ku_audit" > ku_19082022.sql
+
+
+
+================
+
+host == 121.243.17.137
+port == 3306
+user == kamleshc
+passwd === Kamlesh@123
+
+kamleshc
+
+tag-LA-Uber-UWC-1.0.101
+========================== 24 -08-02002=====================
+
+host == proddb.centralindia.cloudapp.azure.com
+port == 3306
+user == kamleshc
+passwd == Kamlesh@123
+
+
+host == lp-live-db.southafricanorth.cloudapp.azure.com
+port == 3306
+user == tanays
+passwd == Tanay@123
+
+
+host == proddb.centralindia.cloudapp.azure.com
+port == 3306
+user == harshitp
+passwd == Harshit@123
+
+
+
+host ==  africauat8.southafricanorth.cloudapp.azure.com
+port == 3306
+user == abhisheks
+passwd == Abhishek@123
+
+
+host == testingvgu.centralindia.cloudapp.azure.com
+port == 3306
+user == pradeepn
+Passwd == Pradeep@123
+
+
+=====================
+
+host ==   218.248.31.251
+port == 3306
+user == ankushs
+Passwd == Ankush@123
+
+
+=======
+
+SET GLOBAL max_connections = 50000;
+
+
+SHOW VARIABLES LIKE "max_connections";
+
+
+ ssh logadmin@218.248.31.251
+passwd == logadmin@123
+cd /opt/serosoft/tomcat_tsm_demo/logs
+tail -f catalina.out
+
+
+
+
+
+============New Name - HDD name 
+
+su-preprod-23-auguest-HDD
+
+===============supreprod -DB HDD
+
+buzz-training-db-01-july-Disk-Su-preprod-DB
+
+
+
+sunshine-live-DB-23-auguest-snap
+
+
+================ 23 - 08 -2022====================
+V20220304175720
+
+
+for lp-live-db
+
+host ==  lp-live-db.southafricanorth.cloudapp.azure.com
+port == 3306
+user == milindj
+passwd == Milind@123
+
+
+
+
+host ==  africauat8.southafricanorth.cloudapp.azure.com
+port == 3306
+user == milindj
+passwd == Milind@123
+
+
+
+
+host == mysqleightdemodb.centralindia.cloudapp.azure.com
+port == 3306
+user == vidhir
+passwd == Vidhi@123
+
+
+
+==============================================================
+
+host ==  proddb.centralindia.cloudapp.azure.com
+port == 3306
+user == rounakb
+passwd == Rounak@123
+
+
+we need to take back up on Backup time: 19th Auguest 2022 at 04:00 PM
+
+Database Details: - 
+Database Name :: ku and ku_audit
+IP Address == 10.0.5.7
+Path for database backup == /home/seroadmin/dbdump
+use for this command taking dump. So easy for me extract dump ==>>> 
+mysqldump --user=ss_root --host=localhost --password=AXf8t9NzkFxXj8H3be3h6UsvXt23SQ --routines --events --databases --complete-insert --single-transaction --set-gtid-purged=OFF "ku" "ku_audit" > ku_19082022.sql
+
+--complete-insert --single-transaction 
+
+
+
+mysqldump --user=ss_root --host=localhost --password --routines --events --databases  --complete-insert --single-transaction --set-gtid-purged=OFF 
+
+==========================================================
+
+grant select on student_course_enrollment_details_view to su_user;
+
+
+
+
+Aei-school”,   === 5.4.0-1089-azure
+
+ “KRMU-LIVE-ERP”, ===  5.4.0-1089-azure
+ ”AEI-College-Live-V2-ERP    ======== 5.4.0-1089-azure
+ ”Anantu-live-ERP”   ==== 5.4.0-1089-azure
+
+
+
+
+
+
+host == mysqleightdemodb.centralindia.cloudapp.azure.com
+port == 3306
+user == shivamj
+Paasswd == Shivam@123
+db == arch_demo
+
+
+
+
+ ssh logadmin@vjim-live.centralindia.cloudapp.azure.com
+passwd == logadmin@123
+cd /opt/serosoft/tomcat/logs
+tail -f catalina.out
+
+
+
+
+
+===========================
+
+   /opt/serosoft/tomcat-7_RBU-Demo/bin/
+   
+   @reboot /bin/sleep 400 ; sh  /opt/serosoft/tomcat-7_RBU-Demo/bin/startup.sh
+
+
+@reboot  /bin/sleep 360 ; sh /opt/serosoft/tomcat_velocity/bin/startup.sh
+
+
+
+host == serotest.centralindia.cloudapp.azure.com
+port == 3306
+user == ravindram
+passwd == Ravindra@123
+
+
+
+
+============ 16 - 08 -0 2022 ===================================================
+
+
+
+
+
+
+we need to take back up on Backup time: 10th Auguest 2022 at 10:00 PM
+
+Database Details: - 
+Database Name :: rgi and rgi_audit
+IP Address == 10.0.5.7
+Path for database backup == /home/seroadmin/dbdump
+use for this command taking dump. So easy for me extract dump ==>>> mysqldump --user=ss_root --host=localhost --password=AXf8t9NzkFxXj8H3be3h6UsvXt23SQ --routines --events --databases  --complete-insert --single-transaction --set-gtid-purged=OFF "rgi" "rgi_audit" > rgi_10082022.sql
+
+host == demo-db-2.centralindia.cloudapp.azure.com
+port -- 3306
+user == soorajp
+passwd == Sooraj@123
+
+
+
+host === testing-falsway.centralindia.cloudapp.azure.com
+port == 3306
+user == harshitp
+passwd == Harshit@123
+db == testing-falsebay
+
+
+======================================
+
+
+ssh logadmin@imt-marketing.centralindia.cloudapp.azure.com
+passwd == logadmin@123
+cd /opt/serosoft/tomcat_v2/logs
+tail -f catalina.out
+
+host == mysqleightdemodb.centralindia.cloudapp.azure.com
+port == 3306
+user == soorajp
+passwd == Sooraj@123
+
+
+
+===============================
+
+host ==  sommet-staging-db.westeurope.cloudapp.azure.com
+port == 3306
+user == shubhamr
+passwd == Shubham@123
+
+
+UGI Demo Server Details
+Username -  ssh root@122.187.0.170
+
+ssh ugidemo@122.187.0.170 -p222
+
+Password - uttam@
+
+
+Lan ip -192.168.3.9
+Public IP - 122.187.0.170
+Ssh port -222
+
+
+
+Hi Team,
+
+please create new pointing  below url with dns address
+
+
+testing-falsebay.academiaerp.com  >>> 
+
+
+
+host == proddb.centralindia.cloudapp.azure.com
+port == 3306
+user == rahulp
+
+db == anantu_chatbot
+
+
+
+
+
+
+=============== mydbops ==================================================
+
+
+Hi Team,
+
+Our server's HDD is used by 90%, so that I checked path /var/log/mysql is occupied 39GB space of HDD. (screenshot attached)
+
+so request to remove old logs of MySQL server 
+Server IP: 172.0.2.4
+path - /var/log/mysql
+
+Note- Be careful this is our production DB server.
+
+
+
+=====================================
+Hi Team,
+
+please create new pointing  below url with dns address
+
+
+testing-sommet.academiaerp.com >> unyp-testing-vm.westeurope.cloudapp.azure.com
+
+testing-unyp.academiaerp.com  >>> unyp-testing-vm.westeurope.cloudapp.azure.com
+
+testing-rru.academiaerp.com    >>> unyp-testing-vm.westeurope.cloudapp.azure.com
+
+
+unypstaging.academiaerp.com
+
+
+============ 08-08-02022==================
+
+
+==========================
+
+host ==  sisstagingvm.centralindia.cloudapp.azure.com
+port == 3306
+user == abhisheks
+passwd == Abhishek@123
+
+db -- sunshine
+
+
+
+
+================   8 augest =====================
+
+host == africauat8.southafricanorth.cloudapp.azure.com
+port == 3306
+user == sheetalt
+passwd == Sheetal@123
+db == uwc-demo
+
+
+
+============= >>>>>>>>>>>> ==================
+host == od-db-1.centralindia.cloudapp.azure.com
+port == 3306
+user == akashc
+passwd == Akash@123
+
+
+
+host === sudemo-db.southafricanorth.cloudapp.azure.com
+port == 3306
+user == ashutoshs
+passwd == Ashutosh@123
+
+db == sunshine
+
+
+
+
+
+================================ 4/ 08 / 2022 ============
+serouwc@2021
+
+
+host === sudemo-db.southafricanorth.cloudapp.azure.com
+port == 3306
+user == amleshk
+passwd == Amlesh@123
+
+db == sunshine
+
+
+
+====================
+host == mysqleightdemodb.centralindia.cloudapp.azure.com
+port == 3306
+user == amang
+passwd == aman@123
+
+
+
+host == accraiimt.centralindia.cloudapp.azure.com
+port == 3306
+user == chanchalp
+paswd == Chanchal@123
+
+
+
+==================== 3- 08-2022------------
+
+worker.list=snjb
+# Set properties for v1 worker (ajp13)
+worker.snjb.type=ajp13
+worker.snjb.host=10.0.13.4
+worker.snjb.port=18009
+
+===============
+
+worker.list=snjb
+# Set properties for v1 worker (ajp13)
+worker.snjb.type=ajp13
+worker.snjb.host=10.0.13.4
+worker.snjb.port=18009
+
+old IP == 10.0.3.16
+
+
+
+================= 2 - 08 - 2022 ================
+
+@reboot sh /opt/serosoft/tomcat_snjb_v1/bin/startup.sh
+
+
+/opt/serosoft/tomcat_snjb_v1/bin
+
+
+
+ssh logadmin@dit-live-erp.centralindia.cloudapp.azure.com
+passwd == logadmin@123
+cd /opt/serosoft/tomcat-dit-live/logs
+tail -f catalina.out
+
+
+
+		             /opt/serosoft/tomcat7_aei_v1/bin
+
+@reboot /bin/sleep 300 ; sh /opt/serosoft/tomcat7_aei_v1/bin/start.sh
+
+host == 103.93.115.247
+port == 3306
+user == amang
+passwd == Aman@123
+
+db -- dit_demo
+
+
+
+---------------
+host == testingvgu.centralindia.cloudapp.azure.com
+port == 3306
+user == narendraj
+passwd == Naredra@123
+
+
+
+SeroAei@2084
+
+
+
+
+
+host == sisstagingvm.centralindia.cloudapp.azure.com
+port == 3306
+user == manasl
+passwd == Manas@123
+
+
+===========================
+
+worker.list=academia_aei
+# Set properties for worker (ajp13)
+worker.academia_aei.type=ajp13
+#worker.academia_aei.host=10.0.3.18
+worker.academia_aei.host=10.0.3.11
+worker.academia_aei.port=38009
+
+
+
+host == accrachstesting.centralindia.cloudapp.azure.com
+port == 3306
+User: powerbi
+Password: Serosoft#123
+
+
+
+
+
+host == riyadhotp2.centralindia.cloudapp.azure.com
+port == 3306
+user == mohit
+passwd == Mohit@123
+
+db == testing-uwc
+
+
+
+
+
+===============================================================
+
+/messaging/templateSEND_OFFER_LETTER/test1658731844517.png
+/messaging/templateSEND_OFFER_LETTER/Technical Analysis Document-V2D-2846351658731945730.docx
+
+
+host == sisstagingvm.centralindia.cloudapp.azure.com
+port == 3306
+user == sheetalt
+passwd == Sheetal@123
+
+
+
+============ 26 -07- 2022 =================
+
+aei-v1  new == ajp == >> 38009
+
+
+
+
+================= 25 - 07 -2022 ======================
+
+
+grep -n "2021-06-02 15:" catalina.out
+
+
+
+
+
+sed -n -e '2723969,2770929p' catalina.out > catlinalog_22july.txt
+
+
+
+
+2723969
+
+
+
+
+grep -in "2022-02-02 14:" catalina.out
+grep -in "2022-02-02 15:" catalina.out
+sed -n -e '1263781,1293568p' catalina.out > catlinalog_2feb.txt
+
+
+
+
+
+
+==================
+
+check and found issue was, rabbitmq user automatically removed 
+
+
+host == sudemo-db.southafricanorth.cloudapp.azure.com
+port == 3306
+user == mohitc
+passwd == Mohit@123
+Db == sunshine
+
+
+
+=======21-07-2022===============================================
+
+aei-v1-college
+snjb-v1-college 
+
+
+host == buzz-db-server.southafricanorth.cloudapp.azure.com
+port == 3306
+user == abhishekt
+passwd == Abhishek@123
+db == buzz
+
+host == java8testing.centralindia.cloudapp.azure.com
+port == 3306
+User: powerbi
+Password: Serosoft#123
+db -- testing_necb
+
+
+
+we need to take back up on Backup time: 20th july 2022 at 02:30 PM
+
+Database Details: - 
+Database Name :: ku and ku_audit
+IP Address == 10.0.5.7
+Path for database backup == /home/seroadmin/dbdump
+use for this command taking dump. So easy for me extract dump ==>>> mysqldump --user=ss_root --host=localhost --password=AXf8t9NzkFxXj8H3be3h6UsvXt23SQ --routines --events --databases --set-gtid-purged=OFF "ku" "ku_audit" > ku_20072022.sql
+
+
+=========== 20- 07- 2022 ==================
+we need to take back up on Backup time: 19th july 2022 at 02:00 PM
+
+Database Details: - 
+Database Name :: gna and gna_audit
+IP Address == 10.0.5.7
+Path for database backup == /home/seroadmin/dbdump
+use for this command taking dump. So easy for me extract dump ==>>> mysqldump --user=ss_root --host=localhost --password=AXf8t9NzkFxXj8H3be3h6UsvXt23SQ --routines --events --databases --set-gtid-purged=OFF "gna" "gna_audit" > gna_19072022.sql
+
+
+jdbc.driverClassName=com.mysql.cj.jdbc.Driver
+#jdbc.url=jdbc\:mysql\://localhost\:3306/testing_blank_db_17feb
+jdbc.url=jdbc\:mysql\://10.31.80.42\:23306/au_demo?autoReconnect=true&useSSL=false&useUnicode=true&characterEncoding=utf-8
+
+
+
+
+=============== 19 july - 2022 ========
+host ==  sisstagingvm.centralindia.cloudapp.azure.com
+port == 3306
+user == dharmendrag
+passwd == Dharmendra@123
+db name == sunshine
+
+============= 18- 07 -2022 ============
+
+host == uwc-live-db.southafricanorth.cloudapp.azure.com
+port == 3306
+user == shubhamj
+passwd == Shubham@123
+
+
+
+we need to take back up on Backup time: 10th Auguest 2022 at 10:00 PM
+
+Database Details: - 
+Database Name :: rgi and rgi_audit
+IP Address == 10.0.5.7
+Path for database backup == /home/seroadmin/dbdump
+use for this command taking dump. So easy for me extract dump ==>>> mysqldump --user=ss_root --host=localhost --password=AXf8t9NzkFxXj8H3be3h6UsvXt23SQ --routines --events --databases  --complete-insert --single-transaction --set-gtid-purged=OFF "rgi" "rgi_audit" > rgi_10082022.sql
+
+host == java8testing.centralindia.cloudapp.azure.com
+port == 3306
+user == tanyas
+passwd == Tanya@123
+db - testing-necb
+
+
+
+
+ssh logadmin@iiitb-demo.centralindia.cloudapp.azure.com
+passwd == logadmin@123
+cd /opt/serosoft/tomcat_iiitb_demo/logs
+tail -f catalina.out
+
+
+
+
+=============
+
+linux-image-5.4.0-1070-azure 
+
+5.4.0-1086-azure
+
+Velocity-Prod-DB-snapshoot15july
+
+Velocity-Prod-DB  ===  5.4.0-1086-azure
+
+=================   15 - 07- 2022 ====================
+
+vjim-demo-OS-disk-snapshoot-13july22
+
+
+
+======================
+
+inux Cecos-prod-DB 5.4.0-1070-azure #
+uname -a
+  201  uname -r
+  202  sudo apt search linux-azure | grep 5.4.0-1069-azure
+  203  sudo apt search linux-azure | grep 5.4.0-1070-azure
+  204  find /boot/vm*
+  205  uname -r
+  206  sudo apt install linux-image-5.4.0-1070-azure
+  207  find /boot/vm*
+  208  uname -r
+  209  cd /boot/
+  210  ls
+  211  rm -rf *-5.4.0-120
+  212  find /boot/vm*
+  213  ls
+  214  rm -rf config-5.4.0-120-generic config-5.4.0-122-generic initrd.img-5.4.0-120-generic initrd.img-5.4.0-122-generic System.map-5.4.0-120-generic System.map-5.4.0-121-generic vmlinuz-5.4.0-120-generic vmlinuz-5.4.0-122-generic
+  215  ls
+  216  rm -rf System.map-5.4.0-122-generic
+  217  ls
+  218  init 6
+  219  uname -r
+  220  history 
+
+
+host == buzztrainingdb.southafricanorth.cloudapp.azure.com
+port == 3306
+user == abhishekt
+passwd == Abhishek@123
+
+
+============
+
+102.133.235.66,13.71.7.114,183.182.84.235,52.172.158.182,10.254.66.39,102.37.126.155
+
+183.182.84.235,52.172.158.182,10.253.7.180,10.254.66.39,10.254.67.14,10.254.66.14,10.253.1.151
+
+host == proddb.centralindia.cloudapp.azure.com
+port == 3306
+user == mohitp
+passwd == Mohit@123
+
+
+================= 13-07-2022 ==============
+
+host ==  su-training-dbserver.southafricanorth.cloudapp.azure.com
+port == 3306
+user == abhishekc
+passwd == Abhishek@123
+db name == sunshine
+
+
+host == sudemo-db.southafricanorth.cloudapp.azure.com
+port == 3306
+user == ankushs
+passwd == Ankush@123
+
+
+======= 12 - 07- 2022 ============
+
+ssh logadmin@africaprod-temp-stasy.centralindia.cloudapp.azure.com
+passwd == logadmin@123
+cd /opt/serosoft/tomcat_erp/logs
+tail -f catalina.out
+
+
+
+
+host == demo-db-2.centralindia.cloudapp.azure.com
+port == 3306
+user == manishaW
+Passwd == Manisha@123
+
+
+
+host == mysqleightdemodb.centralindia.cloudapp.azure.com
+port == 3306
+user == narendraj
+passwd == Narendra@123
+
+
+
+
+
+--
+host == dit-live-db.centralindia.cloudapp.azure.com
+port == 3306
+user == ss_root
+passwd == s3r0s0ft
+
+
+
+@reboot /bin/sleep 400 ; sh /opt/serosoft/SUapiconnectorstudent/start.sh
+@reboot /bin/sleep 450 ; sh /opt/serosoft/SUapiconnectorcurriculum/start.sh
+
+
+\:mysql\://10.0.5.7\:3306/krmu_NPFIntegration?autoReconnect\=true&amp;useUnicode\=true&amp;characterEncoding\=utf-8
+
+                   10.0.5.7\:3306/krmu_audit?autoReconnect=true&useSSL=false&useUnicode=true&characterEncoding=utf-8
+
+
+ ================= 11 07-2022 =================
+host == seroafricaprod.southafricanorth.cloudapp.azure.com
+port == 3306
+user == prakashs
+passwd == Prakash@123
+
+
+
+============================
+10 4 * * *
+
+*/20 * * * * sh /opt/serosoft/MIMIntegration/start.sh
+
+host == accraiihmr.centralindia.cloudapp.azure.com
+port -- 3306
+user == ashwinr
+passwd == Ashwin@123
+
+
+
+
+==============
+
+host ==  demo-db-2.centralindia.cloudapp.azure.com
+port == 3306
+user == narendraj
+passwd == Narendra@123
+
+============= 8- 07 -2022 ===========
+host == accraiihmr.centralindia.cloudapp.azure.com
+port == 3306
+user -- shubhamr
+Passwd -- Shubham@123
+
+
+
+07-07-2022
+=======>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+ @reboot /bin/sleep 450 ; sh /opt/serosoft/SUapiconnectorcurriculum/su-api-connector-curriculum-0.0.1-SNAPSHOT.jar
+
+
+curl -O https://download.newrelic.com/newrelic/java-agent/newrelic-agent/current/newrelic-java.zip
+
+#/opt/serosoft/SUapiconnectorstudent/su-api-connector-student-0.0.1-SNAPSHOT.jar
+
+
+
+
+
+
+/opt/serosoft/SUapiconnectorstudent
+ ls -ltrh
+ tail -500f log-2022-07-04.17:05:35.txt
+
+
+host ==  sudemo-db.southafricanorth.cloudapp.azure.com
+port == 3306
+user == narendraj
+passwd == Narendra@123
+db name = sunshine
+
+
+
+Africa-UAT-WEB-2-disk-01july22
+
+Africa-UAT-WEB-2-snapshot01july22
+
+
+Africa-UAT-WEB-2-New-05012021
+
+
+============== 01 july 2022 ===============
+/opt/serosoft/SUCurriculumIntegrationEvents/
+
+host == sudemo-db.southafricanorth.cloudapp.azure.com
+port == 3306
+user == pradeepr
+passwd == Pradeep@123
+
+
+sudo apt install ssmtp mailutils -y
+
+
+
+
+
+
+=============30 - 06- 2022 ================
+
+#!/bin/bash
+ cd '/opt/serosoft/monthly-usage-report'
+ export path=$path:'/usr/lib/jvm/java-8-openjdk-amd64/bin'
+ export path=$path:'/opt/serosoft/monthly-usage-report/opencsv-3.4.jar'
+ cpIncludes='opencsv-3.4.jar':"."
+ javac -cp $cpIncludes ClientWiseDataUsesReport.java
+ java -Xms64m -Xmx1024m -cp $cpIncludes ClientWiseDataUsesReport
+
+
+host == accrachstesting.centralindia.cloudapp.azure.com
+port == 3306
+user == priyanshis
+passwd == Priyanshi@123
+
+
+https://askubuntu.com/questions/1167314/disable-automatic-updates-ubuntu-18-04
+
+========================== 29 -06-22===================
+#!/bin/bash
+var=$(date +"%FORMAT_STRING")
+now=$(date +"%m_%d_%Y")
+printf "%s\n" $now
+today=$(date +"%Y-%m-%d.%H:%M:%S")
+
+nohup java -Xms1G -Xmx2G -jar /opt/serosoft/AcademiaIntegrationModule/AcademiaIntegrationModule-0.0.1.jar > /opt/serosoft/AcademiaIntegrationModule/log-${today}.txt 2>&1 &
+echo $! > /opt/serosoft/AcademiaIntegrationModule/pid.file
+
+
+
+host == regression-db-2.centralindia.cloudapp.azure.com
+port == 3306
+user == sheetalt
+passwd == Sheetal@123
+db == au
+
+
+===su-preprod =====================
+host == student-preprod-db.southafricanorth.cloudapp.azure.com
+port == 3306
+user == shubhamj
+passwd == Shubham@123
+DB == sunshin
+
+
+===su-dev =====================
+host == sudemo-db.southafricanorth.cloudapp.azure.com
+port == 3306
+user == shubhamj
+passwd == Shubham@123
+DB == sunshin
+
+
+===su-test =====================
+host ==su-training-dbserver.southafricanorth.cloudapp.azure.com
+port == 3306
+user == shubhamj
+passwd == Shubham@123
+DB == sunshin
+
+===========
+
+ssh logadmin@regresson-tomcat2.centralindia.cloudapp.azure.com
+passwd == logadmin@123
+cd /opt/serosoft/tomcat_regression2/logs
+ tail -f catalina.out 
+
+host == testing-falsway.centralindia.cloudapp.azure.com
+port == 3306
+user == mohitc
+Passwd == Mohit@123
+
+ssh logadmin@testing-falsway.centralindia.cloudapp.azure.com
+passwd == logadmin@123
+cd /opt/serosoft/tomcat_dit/logs
+ tail -f catalina.out 
+
+=========== 28 june ======================
+
+https://www.youtube.com/watch?v=MXL2gF5nAmo&t=3s
+
+audit logs 
+
+https://www.youtube.com/watch?v=AGJWzdHN6BE
+
+
+ALTER TABLE applicant_declaration_payment ADD moduleId INT NULL DEFAULT NULL AFTER applicationStatus, ADD setupId INT NULL DEFAULT NULL AFTER moduleId;
+
+<?php
+/* Live */
+// $db_host = "10.0.5.7";
+// $db_user = "ss_root";
+// $db_password = "AXf8t9NzkFxXj8H3be3h6UsvXt23SQ";
+// $db_name = "inifd_applynow";
+/* Local */
+define("ENV", "Live"); //Live
+define("MERCHANT_CODE", "L62096");
+define("MERCHANT_IV", "5579579840LQUXKB");
+define("MERCHANT_KEY", "6297268517NIWOPJ");
+$db_host = "10.0.5.7";
+$db_user = "ss_root";
+$db_password = "AXf8t9NzkFxXj8H3be3h6UsvXt23SQ";
+$db_name = "aei_applynow";
+$conn = mysqli_connect($db_host, $db_user, $db_password, $db_name);
+// Check connection
+if (mysqli_connect_errno()) {
+    echo "Failed to connect to MySQL: " . mysqli_connect_error();
+}
+/*******  Main Database Connection Start  ******/
+
+
+$db_host = "12.0.3.27";
+$db_user = "root";
+$db_password = "s3r0s0ft";
+$db_name = "aei_staging_applynow";
+$db_name1 = "aei_demo";
+
+
+==
+host == sunshine-db.southafricanorth.cloudapp.azure.com
+port == 3306
+user == shubhamj
+passwd == Shubham@123
+
+
+
+host == regression-db-2.centralindia.cloudapp.azure.com
+port == 3306
+user == amang
+passwd == Aman@123
+
+
+
+
+==============
+reverse proxy - nginx
+rewrite mod in apache
+
+dock == cloopid -add
+special permission linux
+load -- connection drining
+sticky bit in linux
+umask -- Why umask is used in Linux?
+On Linux and other Unix-like operating systems, new files are created with a default set of permissions. Specifically, a new file's permissions may be restricted in a specific way by applying a permissions "mask" called the umask. The umask command is used to set this mask, or to show you its current value
+
+https://www.youtube.com/watch?v=RrI-ztChR9E
+ulimit
+uid
+
+
+
+
+
+host == unyp-testing-vm.westeurope.cloudapp.azure.com
+port == 3306
+user == abhisheks
+passwd == Abhishek@123
+
+
+host == mysqleightdemodb.centralindia.cloudapp.azure.com
+port == 3306
+Username: powerbi
+Password: all demo wale h check and confirm
+
+
+host == sunshine-db.southafricanorth.cloudapp.azure.com
+port == 3306
+user == ankurjain
+passwd == Ankur@123
+
+=========== 21 june ====================
+
+ADD this line from buildInfo.xml 
+This is refresnce line -  Set Instance URL instead of rru
+<paymentAssessmentGroupPostUrl>https://indusunistaging.academiaerp.com//paymentprocess/getAssessmentGroupPostRequest.php </paymentAssessmentGroupPostUrl> <gatewayAssessmentGroupPostUrl> https://indusunistaging.academiaerp.com//paymentprocess/sendAssessmentGroupPaymentPostRequest.php </gatewayAssessmentGroupPostUrl>
+
+
+host == sisstagingvm.centralindia.cloudapp.azure.com
+port == 3306
+user == chanchalp
+passwd == Chanchal@123
+
+
+
+-----------------------------------------------
+
+      SSLCertificateFile /etc/apache2/ssl/aei/server.crt
+       SSLCertificateKeyFile /etc/apache2/ssl/aei/server.key
+
+       SSLCertificateChainFile /etc/apache2/ssl/aei/server.pem
+
+
+
+
+
+
+
+
+
+       SSLCertificateFile /etc/apache2/ssl/aei/a3d42479633aae49.crt
+       SSLCertificateKeyFile /etc/apache2/ssl/aei/erp.aei.edu.in.key
+
+       SSLCertificateChainFile /etc/apache2/ssl/aei/a3d42479633aae49.pem
+
+
+
+
+
+
+
+
+host == africauat8.southafricanorth.cloudapp.azure.com
+port == 3306
+user == mahendrav
+passwd == Mahendra@123
+mahendrav
+
+
+
+=============== 20-06-2022 =====================
+
+host == seroafricaprod.southafricanorth.cloudapp.azure.com
+port == 3306
+user == sohanc
+passwd == Sohan@123
+
+
+
+---
+host == buzztrainingdb.southafricanorth.cloudapp.azure.com
+port -- 3306
+user == prakash
+passwd == prakash@123
+
+
+--
+host == buzztrainingdb.southafricanorth.cloudapp.azure.com
+port -- 3306
+user == abhishekt
+passwd Abhishek@123
+
+
+
+
+
+=========== 19-06-2022 =============
+
+https://serosoft.atlassian.net/plugins/servlet/ac/jira-timesheet-plugin/timereports#!title=Work+Entry+Last+Week&numOfWeeks=1&pivotTableType=TimeEntry&showWeekends=true
+
+https://serosoft.keka.com/#/home/dashboard
+
+https://my.aspirationhosting.com/clientarea.php?action=productdetails&id=9922
+https://my.aspirationhosting.com/clientarea.php?action=productdetails&id=9922
+
+https://serosoft.atlassian.net/secure/RapidBoard.jspa?rapidView=29&locationless=true
+
+https://portal.azure.com/#@serosoft.onmicrosoft.com/resource/subscriptions/930d411e-1471-4b88-99a3-ddb00ac3bbc7/resourceGroups/AWS-Jenkin-RG/providers/Microsoft.Compute/virtualMachines/Jenkin-VM/overview
+
+host == sommet-staging-db.westeurope.cloudapp.azure.com
+port == 3306
+user == shivamj
+passwd == Shivam@123
+
+========== 17 -06- 2022 ==================
+
+for == su-dev
+host == sudemo-db.southafricanorth.cloudapp.azure.com
+port == 3306
+user == tanays
+passwd == Tanay@123
+db == sunshine
+
+
+
+for == su-test
+host == su-training-dbserver.southafricanorth.cloudapp.azure.com
+port == 3306
+user == tanays
+passwd == Tanay@123
+db == sunshine
+
+
+
+---
+host == sommet-staging-db.westeurope.cloudapp.azure.com
+port == 3306
+user == shashankj
+passwd == Shashank@123
+
+
+
+ssh logadmin@regresson-tomcat1.centralindia.cloudapp.azure.com
+passwd == logadmin@123
+cd /opt/serosoft/tomcat_regression1/logs/
+
+tail -f  catalina.out 
+
+
+
+
+host == accrachstesting.centralindia.cloudapp.azure.com
+port == 3306
+user == manishaw
+passwd == Manisha@123
+
+
+
+
+
+
+sed -n -e '306917,309457p' catalina.out > sis-live15june.logs
+
+
+
+grep -in "Jun 15, 2022 8:" catalina.out
+
+
+
+
+6nwF7gStopfe7JNAVJkp75
+
+======= 15-06-2022 ==========
+host == mysqleightdemodb.centralindia.cloudapp.azure.com
+port == 3306
+user -- mahendra
+passwd == Mahendra@123
+db == kudemo
+
+
+
+host == mysqleightdemodb.centralindia.cloudapp.azure.com
+port == 3306
+user -- harshitp
+passwd == Harshit@123
+db == rru_demo
+
+
+host == mysqleightdemodb.centralindia.cloudapp.azure.com
+port == 3306
+user -- ravindra
+passwd == Ravindra@123
+db == imt
+
+hhost == regression-db-1.centralindia.cloudapp.azure.com
+port == 3306
+user == shivamj
+Passwd == Shivam@123
+db name == stacyiie
+
+
+===============14-06-2022=============
+please mention, how to resolved this issues for mysql side
+
+
+host == dit-live-db.centralindia.cloudapp.azure.com
+port == 3306
+user == nishantj
+passwd == Nishant@123
+db == dit
+
+
+host == velocity-db.southafricanorth.cloudapp.azure.com
+port == 3306
+user == nishantj
+passwd == Nishant@123
+db == stacyiie
+
+
+host == demo-db-2.centralindia.cloudapp.azure.com
+port == 3306
+user == manojs
+passwd == Manoj@123
+
+
+
+host == testing-falsway.centralindia.cloudapp.azure.com
+port == 3306
+user = mahendrav
+passwd == Mahendra@123
+db == testing-dit
+
+-----
+
+host == sommet-staging-db.westeurope.cloudapp.azure.com
+port == 3306
+user == harshitp
+passwd == Harshit@123
+
+
+51.124.225.254  == 
+51.124.225.254
+
+
+Hi Team,
+
+please create new pointing  below url with ip address
+
+
+unypstaging-azure-ad.academiaerp.com  >> 51.124.225.254
+
+
+unypstaging.academiaerp.com
+
+
+
+
+host == buzz-db-server.southafricanorth.cloudapp.azure.com
+port == 3306
+user == nishantj
+passwd == Nishant@123
+
+db == buzz
+
+
+================ 13- 06 -2022 -------------
+host == buzztrainingdb.southafricanorth.cloudapp.azure.com
+port == 3306
+user == prashantc
+passwd == prashant@123
+db name == buzz
+
+
+============== 10-06-2022 ======================
+
+host == sommet-staging-db.westeurope.cloudapp.azure.com
+port == 3306
+user == manojs
+passwd == Manoj@123
+
+
+====
+
+My bound period completed, so i am requesting to you return my bound check
+
+
+
+host == mysqleightdemodb.centralindia.cloudapp.azure.com
+port == 3306
+user == sheetal
+passwd  == Sheetal@123
+
+==================
+
+host == 104.211.93.193
+port == 21
+user == uat1b
+passwd == uat1b@123
+
+
+
+host == tempstasydb.centralindia.cloudapp.azure.com
+port == 3306
+user == sourabhm
+passwd === Sourabh@123
+
+====== 08-06-2022======================
+
+hhost == stasy-uat1b-db.centralindia.cloudapp.azure.com
+port == 3306
+user == shivamj
+Passwd == Shivam@123
+db name == stacyiie
+
+
+
+
+hhost == serotest.centralindia.cloudapp.azure.com
+port == 3306
+user == shivamj
+Passwd == Shivam@123
+
+db name ==
+stasyiie
+ testing\_velocity1c\_audit
+
+=========
+
+Hi,
+
+
+
+export JAVA_OPTS="$JAVA_OPTS  -Xmx6g -Xms6g -Xverify:none -Djava.awt.headless=true -Dfile.encoding=UTF-8 -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSClassUnloadingEnabled -XX:+CMSParallelRemarkEnabled -XX:+CMSCompactWhenClearAllSoftRefs -XX:CMSInitiatingOccupancyFraction=85 -XX:+CMSScavengeBeforeRemark -XX:+CMSConcurrentMTEnabled -XX:ParallelCMSThreads=2 -XX:+DisableExplicitGC -XX:MaxHeapFreeRatio=70 -XX:MinHeapFreeRatio=40 -XX:MaxTenuringThreshold=2 -XX:NewSize=3g -XX:MaxNewSize=3g -XX:SurvivorRatio=2 -XX:TargetSurvivorRatio=85 -XX:InitialCodeCacheSize=256m -XX:ReservedCodeCacheSize=512m -XX:ParallelGCThreads=2 -XX:ConcGCThreads=2"
+
+
+export JAVA_OPTS="$JAVA_OPTS  -Xmx24g -Xms24g -Xverify:none -Djava.awt.headless=true -Dfile.encoding=UTF-8 -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSClassUnloadingEnabled -XX:+CMSParallelRemarkEnabled -XX:+CMSCompactWhenClearAllSoftRefs -XX:CMSInitiatingOccupancyFraction=85 -XX:+CMSScavengeBeforeRemark -XX:+CMSConcurrentMTEnabled -XX:ParallelCMSThreads=28 -XX:+DisableExplicitGC -XX:MaxHeapFreeRatio=70 -XX:MinHeapFreeRatio=40 -XX:MaxTenuringThreshold=2 -XX:NewSize=12g -XX:MaxNewSize=12g -XX:SurvivorRatio=2 -XX:TargetSurvivorRatio=85 -XX:InitialCodeCacheSize=512m -XX:ReservedCodeCacheSize=1g -XX:ParallelGCThreads=3 -XX:ConcGCThreads=3"
+
+
+
+
+export JAVA_OPTS="$JAVA_OPTS  -Xmx24g -Xms24g -Xverify:none -Djava.awt.headless=true -Dfile.encoding=UTF-8 -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSClassUnloadingEnabled -XX:+CMSParallelRemarkEnabled -XX:+CMSCompactWhenClearAllSoftRefs -XX:CMSInitiatingOccupancyFraction=85 -XX:+CMSScavengeBeforeRemark -XX:+CMSConcurrentMTEnabled -XX:ParallelCMSThreads=7 -XX:+DisableExplicitGC -XX:MaxHeapFreeRatio=70 -XX:MinHeapFreeRatio=40 -XX:MaxTenuringThreshold=2 -XX:NewSize=12g -XX:MaxNewSize=12g -XX:SurvivorRatio=2 -XX:TargetSurvivorRatio=85 -XX:InitialCodeCacheSize=256m -XX:ReservedCodeCacheSize=512m -XX:ParallelGCThreads=3 -XX:ConcGCThreads=3"
+export JAVA_HOME='/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre'
+
+
+===================
+https://necb.academiaerp.com/resources/newUI/images/necb_logo.png
+
+https://necb.academiaerp.com/resources/newUI/images/necb_email_signature.jpg
+
+https://necbstaging.academiaerp.com/resources/newUI/images/necb_email_signature.jpg
+https://necbstaging.academiaerp.com/resources/newUI/images/necb_logo.png
+
+====
+
+       SSLCertificateFile /etc/apache2/ssl/anantu/server.crt
+       SSLCertificateKeyFile /etc/apache2/ssl/anantu/server.key
+       SSLCertificateChainFile /etc/apache2/ssl/anantu/server.pem
+
+
+server.key
+server.csr 
+server.crt
+
+
+
+
+ssh logadmin@sommet-staging-erp.westeurope.cloudapp.azure.com
+
+passwdd  == logadmin@123
+cd /opt/serosoft/tomcat7_sommet_demo/logs
+tail -f catalina.out
+
+================= 07-06-2022 =================
+/root/.jenkins/workspace/copy_index 
+
+rsync -avh  root@192.168.122.189:/opt
+
+host == 121.243.17.137
+user == sero
+passwd == iihmr
+port == 21
+
+
+
+host == stasy-uat1b-db.centralindia.cloudapp.azure.com
+port == 3306
+user == vyabhat
+passwd == Vyabha@123
+
+
+
+================
+ssh logadmin@erp-kku.centralindia.cloudapp.azure.com
+passwdd  == logadmin@123
+cd /opt/serosoft/kku_staging/logs
+tail -f catalina.out
+
+host ==  mysqleightdemodb.centralindia.cloudapp.azure.com
+port == 3306
+user == shubhamr
+passwd == Shubham@123
+
+
+ssh logadmin@rru-staging.centralindia.cloudapp.azure.com
+passwd == logadmin@123
+cd /opt/serosoft/tomcat7-rru-demo/logs
+tail -f catalina.out
+
+
+
+academia.anu.edu.in
+
+
+=============06-06-2022==================
+scp /root/.jenkins/workspace/demo1june/* /var/www/html
+
+host == africauat8.southafricanorth.cloudapp.azure.com
+port == 3306
+user == abhishekB
+paswd == Abhishek@123
+
+
+
+
+sudo rabbitmqctl add_user uwc s3r0s0ft
+sudo rabbitmqctl set_user_tags uwc administrator
+sudo rabbitmqctl set_permissions -p / uwc ".*" ".*" ".*"
+
+ssh seroadmin@uwc-live-msg.southafricanorth.cloudapp.azure.com
+
+host == stasy-uat1b-db.centralindia.cloudapp.azure.com
+port == 3306
+user == pradeepn
+passwd == Pradeep@123
+
+https://github.com/someshvar26/pihu/blob/735fea626d1bf510f568f733253bc5c31cf22c66/index.html
+
+index.html
+
+Hi
+/messaging/templateProvisional Offer Letter/210608_ons kontrak_voorgraads1623487474247.pdf
+
+host == buzzafrica.southafricanorth.cloudapp.azure.com
+port == 22
+user == sheelu
+Passwd == Sheelu@123
+location == /opt/serosoft/v2_uploads/blackboard/txtfile
+
+
+host == buzztrainingdb.southafricanorth.cloudapp.azure.com
+port == 3306
+user == vikasy
+passwd == Vikas@123
+
+db == lp_staging
+
+
+document.constant.image.dir=/opt/serosoft/v2_upload/iiitb/images
+
+
+document.constant.image.dir=/opt/serosoft/v2_uploads/iiitb/images
+document.constant.temp.dir=/opt/serosoft/v2_uploads/iiitb/temp
+document.constant.base.dir=/opt/serosoft/v2_uploads/iiitb/basedir
+document.constant.letter.dir=/opt/serosoft/v2_uploads/iiitb/letterDir
+dynamic_doc_jasper_location=/opt/serosoft/v2_uploads/iiitb/jasper
+
+
+
+
+
+============ 02-05-2022======================
+admin@123
+
+s3r0s0ft
+
+ssh logadmin@africa-stasy.centralindia.cloudapp.azure.com
+
+passwd == logadmin@123
+cd /opt/serosoft/tomcat_erp/logs
+tail -f catalina.out
+
+
+necb_limesurvey
+
+
+host == accrachstesting.centralindia.cloudapp.azure.com
+port == 3306
+user == ashwinr
+passwd == Ashwin@123
+
+  =====>>>>  12-3, 4:30: 7PM 2 june time shubha muhrat 
+  
+
+name == jyoti gandhi
+
+a/c === 390-802-005-20
+
+IFCCODE == SBIN0000422
+
+================ 01-06-2022=============
+
+host == serotest.centralindia.cloudapp.azure.com
+port == 3306
+user == rahulp
+passwd == Rahul@123
+
+
+rabbit MQ service auto-restarted with VM (server) daily morning restart
+
+rabbit MQ service auto-restarted with VM (server) daily morning restart script.
+
+Serosoft#123
+
+Sandeep@123
+
+
+host == demo-db-2.centralindia.cloudapp.azure.com
+port == 3306
+user == mahendrav
+passwd == Mahendra@123
+
+
+
+================ 30 - 05- 2022 ====================
+Site Key: 6Leo-5gaAAAAAJlSjjfipxbA_dFkP4yYj7lG6joD
+Secret Key: 6Leo-5gaAAAAAHRjJHuCKqOhaztzf3pU-n9ubE_q
+
+
+
+
+
+===su-preprod =====================
+host == student-preprod-db.southafricanorth.cloudapp.azure.com
+port == 3306
+user == shubhama
+passwd == Shubham@123
+DB == sunshin
+
+
+===su-dev =====================
+host == sudemo-db.southafricanorth.cloudapp.azure.com
+port == 3306
+user == shubhama
+passwd == Shubham@123
+DB == sunshin
+
+
+===su-test =====================
+host ==su-training-dbserver.southafricanorth.cloudapp.azure.com
+port == 3306
+user == shubhama
+passwd == Shubham@123
+DB == sunshin
+
+host == buzz-uat-db.southafricanorth.cloudapp.azure.com
+port == 3306
+user == prashantc
+passwd == Prashant@123
+
+db name == buzz
+
+
+host == 103.93.115.247
+port == 3306
+user == ratnesh
+passwd == Ratnesh@123
+
+-============== 24-05-2022------------
+host == cecos-prod-db.westeurope.cloudapp.azure.com
+port == 3306
+user === ratneshj
+passwd == Ratnesh@123
+
+
+
+
+
+host == sisstagingvm.centralindia.cloudapp.azure.com
+port == 3306
+user == shivamj
+passwd == Shivam@123
+
+db name == sunshine
+
+
+
+
+
+
+ssh logadmin@samhs-demo.centralindia.cloudapp.azure.com
+
+passwd == logadmin@123
+cd //opt/serosoft/tomcat-samhs-temp/logs
+tail -f catalina.out
+
+
+
+
+
+
+
+host ==dit-live-db.centralindia.cloudapp.azure.com
+port == 3306
+user == shubhamj
+passwd === Shubham@123
+
+db name == dit
+
+
+
+host == proddb.centralindia.cloudapp.azure.com
+port == 3306
+user == shubhamj
+passwd == Shubham@123
+
+
+============= 25-05-2022==============
+
+host == demo-db-2.centralindia.cloudapp.azure.com
+port == 3306
+user === kamleshc
+passwd == Kamlesh@123
+Db name == falsebaydemo
+
+
+host == tempstasydb.centralindia.cloudapp.azure.com
+port == 3306
+user == sourabhm
+passwd === Sourabh@123
+
+db name == stacyiie
+
+
+=========24-05-2022==============
+@reboot sh /opt/serosoft/tomcat7_unyp/bin/startup.sh
+@reboot sh /opt/serosoft/tomcat_mier/apache-tomcat-7.0.26/bin/startup.sh
+
+timedatectl set-timezone Europe/Prague
+
+sudo rabbitmqctl add_user unyp s3r0s0ft
+sudo rabbitmqctl set_user_tags unyp administrator
+sudo rabbitmqctl set_permissions -p / unyp ".*" ".*" ".*"
+
+
+Hi Team,
+
+
+please map below IP with url
+
+
+unyp.academiaerp.com  >>>>>> 20.126.47.158
+
+20.126.47.158
+20.126.47.158
+
+
+137.117.242.47
+20.126.47.158
+
+
+
+
+
+
+
+============== 23-05-2022==========
+sero@2021
+
+
+
+host == rgitesting.centralindia.cloudapp.azure.com
+port == 3306
+user == manasl
+passwd == Manas@123
+
+
+
+host == stasy-uat1b-db.centralindia.cloudapp.azure.com
+port == 3306
+
+user == manishaw
+passwd == Manisha@123
+db name == stacyiie
+
+host == africauat8.southafricanorth.cloudapp.azure.com
+port == 3306
+user == vikasy
+passwd == Vikas@123
+
+db == lp_staging
+
+
+
+
+================= 20-05-2022 =================
+
+host == 41.220.16.98
+port == 23306
+user == kushc
+passwd == Kush@123
+
+
+
+sudo apt-get install rabbitmq-server
+sudo rabbitmq-plugins enable rabbitmq_management
+
+sudo rabbitmqctl add_user anantu s3r0s0ft
+sudo rabbitmqctl set_user_tags anantu administrator
+sudo rabbitmqctl set_permissions -p / anantu ".*" ".*" ".*"
+
+messaging.host=127.0.0.1
+messaging.username=anantu
+messaging.password=s3r0s0ft
+messaging.virtualhost=anantuVH
+messaging.exchange=anantuEX
+
+
+
+ZURE_AD_NEW_URL"
+
+"https://su-preprod-azuread.academiaerp.com/authacademiacontroller/secureazurepage"
+
+========== 19-05-2022 ==============
+host == demo-db-2.centralindia.cloudapp.azure.com
+port == 3306
+user == shashankj
+passwd == Shashank@123
+
+
+host == od-db-1.centralindia.cloudapp.azure.com
+port == 3306
+user == priyanshis
+passwd == Priyanshi@123
+name == stacyiie
+
+
+
+**********************************************************************************
+Login to servers using winscp
+IP :
+Username :
+serosoft-user
+Application Server : 3.111.84.175
+ web server : 43.204.122.70
+ dbserver : 3.111.119.37
+ Password:
+Not Required            
+Authentication: Using private keys:  PPK 
+Login to servers using  putty
+IP :
+
+
+
+Usename : serosoft-user
+Application Server : 3.111.84.175
+web server : 43.204.122.70
+dbserver : 3.111.119.37
+ Password:
+
+================>>>>>>
+
+rbu-live
+
+
+tomcat
+ssh serosoft_admin@3.111.84.175
+passwd == Admin@90
+
+
+ssh serosoft_admin@3.111.119.37
+passwd == Admin@90
+
+
+for apache2 working 
+ssh serosoft_admin@43.204.122.70
+ssh seroadmin@43.204.122.70
+passwd == Admin@90
+
+=================>>>>>>>
+
+
+Login for Mysql
+User Name : 
+Sadmin 
+Host  : 
+3.111.119.37
+port 
+3306
+Password : 
+S4p3R@dm1n
+
+
+ssh Sadmin@3.111.119.37
+
+
+testing-falsebay-vm
+
+old
+falsbay-testing-vm
+
+=====
+we can see in your screen shot, it is clearly shown   , both tomcat and DB server started on same time eg:- Serial no. 4,5   but process is that you have to start DB VM first after that, wait 5 mins. & then start tomcat VM
+
+if you are not follows the process server team are not responsible for login issue in Reg & OD instances.
+
+=====
+
+host ==  africauat8.southafricanorth.cloudapp.azure.com
+port == 3306
+user == narendraj
+passwd == Narendra@123
+db name = uwc-demo
+
+ssh logadmin@sudemoafrica.southafricanorth.cloudapp.azure.com
+passwd == logadmin@123
+cd /opt/serosoft/tomcat_sudemo/logs
+tail -f catalina.out
+
+
+================= 17-05-2022============
+host == unyp-testing-vm.westeurope.cloudapp.azure.com
+port == 3306
+user == tanays
+passwd == Tanay@123
+db == sunshine
+
+
+
+ssh logadmin@sutraining.southafricanorth.cloudapp.azure.com
+passwd == logadmin@123
+/opt/serosoft/tomcat7-su-training/logs
+tail -f catalina.out
+
+
+
+------------
+
+host ==  su-training-dbserver.southafricanorth.cloudapp.azure.com
+port == 3306
+user == dharmendrag
+passwd == Dharmendra@123
+db name == sunshine
+
+
+host ==  demo-db-2.centralindia.cloudapp.azure.com
+port == 3306
+user == manishaW
+paswd == Manisha@123
+
+host ==  su-training-dbserver.southafricanorth.cloudapp.azure.com
+port == 3306
+user == narendraj
+passwd == Narendra@123
+
+
+========16-05-2022=============
+Sandeep@123
+
+host == stasy-uat1b-db.centralindia.cloudapp.azure.com
+ port == 3306
+ user == prakash
+ passwd == Prakash@123
+ 
+ 
+========== 13-04-2022===============
+
+remove access 20-05-2022 ============
+
+ssh prashantc@tertiaryprodapp.southafricanorth.cloudapp.azure.com
+passwd == prashant@123
+
+
+user == prashantc
+passwd == prashant@123
+
+
+host == proddb.centralindia.cloudapp.azure.com
+port == 3306
+user == shubhamj
+passwd == Shubham@123
+db == sktc
+
+==========12-05-2022============
+
+new disk == Handson_OsDisk_11may22
+
+old name == Handson_OsDisk_1_7a45fc15201c4dadaf6b668d3b68d413
+name == Hanson_disk_10052022_snapshot
+
+
+
+============ 11-05-2022===================
+==su-dev==
+host == su-training-dbserver.southafricanorth.cloudapp.azure.com
+port == 3306
+user == tanays
+passwd == Tanay@123
+db == sunshine
+
+==su-test===
+host == sudemo-db.southafricanorth.cloudapp.azure.com
+port == 3306
+user == tanays
+passwd == Tanay@123
+db == sunshine
+
+
+--
+sed -n -e '18369,24927p' catalina.2022-03-16.log > catalina.2022-03-16.log.txt
+
+ grep -in "Apr 01, 2022 10:" catalina.2022-04-01.lo
+
+ grep -in "Mar 16, 2022 10:" catalina.2022-03-16.log
+
+
+
+
+=============10-may-2020===========================
+
+VM snapshoot name 
+
+
+disk == imt-marketing-10may-disk
+
+name == imt-marketing-snapshoot10may
+name == SIS-Training-VM_snapshoot9may22
+name === SIS-Training-myanmar-VMsnapshoot9may
+
+
+host == unyp-staging-db.westeurope.cloudapp.azure.com
+port == 3306
+user == sourabhm
+passwd == Sourabh@123
+db == unyp_demo
+
+
+=========== 09-05-2022==================
+host == buzz-uat-db.southafricanorth.cloudapp.azure.com
+port == 3306
+user == shubhamj
+passwd == Shubham@123
+db == buzz
+
+
+host ==accrachstesting.centralindia.cloudapp.azure.com
+port == 3306
+user == rahulp
+passwd == Rahul@123
+
+
+
+
+lp -live 
+mysql passwd == s3r0ibhiasldkfs0ft@sdlf
+
+
+
+# Define 1 real worker using ajp13
+worker.list=workerlp
+# Set properties for worker (ajp13)
+worker.workerlp.type=ajp13
+worker.workerlp.host=172.0.1.15
+worker.workerlp.port=8009
+
+
+
+
+
+====05-05-2022==============================
+host == buzz-uat-db.southafricanorth.cloudapp.azure.com
+port == 3306
+user == gauravr
+passwd == Gaurav@123
+db name == buzz
+
+
+host == buzztrainingdb.southafricanorth.cloudapp.azure.com
+port == 3306
+user == gauravr
+passwd == Gaurav@123
+db name == buzz
+
+
+Hi Team,
+
+please create new pointing  below url with ip address
+
+lp.academiaerp.com  >>>>  102.37.16.207
+
+
+
+lp.academiaerp.com
+
+102.37.16.207
+
+
+
+
+host == 52.172.137.135
+port == 3306
+user == shubhamr
+passwd == Shubham@123
+db name == aus_demo
+
+
+
+
+
+snapshoot sktc-demo
+
+name == sktc-demo-OS-4may-snapshoot
+name  == isbmu-demo-os-snapshoot-4may
+name == isbm-demo-4maysnapshoot
+
+host == buzz-db-server.southafricanorth.cloudapp.azure.com
+port == 3306
+user == shubhamj
+passwd == Shubham@123
+db == buzz
+
+
+
+========= 4-05-2022==============
+
+Testing-buzz separate db vm
+
+Vm name testing-buzz-db
+ssh seroadmin@testting-buzz-db.centralindia.cloudapp.azure.com
+Passwd:  jFUV4XDOpgNG3Kvz
+
+
+host == buzz-db-server.southafricanorth.cloudapp.azure.com
+port == 3306
+user == vikasy
+passwd == Vikas@123
+db == buzz
+
+ashoka_academia
+
+======  03-05-2022  ==============================
+sed -n -e '58,7888p' catalina.2022-04-01.log > catalina.2022-04-01.log.txt
+
+ grep -in "Apr 01, 2022 10:" catalina.2022-04-01.log
+
+
+host == proddb.centralindia.cloudapp.azure.com
+port == 3306
+user == vikasy
+passwd == Vikas@123
+db == rgi
+
+
+sed -n -e '7399,7888p' catalina.2022-04-30.log > catlinalog2may22.txt
+
+ grep -in "Apr 30, 2022 5:" catalina.2022-04-30.log
+
+
+
+host == mysqleightdemodb.centralindia.cloudapp.azure.com
+port == 3306
+user == shubhamj
+passwd == Shubham@123
+db == aei_demo
+
+
+============== 02-05-2022============
+
+as discussed with @pooja jhawar, she told us revert back previous backup. not require one week old data backup
+
+
+
+dns == anantu-liveerp.centralindia.cloudapp.azure.com
+port == 2222 allowed 
+
+----
+user == ankurj
+passwd == Ankur@123
+
+
+host == buzz-db-server.southafricanorth.cloudapp.azure.com
+port == 3306
+user == pawanp
+passwd  == Pawan@123
+
+
+
+===
+
+sis-live VM === sis-live-ubuntu-upgrade
+
+ssh seroadmin@20.219.184.32
+20.219.184.32 
+
+Username: seroadmin
+Password: 6nwF7gStopfe7JNAVJkp75
+
+
+
+-----
+host == testingvgu.centralindia.cloudapp.azure.com
+port == 3306
+user == nishantj
+passwd  == Nishant@123
+
+=========== 29-04-2022 ======================
+
+host == 13.233.46.247
+port == 3306
+user == shubhamj
+passwd == Shubham@123
+db == pgi
+
+
+host == testingvgu.centralindia.cloudapp.azure.com
+port == 3306
+user == vikasy
+passwd == Vikas@123
+
+
+
+?autoReconnect\=true&amp&useSSL\=false&amp&useUnicode\=true&amp;characterEncoding\=utf-8
+?autoReconnect=true&useSSL=false&useUnicode=true&characterEncoding=utf-8
+
+
+=====28-04-2022================
+
+Hi Team,
+
+please create new poing below ip with dns
+
+
+unypstaging-moodle.academiaerp.com >>>  51.124.225.254
+
+51.124.225.254
+
+unypstaging.academiaerp.com 51.124.225.254
+
+anantu_applynow
+
+mount 10.0.2.5:/var/www/html/rru /var/www/html/rru
+
+#rru
+10.0.2.5:/var/www/html/rru /var/www/html/rru nfs defaults 0 0
+
+
+
+Vinay#456   >>>>> Somesh@serosoft.onmicrosoft.com
+
+
+Please provide database credentials for the 
+UNYP Demo
+host == unyp-staging-db.westeurope.cloudapp.azure.com
+port -- 3306
+instanceuser : powerbi
+password : Serosoft#123
+
+============= 27-04-2022============
+
+host == unyp-staging-db.westeurope.cloudapp.azure.com
+port == 3306
+user == shubhamj
+passwd == Shubham@123
+db == unyp_demo
+
+host == 136.232.30.22
+port == 3306
+user == sooraj
+passwd == Sooraj@123
+
+host == proddb.centralindia.cloudapp.azure.com
+port == 3306
+user == sourabhm
+passwd == Sourabh@123
+db == dit_demo
+
+
+host == 103.93.115.247
+port == 3306
+user == sourabhm
+passwd == Sourabh@123
+db == dit_demo
+
+======= 26-04-2022 =========================
+
+host == demo-db-2.centralindia.cloudapp.azure.com
+port == 3306
+user == sourabhm
+passwd == Sourabh@123
+
+db == fbctemp
+
+
+
+
+host == student-preprod-db.southafricanorth.cloudapp.azure.com
+port == 3306
+user == powerbi
+passwd == Serosoft#123
+db == sunshine
+
+
+
+host == proddb.centralindia.cloudapp.azure.com
+port == 3306
+user == sunilp
+passwd == Sunil@123
+db == rgi_applynow
+
+
+
+
+=================25-04-2022=================  ==================
+<span class=\"errorImg\"></span> <span class=\"alertMsg\"></span>
+
+
+Hi Team,
+
+please create new poing below ip with dns
+
+
+vgustaging-moodle.academiaerp.com >>>  40.80.82.68
+
+
+
+  https://vgustaging.academiaerp.com/moodle   
+
+
+12.0.3.27
+vgudemo_moodle
+
+
+https://vgustaging-moodle.academiaerp.com
+
+user == admin  
+Passwd== Admin@123
+
+
+=============== 22-04-2022================
+
+============14.04 to 16.04 os upgrade ==============
+
+https://www.linode.com/docs/guides/upgrade-to-ubuntu-16-04/
+
+
+apt-get update && apt-get upgrade
+apt-get install update-manager-core
+vim /etc/update-manager/release-upgrades  (check this == >>> Open /etc/update-manager/release-upgrades and verify that the Prompt value is set to lts: >> Prompt=lts) 
+do-release-upgrade (it's taking time )
+lsb_release -a
+cat /etc/os-release 
+ after VM restart 
+
+
+==== ======== 16.04 to 18.04 ===============
+
+
+ cat /etc/os-release 
+ apt-get update && apt-get upgrade 
+ apt dist-upgrade 
+ apt-get install update-manager-core 
+ do-release-upgrade 
+ cat /etc/os-release 
+ after VM restart 
+
+
+
+ku-limesurvey.academiaerp.com/index.php/admin/remotecontrol
+
+
+
+http://ku-limesurvey.academiaerp.com/index.php/admin/remotecontrol
+
+==============20-04-2022=====================
+
+Hi Team,
+
+can you restart mysql service 
+below IP  == 172.0.2.4
+at 11 PM
+
+and confirm me 
+
+we have added 3 live in my.cnf file for my other applications required it
+so, please restart mysql service 
+
+
+/etc/mysql$ cat my.cnf
+
+character-set-client-handshake = FALSE
+character-set-server = utf8mb4
+collation-server = utf8mb4_unicode_ci
+
+
+admin === Admin@123
+
+
+https://falsebay-moodle.academiaerp.com/
+
+
+
+host == mysqleightdemodb.centralindia.cloudapp.azure.com
+port == 3306
+user == sourabhm
+passwd == Sourabh@123
+
+https://linuxize.com/post/how-to-upgrade-to-ubuntu-18-04-bionic-beaver/
+
+==================
+
+It’s a not working, azure side issues already team looking this matter, we will update soon
+
+
+
+
+102066,105679
+
+catlinalog1_4apl.txt
+
+sed -n -e '642838,645066p' catalina1.log > catlinalog1_4apl.txt
+
+sed -n -e '1263781,126984p' catalina1.log > catlinalog1_4apl.txt
+
+grep -in Apr 03, 2022 09: PM catalina1.log
+
+
+
+grep -in "Oct 14, 2021 6:33" catalina.2021-10-14.log
+
+grep -in "April 19, 2022 11:" catalina.2021-10-14.log
+
+2022-04-19 12:31:49
+
+grep -in "Apr 03, 2022 21:" catalina.out
+
+Apr 04, 2022 12:47:04 PM
+
+
+sed -n -e '102878,106100p' catalina.out > catlinalog_4apl.txt
+
+124869
+
+
+sed -n -e '1263781,126984p' catalina1.log > catlinalog1_4apl.txt
+
+
+====================
+
+Enable internet access
+To enable access to or from the internet for instances in a subnet in a VPC, you must do the following.
+• Create an internet gateway and attach it to your VPC.
+• Add a route to your subnet's route table that directs internet-bound traffic to the internet gateway.
+• Ensure that instances in your subnet have a globally unique IP address (public IPv4 address, Elastic IP
+address, or IPv6 address).
+• Ensure that your network access control lists and security group rules allow the relevant traffic to flow
+to and from your instance.
+VPC me internet kaise chalgega
+
+it will show you the concept
+
+
+
+===========19-04-2022====================================================
+
+host == demo-db-2.centralindia.cloudapp.azure.com
+port == 3306
+user == mohitp
+passwd == Mohit@123
+
+
+
+
+
+================>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+====sunshine - live = 125G RAM====
+
+export JAVA_OPTS="$JAVA_OPTS -Xmx85g -Xms85g -Xverify:none -Djava.awt.headless=true -Dfile.encoding=UTF-8 -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSClassUnloadingEnabled -XX:+CMSParallelRemarkEnabled -XX:+CMSCompactWhenClearAllSoftRefs -XX:CMSInitiatingOccupancyFraction=85 -XX:+CMSScavengeBeforeRemark -XX:+CMSConcurrentMTEnabled -XX:ParallelCMSThreads=28 -XX:+DisableExplicitGC -XX:MaxHeapFreeRatio=70 -XX:MinHeapFreeRatio=40 -XX:MaxTenuringThreshold=4 -XX:NewSize=45g -XX:MaxNewSize=45g -XX:SurvivorRatio=2 -XX:TargetSurvivorRatio=85 -XX:InitialCodeCacheSize=1g -XX:ReservedCodeCacheSize=2g -XX:ParallelGCThreads=28 -XX:ConcGCThreads=7"
+
+
+============================================================================================================================================
+=========16GB RAM ========single tomcat ========
+
+
+export JAVA_OPTS="$JAVA_OPTS -Xmx12g -Xms12g -Xverify:none -Djava.awt.headless=true -Dfile.encoding=UTF-8 -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSClassUnloadingEnabled -XX:+CMSParallelRemarkEnabled -XX:+CMSCompactWhenClearAllSoftRefs -XX:CMSInitiatingOccupancyFraction=85 -XX:+CMSScavengeBeforeRemark -XX:+CMSConcurrentMTEnabled -XX:ParallelCMSThreads=4 -XX:+DisableExplicitGC -XX:MaxHeapFreeRatio=70 -XX:MinHeapFreeRatio=40 -XX:MaxTenuringThreshold=4 -XX:NewSize=6g -XX:MaxNewSize=6g -XX:SurvivorRatio=2 -XX:TargetSurvivorRatio=85 -XX:InitialCodeCacheSize=256M -XX:ReservedCodeCacheSize=512m -XX:ParallelGCThreads=4 -XX:ConcGCThreads=4"
+
+============
+
+=========8GB RAM ========single tomcat ========
+
+
+export JAVA_OPTS="$JAVA_OPTS -Xmx5g -Xms5g -Xverify:none -Djava.awt.headless=true -Dfile.encoding=UTF-8 -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSClassUnloadingEnabled -XX:+CMSParallelRemarkEnabled -XX:+CMSCompactWhenClearAllSoftRefs -XX:CMSInitiatingOccupancyFraction=85 -XX:+CMSScavengeBeforeRemark -XX:+CMSConcurrentMTEnabled -XX:ParallelCMSThreads=1 -XX:+DisableExplicitGC -XX:MaxHeapFreeRatio=70 -XX:MinHeapFreeRatio=40 -XX:MaxTenuringThreshold=4 -XX:NewSize=2g -XX:MaxNewSize=2g -XX:SurvivorRatio=2 -XX:TargetSurvivorRatio=85 -XX:InitialCodeCacheSize=256M -XX:ReservedCodeCacheSize=256m -XX:ParallelGCThreads=1 -XX:ConcGCThreads=1"
+================
+
+ls check CMS parameter as provided by Rahul Gupta
+
+
+-Xmx85g -Xms85g = RAM 85% (distribute to all tomcat)
+-XX:CMSInitiatingOccupancyFraction=85 = fixed
+-XX:ParallelCMSThreads=28 {8+1 -(total tomcat)} 8=Core (fixed for ERP tomcat but maybe change to less core for other tomcat)
+-XX:MaxHeapFreeRatio=70  (70=RAM%) fixed for all tomcat
+-XX:MinHeapFreeRatio=40 (40=RAM%) fixed for all tomcat
+-XX:MaxTenuringThreshold=4 (4=count) fixed for all tomcat
+-XX:MaxNewSize=45g (50% of Heap size)
+-XX:SurvivorRatio=2 (fixed count)
+-XX:TargetSurvivorRatio=85 (fixed count)
+-XX:InitialCodeCacheSize=1g (5% of RAM)
+-XX:ParallelGCThreads=28 (equal to -XX:ParallelGCThreads)
+-XX:ConcGCThreads=7" (cpu cores run at a time)
+
+=================================== 18 apl-2022==================
+
+Hi All,
+
+From now onwards whenever you will use tag-GA-Oracle-hikari-1.0.118 & afterward this tag.
+ you should change the permanent string in Jenkins before build, 
+Need to change the string 2 times in any Jenkins for main & msg war. (Screenshot attached for referense)
+
+Old string ->
+permanentString='?autoReconnect\\=true\&amp\&useSSL\\=false\&amp\&useUnicode\\=true\&amp;characterEncoding\\=utf-8'
+
+New String ->
+permanentString='?autoReconnect=true\&useSSL=false\&useUnicode=true\&characterEncoding=utf-8?autoReconnect=true\&useSSL=false\&useUnicode=true\&characterEncoding=utf-8'
+
+Note- Whenever you use before oracle-118 tag then you have to use the old string.
+
+Warm regards,
+
+
+==========
+datadisk1-for-uat1B
+
+stasylive-disk2-hdd-18oct
+
+
+-----
+
+host == regression-db-2.centralindia.cloudapp.azure.com
+port == 3306
+user == abhishekjain
+passwd == Abhishek@123
+db == au
+
+
+create user 'ditbio'@'%' identified by 'ditbio';
+grant all privileges on *.* to 'ditbio'@'%' with grant option;
+flush privileges;
+
+
+
+
+
+
+
+
+
+Static(Public) IP/Host URL:-                103.93.115.245   /   biometric-Virtual-Machine
+Port:                                                    external 241  redirect to port 22.
+Id :                                                       biometric
+Pass:                                                    dit@1234
+
+
+
+
+
+
+grant all privileges on *.* to 'ditbio'@'%' with grant option;
+
+
+=== dit biometrics====
+ssh biomtric@103.93.115.245
+passwd == dit@1234
+
+mysql user == root / ditbio
+passwd == dit@1234 / ditbio
+
+=====================15-04-2022====================
+ssh logadmin@medcomm-staging-erp.centralindia.cloudapp.azure.com
+passwd == logadmin@123
+
+
+host == mysqleightdemodb.centralindia.cloudapp.azure.com
+port == 3306
+user == ratnesh
+passwd == Ratnesh@123
+
+
+
+
+===================
+
+
+for == live
+host == proddb.centralindia.cloudapp.azure.com
+port == 3306
+user == powerbi
+passwd == all live 
+DB == anantu
+
+
+
+for anantustaging
+
+
+host == mysqleightdemodb.centralindia.cloudapp.azure.com
+port == 3306
+user == powerbi
+passwd == all live 
+DB == anantu
+
+check and confirm
+
+
+check and confirm
+
+
+
+=============== 14-apl-2022====================
+
+host == proddb.centralindia.cloudapp.azure.com
+port == 3306
+user == sourabhm
+
+passwd == Sourabh@123
+
+Db == iiitb
+
+
+
+
+============== 12-04-2022 ===============
+
+873 5307 6758
+315345
+
+
+894 7726 1331
+635173
+
+
+
+
+============== 11-14-2022=================================
+
+"AZURE_AD_NEW_URL":"https://sudemo-azure-ad.academiaerp.com/authacademiacontroller/secureazurepage"
+
+
+
+
+krmu-live FTP
+20,21,4242,4243
+
+host == krmu-live.centralindia.cloudapp.azure.com
+20.197.57.212
+
+for - (Read / Write access / fully permission )
+host == 20.197.57.212
+user == seroftp
+passwd == sero@2022
+
+for client give only (Read access )
+host == 20.197.57.212
+user == krmuftp
+passwd == krmu@2022
+
+
+user == krmuftp == krmu@2022
+
+
+
+
+=================8-04-2022=================
+
+183.182.84.235,52.172.212.210,168.167.45.178,52.172.134.114,14.183.168.200,52.172.251.125
+
+
+ssh logadmin@sktc-live.centralindia.cloudapp.azure.com
+passwd == logadmin@123
+/opt/serosoft/apache-tomcat-7.0.10/logs
+
+
+
+
+
+/opt/serosoft/tomcat7-necb/webapps/necb_staging/WEB-INF/lib/
+
+
+host == 123.252.208.154
+port == 3306
+user == sooraj
+passwd == Sooraj@123
+
+
+
+
+
+
+
+show ASR only my name in jira ===========
+project = "Serosoft Server" and reporter = 5fb51c80aca10c00692f67ed
+
+
+============ 06-04-2022=================
+
+Hi Team,
+
+please create new pointing  below url with ip address
+
+snjbschoolsopac.academiaerp.com   >>>>  20.219.22.89
+
+snjbschoolskoha.academiaerp.com  >>>>  20.219.22.89
+
+
+host == regression-db-1.centralindia.cloudapp.azure.com
+port == 3306
+user  == akashc
+passwd == Akash@123
+
+db name == stacyiie
+
+
+---
+host == mysqleightdemodb.centralindia.cloudapp.azure.com
+port == 3306
+user  == rahulp
+passwd == Rahul@123
+
+db name == handson_applynow
+
+
+
+===========05-04-2022 ===========================
+102066,105679
+
+catlinalog1_4apl.txt
+
+sed -n -e '102066,105679p' catalina1.log > catlinalog1_4apl.txt
+
+sed -n -e '1263781,126984p' catalina1.log > catlinalog1_4apl.txt
+
+grep -in Apr 03, 2022 09: PM catalina1.log
+
+
+
+grep -in "Oct 14, 2021 6:33" catalina.2021-10-14.log
+
+grep -in "Oct 14, 2021 4:" catalina.2021-10-14.log
+
+
+
+grep -in "Apr 03, 2022 21:" catalina.out
+
+Apr 04, 2022 12:47:04 PM
+
+
+sed -n -e '102878,106100p' catalina.out > catlinalog_4apl.txt
+
+124869
+
+
+sed -n -e '1263781,126984p' catalina1.log > catlinalog1_4apl.txt
+
+grep -in Apr 03, 2022 09: PM 
+
+=====
+
+host == regression-db-1.centralindia.cloudapp.azure.com
+port == 3306
+user === kamleshc
+passwd == Kamlesh@123
+Db name == stacyiie
+
+
+
+host == 122.187.0.170
+port == 3306
+user  == ashutoshb
+passwd == Ashutosh@123
+
+
+=========== 04-0-2-202=============================
+ https://regression1.academiaerp.com
+ 
+ host == regression-db-1.centralindia.cloudapp.azure.com
+
+Mysql Username : ss_root
+Mysql Password : ccb96846e4cf9a08189a5416728132d3
+
+ 
+ 
+https://regression2.academiaerp.com
+
+
+host == regression-db-2.centralindia.cloudapp.azure.com
+Mysql username- ss_root
+Pass- s3r0s0ft
+
+
+
+https://school-od.academiaerp.com
+
+host == od-db-1.centralindia.cloudapp.azure.com
+Mysql Username : ss_root
+Mysql Password : ccb96846e4cf9a08189a5416728132d3
+
+
+
+https://college-od.academiaerp.com/ 
+
+host == od-db-2.centralindia.cloudapp.azure.com
+
+Mysql Username : ss_root
+Mysql Password : s3r0s0ft
+
+
+
+52.140.99.38
+
+
+====================01-04-2022 ==============
+
+host == testing-falsway.centralindia.cloudapp.azure.com
+port == 3306
+user == vikasy
+passwd == Vikas@123
+db  == testing-dit
+
+
+==========================
+
+host == uwc-live-db.southafricanorth.cloudapp.azure.com
+port == 3306
+user  == ashutoshb
+passwd == Ashutosh@123
+
+=====
+
+host == buzz-db-server.southafricanorth.cloudapp.azure.com
+port == 3306
+user  == rahulp
+passwd == Rahul@123
+
+db name == buzz_applynow
+
+
+
+======================== redisson -- aropline restorent  start squre BOI branch 
+
+
+host === su-training-dbserver.southafricanorth.cloudapp.azure.com
+port == 3306
+user == vishalc
+passwd  == Vishal@123
+
+
+=============
+unyp-staging-RG-vnet/default
+=== sommet-uat ======
+VM name == sommet-uat-erp
+user == seroadmin
+ssh seroadmin@sommet-uat-erp.westeurope.cloudapp.azure.com
+passwd == Som@1uatsdf6112021
+
+
+Europe/Berlin
+
+timedatectl set-timezone Europe/Berlin
+
+
+9:55 AM
+
+
+=========su-test =================
+host == su-training-dbserver.southafricanorth.cloudapp.azure.com
+port == 3306
+User - powerbi
+password - Serosoft#123
+
+DB name == sunshine
+
+=========su-dev =================
+host == sudemo-db.southafricanorth.cloudapp.azure.com
+port == 3306
+User - powerbi
+password - Serosoft#123
+DB name == sunshine
+
+=====
+
+buzz -live replica cost
+Modification 4 core to 16core on 10March (Per Months)
+1- 4/16 == 10,954.61 (approxe )-D4s_v3
+2- 16/64 == 70,141.22 (approxe) - D16s_v3
+
+-----------------
+
+D4s_v3
+D8s_v3
+
+DB-Sero-Africa-Prod-SAN-sunshine-live-Replica
+1-8/32 == 28,058.76 (approxe) -D8s_v3 (PM)
+=======
+Standard D16s v3 (16 vcpus, 64 GiB memory
+
+20,21,4242,4243
+
+
+
+host === sisstagingvm.centralindia.cloudapp.azure.com
+port == 3306
+user == prashantc
+passwd  == Prashant@123
+
+
+
+==============  30-03-2022  ======================
+Personal work
+host == proddb.centralindia.cloudapp.azure.com
+port == 3306
+user === ashutoshb
+passwd == Ashutosh@123
+Db name == rgi
+
+
+=================
+host == regression-db-2.centralindia.cloudapp.azure.com
+port == 3306
+user === kamleshc
+passwd == Kamlesh@123
+Db name == au
+
+===========
+ssh logadmin@103.93.115.245 -p221
+passwd == logadmin@123
+cd /opt/serosoft/tomcat7_dit_demo/logs
+tail -f catalina.out
+
+
+
+========== 29-03-2022=======================
+
+2022-03-29 11:05:32
+
+grep -in "2022-03-29 10:" catalina.out
+
+
+======================================
+regression-1=== ftp 
+
+host == regresson-tomcat1.centralindia.cloudapp.azure.com
+user == seroftp 
+passwd === sero@2021
+
+===regression-2=== ftp 
+
+host == regresson-tomcat2.centralindia.cloudapp.azure.com
+user == seroftp 
+passwd === sero@2021
+
+
+
+======================
+s3r0s0ft
+
+http://anantustaging-limesurvey.academiaerp.com/index.php/admin/remotecontrol
+
+
+https://anantustaging-limesurvey.academiaerp.com/index.php
+
+admin == Admin@123
+
+
+
+=================================
+ratneshj
+host == buzztrainingdb.southafricanorth.cloudapp.azure.com
+port == 3306
+
+user == ratneshj
+passwd == Ratnesh@123
+
+
+=====================================
+
+create user 'shashankjain'@'%' identified by 'Jain@123';
+
+use stasyiie;
+
+GRANT all privileges on stasyiie.* TO 'shashankjain'@'%';
+GRANT all privileges on stasyiie_audit.* TO 'shashankjain'@'%';
+
+
+
+Show grants for ‘shashankjain';
+
+
+
+host == regression-db-1.centralindia.cloudapp.azure.com
+port == 3306
+
+user == shashankjain
+passwd == Jain@123
+
+db name == stasyiie
+
+
+============ 28 = 03-2022================
+
+I am doing logout
+Mr. Rahul Patel will be available full day task.
+he will join after 10:10 AM
+
+Thanks your support 
+==================applynow .war  configruation ============
+
+/opt/serosoft/online_tomcat-9/webapps/applynow/app/
+vim constant.js
+
+/opt/serosoft/online_tomcat-9/webapps/applynow/WEB-INF/classes
+vim database.properties
+vim log4j.properties
+vim application.properties
+
+after start applynow tomcat
+
+
+==============================================
+
+
+
+
+Sysadmin : Pab65wMcxwdcuvr#jmr21
+
+
+======
+
+
+scp -r africaadmin@172.0.2.12:/opt/serosoft/v2_uploads 
+
+scp -r africaadmin@172.0.2.12:/home/ubuntu/soft/jenkins/out/stasyiie_2022_03_27_03_35_13.war
+
+
+
+======================
+
+DB-OSdisk_27march_snapshoot
+
+data-disk1-new27march_snapshoot
+datadisk2_27march_snapshoot
+
+
+
+
+
+
+
+======================27-03-2022 ========================
+
+
+"AZURE_AD_NEW_URL":"https://su-preprod-azuread.academiaerp.com/authacademiacontroller/secureazurepage",
+
+
+admin == Admin@123
+
+https://fbctemp-moodle.academiaerp.com/
+
+https://serosoft.atlassian.net/browse/ASR-40811
+
+db name == fbctemp_moodle  ---- 12.0.3.61
+
+
+fbctemp_moodle_data
+
+--------------
+
+
+host ==africauat8.southafricanorth.cloudapp.azure.com
+port == 3306
+user == rahulp
+passwd == Rahul@123
+
+uwcdemo_applynow
+
+
+===========  26-03-2022 =========================================================
+
+s3r0s0ft
+
+http://anantustaging-limesurvey.academiaerp.com/index.php/admin/remotecontrol
+
+
+https://anantustaging-limesurvey.academiaerp.com/index.php
+
+http://anantustaging-limesurvey.academiaerp.com/index.php/admin/remotecontrol
+
+http://unypstaging-limesurvey.academiaerp.com/index.php/admin/remotecontrol
+
+
+Hi Team,
+
+
+Please map below url with ip 
+
+anantustaging-limesurvey.academiaerp.com  >>>  51.124.225.25
+
+http://anantustaging-limesurvey.academiaerp.com/index.php/admin/remotecontrol
+
+https://anantustaging.academiaerp.com/limesurvey/index.php/admin/authentication/sa/login
+
+
+====================
+
+tempstasy ki ram kaam karni hai
+https://serosoft.atlassian.net/browse/ASR-40823
+
+------------------
+
+https://g7crplus.g7cr.in/Customer/RaiseTicket 
+
+this instance already created, If you want to update this instance. Please create another ASR for update. and assign dev team member for update.
+
+==============25-03-2022===========================================
+
+host == west-us-db-live.westus2.cloudapp.azure.com
+port == 3306
+user : powerbi
+password; Serosoft#123
+
+
+host == buzztrainingdb.southafricanorth.cloudapp.azure.com
+port == 3306
+user == kushc
+passwd == Kush@123
+db name == buzz
+
+
+
+www.krmustaging-limesurvey.academiaerp.com
+
+unypstaging-limesurvey.academiaerp.com
+
+https://unypstaging-limesurvey.academiaerp.com/index
+
+
+https://unypstaging-limesurvey.academiaerp.com/index.php/admin/remotecontrol
+
+https://unypstaging.academiaerp.com/limesurvey/index.php/admin/authentication/sa/login
+
+51.124.225.254
+
+
+
+Hi Team,
+
+
+Please map below url with ip 
+
+ unypstaging-limesurvey.academiaerp.com  >>>  51.124.225.254
+
+
+
+
+
+host == tempstasydb.centralindia.cloudapp.azure.com
+port == 3306
+user == sohanc
+passwd  == Sohan@123
+
+
+
+=================================
+
+
+
+Hi HR,
+
+I trying to cancel my leave to 24-03-2022 is second half, but there is no showing cancellation option, Please i request to you adjust this level 17-03-2022 second half
+
+
+183.182.84.235,197.100.242.98,40.127.1.223,41.112.168.75,10.254.68.40,104.211.93.70
+
+196.14.104.189
+
+host == 13.71.17.51
+port -- 3306
+user rahulpati
+passwd == Rahul@123
+db name == imt_chatbot
+
+
+
+
+buzz- live - job -tomcat - msg - db - db replic
+stacy  - live - job -tomcat - msg - db - db replic
+
+also done of audit log configruation 
+
+
+
+
+host == testing-falsway.centralindia.cloudapp.azure.com
+port == 3306
+user == rahulpti	
+passwd == Rahu@123
+db name == testing-dit
+
+
+
+
+https://bit.ly/34q6R0U
+===========================================================
+
+https://www.theurbanpenguin.com/installing-the-linux-audit-system-on-ubuntu-18-04/
+
+https://www.youtube.com/watch?v=AGJWzdHN6BE&t=129s
+
+sudo apt update
+sudo apt install bash-completion
+sudo apt-get install auditd audispd-plugins -y 
+sudo service auditd status
+sudo systemctl enable auditd
+sudo auditctl -l
+
+sudo auditctl -l
+sudo adduser testuser
+sudo systemctl enable auditd
+sudo auditctl -w /etc/passwd -p wa -k user-modify
+sudo auditctl -w /etc/hosts -p wa -k host-modify
+sudo cat /var/log/audit/audit.log | grep user-modify
+
+sudo cat /var/log/audit/audit.log
+
+sudo apt install -y auditd audispd-plugins
+
+sudo apt install -y audispd-plugins
+  
+ ======================== 
+  
+  
+  611  cat /etc/audit/auditd.conf
+  612  sudo cat /etc/audit/auditd.conf
+  613  sudo auditctl -l
+  614  /etc/audit/rules.d/audit.rules
+  615  sudo cat /etc/audit/rules.d/audit.rules
+  616  systemctl enable auditd
+  617  sudo systemctl enable auditd
+  618  sudo auditctl -w /etc/passwd -p wa -k user-modify
+  619  sudo service auditd reload
+  620  sudo adduser testuser
+  621  sudo cat /var/log/audit/audit.log | grep user-modify
+  sudo auditctl -w /etc/hosts -p wa -k host-modify
+  622  sudo cat /var/log/audit/audit.log
+  623  history 
+
+===============================================================
+Audit logs enable
+
+https://www.redhat.com/sysadmin/configure-linux-auditing-auditd
+https://www.techrepublic.com/article/how-to-enable-and-configure-auditd-on-centos-7/
+
+sudo apt-get audit audit-libs
+sudo systemctl start auditd
+sudo systemctl enable auditd
+
+ 
+tail -f /var/log/audit/audit.log
+sudo auditctl -w /etc/passwd -p wa -k user-modify
+ sudo auditctl -w /etc/hosts -p wa -k host-modify
+sudo service auditd reload
+ 
+sudo useradd testuser
+sudo cat /var/log/audit/audit.log | grep user-modify
+ 
+ 
+Su-dev  web server
+
+
+======================================================
+
+ Hi Team,
+
+
+We planed Database replic configuration change request
+
+present configuration  ==>>>>  4 core cpu and 16 GB RAM
+
+New configuration  ==== 16 core cpu and 64 GB RAM
+
+IP  === >>> 172.0.2.13
+
+Please do before activity according as you required regarding new configuration.
+
+New configuration  ==== 16 core cpu and 64 GB RAM
+
+down time 01 AM date 11-03-2022 mid night.
+you will be confirm throw mail changes done,
+
+after that I will be down VM and change this configuration  
+
+ 
+
+
+============
+
+
+host === proddb.centralindia.cloudapp.azure.com
+port == 3306
+user == ravindra
+passwd  == all live wale h
+check and confirm 
+
+
+ 
+
+
+---
+
+host == od-db-4.centralindia.cloudapp.azure.com
+port == 3306
+user === rohitr
+passwd == Rohit@123
+db name == sis
+
+
+
+=========================  10 -03- 2022  ====
+
+sudemo api
+
+ip 10.251.242.8
+db name == sudemo_api
+user == ss_root
+passwd  == AXf8Sun#h23sq
+
+
+
+
+ps -ef | grep node
+forever start server.js
+
+============
+
+try{
+                            var responseObject = JSON.parse(responseString);
+                            //console.log(responseObject);
+                            var dataSent = filterData(responseObject);
+                            resolve(dataSent);
+                        }catch(err){
+                            resolve({"size":0,"start":0,"limit":50, "total": 0, "issues": [], "maxResults":0});
+                        }
+serotest.centralindia.cloudapp.azure.com
+cd /opt/jirareport/jira-reports/server/modules
+
+
+
+
+
+
+
+
+================    08-03-2022  =============
+
+Hi Sir,
+
+Please request to approve my leave date 23-03-2022 to 24-03-2022 till, Casual Leave 1.5 and Comp Off 0.5 day. please adjust it
+for some of personal work
+
+
+
+ssh logadmin@fbctemperp.centralindia.cloudapp.azure.com
+passwd == logadmin@123
+cd /opt/serosoft/apache-tomcat-9.0.8/logs/
+tail -f catalina.out
+
+
+============= 07-03-2022======================
+
+90693:2022-03-04 14:
+
+sed -n -e '90693,97817p' catalina.out > catlinalog_04march_aef.txt
+
+grep -in "2022-02-02 14:" catalina.out
+
+====
+
+dit-live-erp.centralindia.cloudapp.azure.com:8080/dit
+
+
+10.0.2.12:/var/www/html/dit /var/www/html/dit nfs defaults 0 0
+
+10.0.2.12:/var/www/html/dit /var/www/html/dit nfs defaults 0 0
+===============
+
+nfs-client
+
+sudo apt-get install nfs-common
+   
+sudo vim /etc/fstab
+
+10.0.2.12:/var/www/html/aei /var/www/html/aei nfs defaults 0 0
+
+10.0.2.12:/var/www/html/dit   /var/www/html/dit   nfs  auto,noatime,nolock,bg,nfsvers=3,intr,tcp,actimeo=1800     0 0
+
+#academia_dit_live
+10.0.2.12:/var/www/html/dit /var/www/html/dit nfs defaults 0 0
+
+
+mount 10.0.2.12:/var/www/html/dit /var/www/html/dit
+
+=================04-02-2022==============================
+
+messaging.host=127.0.0.1
+messaging.username=ditdemo
+messaging.password=s3r0s0ft
+messaging.virtualhost=ditdemoVH
+messaging.exchange=ditdemoEX
+
+
+
+=========== aef-live === databases    ===
+aef_live
+aef_live_audit
+aef_demo
+aef_demo_audit
+
+aeflive_limesurvey
+aefdemo_limesurvey
+
+aeflive_moodle
+aefdemo_moodle
+
+aef_demo_applynow
+
+
+=================
+
+https://erp.dituniversity.edu.in/
+
+sysadmin == India@760
+
+================    03-03-2022  ====================================
+
+host == seroafricaprod.southafricanorth.cloudapp.azure.com
+port == 3306
+user == ajayp
+psswd == Ajay@123
+
+=======================================================
+
+1-github/bitbacket 
+2-Azure 104 administrator
+3-jenkins
+4-Docker 
+5-Khubernaties
+6-grafana/nagios/zabix
+
+
+
+======================  02-03-2022 ===============================
+
+limesurvery configuration done, please check below details 
+
+https://unypstaging.academiaerp.com/limesurvey/index.php/admin/authentication/sa/login
+
+User == admin 
+Passwd == admin@123
+
+Note === Please first create first survery on same and check 
+
+
+https://unypstaging.academiaerp.com/limesurvey/index.php/admin/authentication/sa/login
+UNYP-LimeSurvey
+
+admin == admin@123
+
+https://unypstaging-limesurvey.academiaerp.com/
+unyp_demo_limesurvey  >>>> 10.0.0.5  >>> 3306 >>> s3r0s0ft
+
+
+
+@reboot /bin/sleep 300 ; sh /opt/serosoft/samlazuread_jar/start.sh
+
+
+=================================01-03-2022 ===============================================
+#!/bin/bash
+var=$(date +"%FORMAT_STRING")
+now=$(date +"%m_%d_%Y")
+printf "%s\n" $now
+today=$(date +"%Y-%m-%d.%H:%M:%S")
+
+nohup java -Xms4G -Xmx8G -jar /opt/serosoft/testing_uwc_soap-jar/soapwsv1-0.0.1-SNAPSHOT.jar > /opt/serosoft/testing_uwc_soap-jar/log-${today}.txt 2>&1 &
+echo $! > /opt/serosoft/testing_uwc_soap-jar/pid.file
+
+
+Hi Team,
+
+Please map below url with ip 
+
+uwcuat-azure-ad.academiaerp.com  >>> 102.37.11.41
+102.37.11.41
+
+
+
+git clone https://someshvar@bitbucket.org/someshvar/testing-bitbacket.git
+
+========================= 25-02-2022 ==========
+
+https://medium.com/ampersand-academy/integrate-bitbucket-jenkins-c6e51103d0fe
+
+
+
+create user 'pradeep'@'%' identified by 'Pradeep@123';
+
+use aus;
+
+GRANT all privileges on aus.* TO 'pradeep'@'%';
+GRANT all privileges on aus_audit.* TO 'pradeep'@'%';
+
+flush privileges; 
+=========================
+#indus
+10.0.2.5:/var/www/html/indus /var/www/html/indus nfs defaults 0 0
+
+sudo vi /etc/fstab 
+
+
+/var/www/html/indus  *(rw,sync,root_squash,subtree_check)
+
+sudo mount 10.0.2.5:/var/www/html/indus /var/www/html/indus/
+
+indus.academiaerp.com  >>>>  40.81.252.159
+
+indusstaging.academiaerp.com >>> 52.140.102.199
+
+
+============================== 23-02-2022===============================
+
+files changed, reflaction will be come in the morning restart
+
+hi team,
+
+Please map the below url with ip address.
+
+indus.academiaerp.com  >>>>  40.81.252.159
+
+indus.academiaerp.com
+
+hi team,
+
+Please map the below url with ip address.
+
+indusstaging.academiaerp.com >>> 52.140.102.199
+
+=======================================18-02-22=============
+
+============testing-sunshine===FTP============
+
+host == sisstagingvm.centralindia.cloudapp.azure.com
+port == 21
+user == sunshineftp
+passwd == sero@2021
+
+================================17-02-2022===============
+
+
+ditdemo-limesurvey.academiaerp.com
+
+anantustaging.academiaerp.com
+
+
+================ drop mysql user ====================
+SELECT User, Host FROM mysql.user;
+
+DROP USER 'username'@'host';
+
+DROP USER 'ved'@'%';
+
+================5-oct====jenkins with docker === testing-aun ==========
+
+VMName: Accra-OPJGU-testing
+http://104.211.116.30:9002/
+http://104.211.116.30:9002/login?from=%2F
+user == admin
+passwd == admin@123
+
+http://104.211.116.30:9000/sessions/new?return_to=%2F
+
+==================
+
+ssh logadmin@uwc-demo.southafricanorth.cloudapp.azure.com
+passwd == logadmin@123
+/opt/serosoft/apache-tomcat-7.0.94/logs
+tail -f catalina.out
+=============================16-02-2022=================
+
+ssh logadmin@buzztraining.southafricanorth.cloudapp.azure.com
+passwd == logadmin@123
+/opt/serosoft/apache-tomcat-7.0.26/logs
+tail -f catalina.out
+
+Please provide downtime for restart.
+
+Regarding
+New setup installaiton "NewRelic-Monitoring" this is happening all over the live instnaces. Why instances slow working and down after that RCA will be provide Mr. Rahul Gupta.  
+
+======================================
+today in morning KEKA was not working,
+But I was present on time,
+please don't mark late come 
+
+
+
+host == buzz-live-db-replica.southafricanorth.cloudapp.azure.com
+port == 3306
+user == bhupendrad
+passwd == Bhopendra@123
+
+=============----------------------
+
+
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+ssh seroadmin@student-preprod-db.southafricanorth.cloudapp.azure.com
+Pass:   dKr483zR4YXPJFGHTgDPqk2g3A5Tf
+Mysql User : ss_root
+Pass- AXf8Sun#h23sq
+Db-name == su_preprod_api
+Private IP == 10.251.242.9
+
+-----------
+API URL- https://studentapi-preprod.sun.ac.za/
+---------
+Tomcat server details 
+
+ssh seroadmin@student-preprod-app.southafricanorth.cloudapp.azure.com
+Pass KdKr483zR4YXPJFGHTgDPqk2g3A5Tf
+
+
+
+---------------
+API DB Name, IP address of DB, username, pass ===
+ssh seroadmin@student-preprod-db.southafricanorth.cloudapp.azure.com
+Pass:   dKr483zR4YXPJFGHTgDPqk2g3A5Tf
+Mysql User : ss_root
+Pass- AXf8Sun#h23sq
+Db-name == su_preprod_api
+Private IP == 10.251.242.9
+
+
+Tomcat SSH Connection details 
+
+ssh seroadmin@student-preprod-app.southafricanorth.cloudapp.azure.com
+Pass KdKr483zR4YXPJFGHTgDPqk2g3A5Tf
+
+ERP folder name == su_preprod
+
+
+ERP Tomcat port number if both are same VM(ERP and API) == tomcat = 8080, API = 9090
+
+API database access 
+DB name == su_preprod_api
+host == student-preprod-db.southafricanorth.cloudapp.azure.com
+port == 3306
+user == prakashs
+passwd == Prakash@123
+
+==============
+
+User seroadmin
+su-preprod tomcat / student-preprod tomcat server
+VM student-preprod-APP
+ssh seroadmin@student-preprod-app.southafricanorth.cloudapp.azure.com
+Pass KdKr483zR4YXPJFGHTgDPqk2g3A5Tf
+
+
+
+
+
+
+================================================================
+
+-XX:+UseG1GC -XX:InitialHeapSize=12g -XX:MaxHeapSize=12g -Xverify:none -Djava.awt.headless=true -XX:+DisableExplicitGC -XX:+UseStringDeduplication -XX:+ParallelRefProcEnabled -XX:+UnlockExperimentalVMOptions -XX:+AlwaysPreTouch -XX:MaxTenuringThreshold=1 -XX:G1HeapRegionSize=8m -XX:ParallelGCThreads=4 -XX:ConcGCThreads=2 -XX:InitiatingHeapOccupancyPercent=55 -XX:G1MixedGCCountTarget=8 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:+PerfDisableSharedMem -XX:G1NewSizePercent=40 -XX:G1MaxNewSizePercent=50 -XX:G1OldCSetRegionThresholdPercent=10 -XX:G1ReservePercent=10 -XX:G1HeapWastePercent=5 -Xloggc:/opt/serosoft/v2_uploads/`date +%F_%H-%M-%S`-erpgc.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:+PrintTenuringDistribution -XX:+PrintGCCause -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=15 -XX:GCLogFileSize=100M
+==========================================================================
+-XX:+UseG1GC -XX:InitialHeapSize=6g -XX:MaxHeapSize=6g -Xverify:none -Djava.awt.headless=true -XX:+DisableExplicitGC -XX:+UseStringDeduplication -XX:+ParallelRefProcEnabled -XX:+UnlockExperimentalVMOptions -XX:+AlwaysPreTouch -XX:MaxTenuringThreshold=1 -XX:G1HeapRegionSize=8m -XX:ParallelGCThreads=4 -XX:ConcGCThreads=2 -XX:InitiatingHeapOccupancyPercent=55 -XX:G1MixedGCCountTarget=8 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:+PerfDisableSharedMem -XX:G1NewSizePercent=40 -XX:G1MaxNewSizePercent=50 -XX:G1OldCSetRegionThresholdPercent=10 -XX:G1ReservePercent=10 -XX:G1HeapWastePercent=5 -Xloggc:/opt/serosoft/v2_uploads/`date +%F_%H-%M-%S`-erpgc.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:+PrintTenuringDistribution -XX:+PrintGCCause -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=15 -XX:GCLogFileSize=100M
+
+====================================================================================
+setenv.sh variables
+-XX:+UseG1GC -XX:InitialHeapSize=24g -XX:MaxHeapSize=24g -Xverify:none -Djava.awt.headless=true -XX:+DisableExplicitGC -XX:+UseStringDeduplication -XX:+ParallelRefProcEnabled -XX:+UnlockExperimentalVMOptions -XX:+AlwaysPreTouch -XX:MaxTenuringThreshold=1 -XX:G1HeapRegionSize=16m -XX:ParallelGCThreads=8 -XX:ConcGCThreads=2 -XX:InitiatingHeapOccupancyPercent=55 -XX:G1MixedGCCountTarget=8 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:+PerfDisableSharedMem -XX:G1NewSizePercent=40 -XX:G1MaxNewSizePercent=50 -XX:G1OldCSetRegionThresholdPercent=10 -XX:G1ReservePercent=10 -XX:G1HeapWastePercent=5 -Xloggc:/opt/serosoft/v2_uploads/`date +%F_%H-%M-%S`-erpgc.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:+PrintTenuringDistribution -XX:+PrintGCCause -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=15 -XX:GCLogFileSize=100M
+
+
+=======================================================================================
+
+if a single tomcat or single Jar file running
+-XX:InitialHeapSize= (80 to 85% of total heap space. As example if you have 32GB RAM server than it should be 25GB to 27GB)
+-XX:MaxHeapSize= (Same value of -XX:InitialHeapSize)
+-XX:G1HeapRegionSize= ( -XX:InitialHeapSize<4GB then it will 1m, -XX:InitialHeapSize<8GB then it will 2m, -XX:InitialHeapSize<16GB then it will 4m,-XX:InitialHeapSize<32GB then it will 8m,-XX:InitialHeapSize<64GB then it will 16m, -XX:InitialHeapSize = 64GB+ then it will 32m )
+-XX:ParallelGCThreads= (number of CPU, if cpu count more than 40 then max value 40)
+-XX:ConcGCThreads= (25% of -XX:ParallelGCThreads minimum value 2)
+-XX:G1MixedGCCountTarget= (value of -XX:ParallelGCThreads)
+-Xloggc:/opt/serosoft/v2_uploads/`date +%F_%H-%M-%S`-erpgc.log (Path of V2_uploads folder)
+No changes on remaining parameters
+
+if multiple tomcats or multiple Jar files running
+-XX:InitialHeapSize= ("80 to 85% of total heap space" - (total heap space which is used by onother tomcat or jar file). As example if you have 32GB RAM server and here 1 tomcat and 2 jar file already present with Max heap size 4GB, 5GB, 8GB then heapSize = (32*85%)-4-5-8 = 10g)
+-XX:MaxHeapSize= (Same value of -XX:InitialHeapSize)
+-XX:G1HeapRegionSize= ( -XX:InitialHeapSize<4GB then it will 1m, -XX:InitialHeapSize<8GB then it will 2m, -XX:InitialHeapSize<16GB then it will 4m,-XX:InitialHeapSize<32GB then it will 8m,-XX:InitialHeapSize<64GB then it will 16m, -XX:InitialHeapSize = 64GB+ then it will 32m )
+-XX:ParallelGCThreads= (number of CPU - (total tomcat and jar files))
+-XX:ConcGCThreads= (25% of -XX:ParallelGCThreads minimum value 2)
+-XX:G1MixedGCCountTarget= (value of -XX:ParallelGCThreads)
+-Xloggc:/opt/serosoft/v2_uploads/`date +%F_%H-%M-%S`-erpgc.log (Path of V2_uploads folder)
+No changes on remaining parameters
+
+
+
+
++++++++++++++++++++++++++++++++++
+
+.gitignore
+
+
+#!/bin/bash
+
+#This is backup script
+NOWTIME=$(date +"%d-%m-%Y-%H-%M")
+NOWDATE=$(date +"%m-%d-%Y")
+echo Taking backup ON $NOWTIME
+
+mkdir /home/extra/$NOWDATE
+
+===========>>>>> ssl certificate  == pfx to .crt .csr .pem ============
+
+https://medium.com/beingcoders/easy-way-to-convert-pfx-to-crt-key-files-in-10-minutes-683849242c65
+
+#openssl pkcs12 -in samplefilename.pfx -nocerts -out samplefilenameencrypted.key
+
+#openssl pkcs12 -in samplefilename.pfx -nocerts -out samplefilenameencrypted.key
+
+## openssl pkcs12 -in filename.pfx -nocerts -out key.pem
+
+
+DenyUsers sudhendhu
+
+
+
+
+Somesh su live db ki disk laga di hai
+
+
++++++++++++++++++
+Sudemo DB separate VM
+VM name:-  Sudemo-DB
+User labaddmin
+
+ssh labadmin@sudemo-db.southafricanorth.cloudapp.azure.com
+Pass:  eyhCk3TZDwHBAH
+
+
+
+
+=====================================
+
+https://tastethelinux.com/how-to-install-mysql-8-ubuntu-18-04-linux/
+/opt/serosoft/mysql_data
+
+
+=============== mydbops tickets ======
+
+https://tickets.mydbops.com/support/tickets/new
+
+we need to take back up on Backup time: 24th Auguest 2022 at 11:30 PM
+
+Database Details: - 
+Database Name :: falsebay and falsebay_audit
+IP Address == 172.0.2.4
+Path for database backup == /home/seroadmin/dbdump
+use for this command taking dump. So easy for me extract dump ==>>> mysqldump --user=ss_root --host=localhost --password=ccb96846e4cf9a08189a541 --routines --events --databases --complete-insert --single-transaction --set-gtid-purged=OFF "falsebay" "falsebay_audit" > falsebay_24082022.sql
+
+==========================
+
+ssh logadmin@upngv2live.centralindia.cloudapp.azure.com
+passwd == logadmin@123
+/opt/serosoft/apache-tomcat-7.0.93/logs
+tail -f catalina.out
+
+
+
+worker1
+========================================>>>>>>>>>>>
+
+http://136.232.30.22:18080/parishkarna/
+
+
+port == 80, 443, 3306, public IP == 136.232.30.22
+
+@reboot sh /opt/serosoft/tomcat7_pgi_v1/bin/startup.sh
+/opt/serosoft/tomcat7_pgi_v1/bin
+3-02-2021
+
+s3r0s0ft
+mysql port no. :: 23306, 18080
+
+
+
+Please map the url with ip address.
+
+mysq
+parishkarna.academiaerp.com  >>>> 136.232.30.22
+
+plz open this port no : :: 23306, 18080
+ IP 
+ ssh pcge@136.232.30.22 -p 441
+ Password - admin@123
+
+
+
+================================================
+
+
+
+
+https://portal.iiemsa.co.za/enquiry/
+
+
+
+
+for == >>> aei-demo, krmu-demo, vjim-demo
+host ==mysqleightdemodb.centralindia.cloudapp.azure.com
+port == 3306
+user == viveks
+passwd == Vivek@123
+
++++++++++++++++++
+
+for == >>> sub-demo
+host ==136.233.21.227
+port == 3306
+user == viveks
+passwd == Vivek@123
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ssh logadmin@v1-gtuc-aei-tips-live-vm.centralindia.cloudapp.azure.com
+passwd == logadmin@123
+/opt/serosoft/tomcat-aei-v2/logs
+tail -f catalina.out
+
+============================
+
+
+8
+
+*/30 * * * * 
+
+
+
+https://www.cyberciti.biz/tips/how-do-i-find-out-linux-cpu-utilization.html
+
+
+IP == 40.120.25.192
+user == seroftp
+passwd == sero@2021
+
+
+FROM:
+#PermitRootLogin prohibit-password
+TO:
+PermitRootLogin yes
+
+
+
+
+
+============================================================================
+
+Hi Team,
+
+
+IIITb -live instance automatically down, RAM-HDD almost free need to check logs.
+all logs file attached plz check   
+
+
+==================================================================
+
+
+
+
+
+
+
+=========================================aei-live ================================ 24
+
+export JAVA_OPTS="-Xmx24g -Xms24g -Xverify:none -Djava.awt.headless=true -Dfile.encoding=UTF-8 -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSClassUnloadingEnabled -XX:+CMSParallelRemarkEnabled -XX:ParallelCMSThreads=4 -XX:+DisableExplicitGC -XX:MaxHeapFreeRatio=70 -XX:MinHeapFreeRatio=40 -XX:MaxTenuringThreshold=15 -XX:NewSize=6g -XX:MaxNewSize=6g -XX:SurvivorRatio=8 -XX:ReservedCodeCacheSize=512m"
+export JAVA_HOME='/usr/lib/jvm/java-8-openjdk-amd64/jre'
+
+JAVA_OPTS="$JAVA_OPTS -javaagent:/opt/newrelic/newrelic.jar"
+
+
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
++++++++++++++++++++>>>>>>>>>  example RAM parameters ===>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+export JAVA_OPTS="$JAVA_OPTS -Xmx25g -Xms25g -Xverify:none -Djava.awt.headless=true -Dfile.encoding=UTF-8 -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSClassUnloadingEnabled -XX:+CMSParallelRemarkEnabled -XX:ParallelCMSThreads=4 -XX:+DisableExplicitGC -XX:MaxHeapFreeRatio=70 -XX:MinHeapFreeRatio=40 -XX:MaxTenuringThreshold=15 -XX:NewSize=6g -XX:MaxNewSize=6g -XX:SurvivorRatio=8 -XX:ReservedCodeCacheSize=512m -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=10 -XX:GCLogFileSize=50M -Xloggc:/opt/serosoft/v2_uploads/gc.log"
+
+
+-Xmx25g -Xms25g   (given ram of tomcat)
+-XX:NewSize=6g -XX:MaxNewSize=6g  (tomcat give ram 1/4)
+
+==================================>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+==============Reg2=job==========8GB RAM
+
+export JAVA_OPTS="$JAVA_OPTS -Xmx8g -Xms8g -Xverify:none -Djava.awt.headless=true -Dfile.encoding=UTF-8 -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSClassUnloadingEnabled -XX:+CMSParallelRemarkEnabled -XX:ParallelCMSThreads=2 -XX:+DisableExplicitGC -XX:MaxHeapFreeRatio=70 -XX:MinHeapFreeRatio=40 -XX:MaxTenuringThreshold=15 -XX:NewSize=2g -XX:MaxNewSize=2g -XX:SurvivorRatio=8 -XX:ReservedCodeCacheSize=512m -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=10 -XX:GCLogFileSize=50M -Xloggc:/opt/serosoft/v2_uploads/gc.log"
+
+
+
+
+=====reg 2 ===ERP ================32GB RAM
+
+export JAVA_OPTS="$JAVA_OPTS -Xmx25g -Xms25g -Xverify:none -Djava.awt.headless=true -Dfile.encoding=UTF-8 -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSClassUnloadingEnabled -XX:+CMSParallelRemarkEnabled -XX:ParallelCMSThreads=4 -XX:+DisableExplicitGC -XX:MaxHeapFreeRatio=70 -XX:MinHeapFreeRatio=40 -XX:MaxTenuringThreshold=15 -XX:NewSize=6g -XX:MaxNewSize=6g -XX:SurvivorRatio=8 -XX:ReservedCodeCacheSize=512m -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=10 -XX:GCLogFileSize=50M -Xloggc:/opt/serosoft/v2_uploads/gc.log"
+
+
+
+
+
+
+=========================================================
+stacyiie & buzz-live  -Newrelic
+user id - no-reply@stasy.iie.edu.za 
+Pass: Stasy!123$
+
+-----------
+Please map the url with ip address.
+
+
+
+
+uwc.academiaerp.com    >>>>  102.37.16.207   
+
+
+==========================
+
+https://adoltech.com/blog/installing-and-configuring-nagios-on-ubuntu-18-04/2/#Configuration-Nagios-Server
+
+
+host == africauat8.southafricanorth.cloudapp.azure.com
+port ==3306
+user == vikasy
+passwd == Vikas@123
+
+
+
+===============================================
+
+=================================== 11-01-2022 =========================================================
+git clone https://houshang@bitbucket.org/serosoft-dev/nsc-portal.git
+
+
+git clone https://serosoft-infra-team@bitbucket.org/serosoft-dev/nsc-portal.git
+
+https://houshang@bitbucket.org/serosoft-dev/academia.git
+serosoft-infra-team
+server@12#78
+
+
+===login === 
+user == build@serosoft.in
+bit buucket login passwd == server@12#78
+
+=== for jenkins ====
+https://serosoft-infra-team@bitbucket.org/serosoft-dev/academia.git
+
+user == serosoft-infra-team
+passwd === 7UgQ3FYNQ9wEVVNBEynv
+========================================================================
+
+
+
+IP == 104.211.93.70
+port == 21
+user == iieftp
+passwd == IIeftp#Sero
+
+location === buzz_backup16dec
+
+============== All server installation process ==============
+
+https://www.server-world.info/en/
+
+https://www.server-world.info/en/note?os=Ubuntu_18.04&p=zabbix40&f=1
+
+
+https://www.server-world.info/en/note?os=Ubuntu_16.04&p=nagios&f=1 
+
+
+
+update users set passwd=md5('YOUR_NEW_PASSWORD') where alias='Admin';
+
+
+============ snjb-live log access ===============
+ssh logadmin@snjb-live.centralindia.cloudapp.azure.com
+passwd == logadmin@123
+tail -f catalina.out
+
+setfacl -m u:logadmin:5 -R /opt/serosoft/v2_uploads/*
+
+============== All server installation process ==============
+
+
+https://www.server-world.info/en/
+
+https://www.server-world.info/en/note?os=Ubuntu_18.04&p=zabbix40&f=1
+
+
+
+=============== mydbops tickets ======
+
+we need to take back up on Backup time: 15th December 2021 at 12:30 AM IST 
+
+Database Details: - 
+Database Name :: buzz and buzz_audit
+IP Address == 172.0.2.9
+Path for database backup == /backup
+
+
+==============buzz-live snapshoot -11dec21=================
+
+buzz-db-server-snap11dec
+
+=============== velocity ========
+
+ERP-server --
+OS HDD  == Standard HDD LRS  ==S4 == erp-server == 30GB
+Standard HDD LRS  ==S40 == erp-server == 2048GB
+
+====
+
+Database 
+
+OS HDD == Premium SSD LRS  == P10 == database= 100GB
+
+disk-1 == Premium SSD LRS  ==P30 == database == 750GB
+disk-2 == Premium SSD LRS  ==P30 == database == 750GB
+
+
+
+
+===========================================
+
+
+falsebay database server restart 11-12-202
+================buzz-live ======
+Premium SSD LRS  ==P30 == erp-server == 750GB    >>> P40
+
+
+Job >> P10 100GB
+MSg >> P10 100 GB
+web server all 10 >> P4
+
+
+DB === >>>> RAM 32 >>> 64
+Standard HDD LRS  == S15 == database= 150GB  >> P30
+Standard SSD LRS ==E10 ==   buzz-live-db-replica === 100GB   >>> P30
+replic  >>> P30
+
+======================================
+s3r0s0ft
+
+Academiaerp_new@1234
+
+http://192.168.122.11/nagios/
+
+
+stacydatadisk1-8dec-snap
+
+
+stasylive-datadisk1-30nov
+
+
+
+
+21,20,4242,4243
+
+SeroStasy@2020
+
+Stasy123
+
+
+==============================
+
+https://www.howtoforge.com/how-to-install-nagios-on-ubuntu-1804/
+
+https://hub.docker.com/r/jasonrivers/nagios/
+
+http://erpdemo.dituniversity.edu.in/
+
+
+erpditdemo.academiaerp.com.conf
+
+
+
+
+http://erp.dituniversity.edu.in/
+
+
+========= 04 dec 2021 ============
+snapshoot == falsebay-DB-live4dec
+
+handson_moodle
+
+/var/www/handson_moodledata
+
+
+
+
+==========================================
+
+VM Name: Serosoft-Websites
+User seroadmin
+ssh seroadmin@20.204.33.8
+Pass- Sero@admin@#@%^&
+
+=========================
+250 gram anjeer
+500 gram khishmish
+500 gram badam
+dates dry 1 pak
+
+pranay singh jadown
+
+===au-demo ===
+svr name : erpjobsvr
+svr ip address : ssh academia@10.31.80.49
+dbport == 23306 
+credentials : same as other erp servers
+
+
+@reboot sh /opt/serosoft/tomcat7_job_demo/bin/startup.sh
+
+ setfacl -m u:extra:r ftp
+
+
+
+
+apt list --upgradable | grep "\-security"
+
+useradd ========
+
+useradd -m roma
+
+user only
+adduser roma
+
+
+https://www.tecmint.com/install-security-updates-in-ubuntu/
+
+apt list | grep -i security | wc -l
+ 
+apt list --installed | grep -i security (showing installed automatic)
+
+sudo cat /var/lib/update-notifier/updates-available
+
+
+
+
+
+=======================================
+https://www.geeksforgeeks.org/access-control-listsacl-linux/
+
+https://www.computerhope.com/unix/usetfacl.htm
+
+5) To remove all entries
+setfacl -b path/to/file
+
+
+==========db access from command =====
+
+create user 'rahulpati'@'%' identified by 'Rahul@123';
+
+use aus_applynow;
+
+GRANT all privileges on aus_applynow.* TO 'rahulpati'@'%';
+
+Show grants for ‘rahulpati’;
+
+
+
+
+
+===========================================
+https://www.udemy.com/course/effective-communications-skills-for-business/learn/lecture/16067382?components=slider_menu%2Cbuy_button%2Cprice_text%2Cpurchase_tabs_context#overview
+
+==========================================
+
+down mail 
+
+logs have been sent dev-team, they will be provided RCA for it issues 
+
+
+
+sendmail someshvar.vinay@serosoft.in <email.txt
+
+
+
+https://linuxhint.com/bash_script_send_email/
+
+------------------------------------------------------------
+DB Access and Revoke
+
+    Login Mysql Database
+
+    Show grants for ‘serosoft’; (serosoft is a user, To  see the permission of user)
+
+    REVOKE SELECT on vgu.student_list_view FROM ‘serosoft’@’%’; (permission, DBname.teblename, user)
+
+    Show grants for ‘serosoft’; (to verify table name remove or not)
+
+    GRANT SELECT ON vgu.vgu_student_list_view TO 'serosoft'@'%'; (Provide access to the table)
+
+    Show grants for ‘serosoft’; (For check - New table ka access mila)
+
+    flush privileges; (To apply changes)
+
+===== ftp  =  upngv2  == ftp details ====
+
+seroftp
+sero@2021
+
+ftp://20.204.10.165/
+user == seroftp
+passwd == sero@2021
+
+ftp://20.204.10.165/files/
+
+20.204.10.165
+/home/seroftp/ftp/files#
+
+---------------
+
+unypstaging.academiaerp.com   >>  51.124.225.254
+
+
+
+=================== v1   === iiitb =======
+
+
+academia_iiitb
+
+
+http://iitb-live-vm.centralindia.cloudapp.azure.com:18080/academia_iiitb
+
+admin == abc123
+
+
+================= nagios ================================
+
+http://52.140.125.44/nagios/
+credential ?
+nagiosadmin
+nagios@123
+
+
+
+============ regression-1  log access ===============
+ssh logadmin@regresson-tomcat1.centralindia.cloudapp.azure.com
+passwd == logadmin@123
+/opt/serosoft/tomcat_regression1/logs
+tail -f catalina.out
+
+
+--------------------------------------------------------------------------------------------------
+
+https://www.digitalocean.com/community/tutorials/how-to-install-nagios-4-and-monitor-your-servers-on-ubuntu-18-04
+
+https://www.tipsonunix.com/2021/01/install-firefox-browser-85-in-ubuntu-linuxmint-centos/
+
+https://support.nagios.com/kb/article/nagios-core-installing-nagios-core-from-source-96.html#Ubuntu
+
+==================================================================================================================================
+
+
+@shivprasad  there were more than 100 binary logs which has been purged .  @shivprasad  ib_logfile0,   ib_logfile1 these are transactional log files . These are critical files which should not be touched. These are required incase of crash recovery.
+mydbops ka reply hai
+logfile0 and 1 ye files delte nhi kanra hai 
+=================================================================
+
+
+=====ugi -live shifting ====
+
+
+Server LAN IP -192.168.1.10
+Username - uttam
+Password - uttam@321
+Ssh port open -22
+
+Public ip - ssh uttam@122.187.0.170
+
+
+
+
+
+=== tsm-live ======================
+ID :  267680559
+Pass : TSM@123tsm
+-----------------------------
+===plz do not touch some personal appplication == OSI layer
+
+messaging.host=127.0.0.1
+messaging.username=sanjivanidemo
+messaging.password=s3r0s0ft
+messaging.virtualhost=sanjivanidemoVH
+messaging.exchange=sanjivandemoiEX
+
+
+
+ IP: 103.112.11.67:9126  (Port no. for the remote connection)
+Username: Administrator
+password: kbpadmin@123
+
+-----
+Sanjivani New Server(Linux)
+IP : 103.112.11.69  
+Username: skbperp
+Password: Skbpadmin@123
+
+ssh skbperp@103.112.11.69
+
+s3r0s0ft
+
+http://103.112.11.69
+103.112.11.67
+=================================================================
+VM  Demo DB TWO
+
+VM Name:  DEMO-DB-2
+User demoadmin
+ssh demoadmin@demo-db-2.centralindia.cloudapp.azure.com
+ Pass:  MbYsVYyVKkmHMT8mSkJvZQZzr
+Demo db ke liye new vm banai hai. ispe mysql install karna hai
+
+@Somesh
+
+
+
+VM DIG staging V2 server(22Julye2021)
+VM Name: DIT-Demo-ERP
+Username: seroadmin
+ssh seroadmin@dit-demo.centralindia.cloudapp.azure.com
+Pass: DiT@staging$V
+
+DIT staging new instance ke liye vm
+
+================================================================
+
+
+
+
+check karna h 09/07/2021
+testing -sunshin
+testing - rgi
+
+
+
+
+
+======= newrelic-infra.service --========
+
+systemctl restart newrelic-infra.service
+
+
+
+===============================================================================
+
+Please find the catalina log rotate steps  below. 
+
+Steps:
+
+sudo vim /etc/logrotate.d/tomcat.conf
+
+/opt/serosoft/tomcat_automation/logs/catalina.out{
+
+        maxsize 100M
+
+        daily
+
+        missingok
+
+        rotate 4
+
+        	compress
+
+}
+
+Run the command below to check whether it's working or not. It will create one gz file
+
+/usr/sbin/logrotate /etc/logrotate.conf
+
+
+
+/opt/serosoft/aun-tomcat-9/logs/catalina.out{
+
+        maxsize 100M
+
+        daily
+
+        missingok
+
+        rotate 4
+
+        compress
+
+}
+
+
+
+
+=========================================  buzz-live ===== 
+Siddharth Badjatiya
+8:44 PM
+log-2021-06-09.14:55:49.txt
+log-2021-06-09.14:44:55.txt
+log-2021-06-09.14:44:55.txt
+log-2021-06-08.02:32:05.txt
+all June 9 files
+Siddharth Badjatiya
+8:45 PM
+
+
+tertiaryadmin@Tertiary-Prod-App-SA:/opt/serosoft/tomcat_tertiary/logs$
+catalina.2021-06-09.log\
+localhost_access_log.2021-06-09.txt
+
+
+
+seroadmin@Tertiary-Prod-Web1:/var/log/apache2$
+buzz.access.log
+
+cd /var/log/apache2
+
+tail -f other_vhosts_access.log
+
+
+grep "HTTP//1.1/" 501" other_vhosts_access.log
+
+
+
+
+
+
+=================uptime == last shutdonw
+#uptime
+#last -x shutdown | head -1
+
+
+
+
+
+
+=======================Live Database server ==================
+
+Proddb-server8(mysql-8)
+Dns - proddb.centralindia.cloudapp.azure.com
+Standard D4s v3 (4 vcpus, 16 GiB memory)
+User - seroadmin
+ssh seroadmin@proddb.centralindia.cloudapp.azure.com
+Private ip - 10.0.5.7
+
+
+
+
+
+
+============== tomcat installation new ============
+
+
+
+
+----------------------------------------------------------
+
+
+
+ssh erp@49.248.5.20
+
+49.248.5.20
+Anydesk 605931588
+snjberpv1
+system username : erp
+pwd: $NJBEE@0816
+
+
+snjbv1.academiaerp.com
+
+sudo bash
+
+s3r0s0ft
+
+mysql -u root -p
+
+sudo apt-get install mysql-server-5.7
+
+systemctl restart mysql.service
+----------------------------------------------------
+regression2 ftp
+
+user == seroftp
+passwd == sero@2021
+
+ftp://52.140.99.38/
+
+user == seroftp
+
+passwd == sero@2021
+
+
+------------------------------------------------
+sunshine ftp
+
+user == sunftp
+passwd == sunftp@123
+
+ftp://40.127.6.85/file
+---------------------------------------------------
+
+
+Hi Sheelu,
+
+I have checked messaging configuration & queue on server-side (pls check attached screenshot ) & also restarted rabbit-MQ service .
+if issue still persists pls contact dev team.
+
+
+as per the process we have to update demo instance  before production instance update, after that you will provide us sign off  for production update , then we can go further for the same   
+
+
+please provide approval ASAP, Other wise we will close ticket EOD today
+
+
+select * from schema_version where success=0;
+
+======= font =========
+
+past font this location (.ttf)
+
+cd /usr/local/share/fonts
+
+
+
+
+-----------------------------
+
+This is in the review because we havn’t get any update over downtime or approval  and we cannot hold a ticket on our dashboard for whole day because of no approval.
+
+i am still waiting for approval, if i get for same then only this ticket will be done otherwise we need a new ticket for tomorrow.
+
+ I am considering this ticket because this is a production instance, But request the team to please reply on time so we can do the ticket on time.
+
+=== --------------  cpanel ---------------- ==
+
+https://my.aspirationhosting.com/clientarea.php?action=productdetails&id=9922
+academia
+34SdfcEr@56
+siddharth@serosoft.in
+56Erfd@1243#
+
+
+
+--
+Please map the url with ip address.
+
+sanjivanilive.academiaerp.com 103.112.11.69
+
+
+===== extract rar file 
+
+
+unrar e filename.rar
+
+
+unrar  e filename.rar /home/
+
+== content change open file === 
+
+:%s/somesh/module/gi
+
+old-somesh   ,, new-fiel == module 
+
+==================================================================
+old db – database 5.6 to convert new db database 8.00 
+
+run this query in old db and taking dump and go ahead 
+
+
+Please execute this query on all clients db on mysql 5.6.
+
+------------------------------------------------
+ALTER TABLE `course_variant_subType_mapping`
+DROP INDEX `subType_mapping_unique_typeCourse` ,
+ADD UNIQUE INDEX `course_variant_subType_mapping_unique_typeCourse` (`subTypeId` ASC, `evaluationTypeCourseId` ASC),
+DROP INDEX `subType_mapping_unique_typeProgram` ,
+ADD UNIQUE INDEX `course_variant_subType_mapping_unique_typeProgram` (`subTypeId` ASC, `evaluationTypeProgramId` ASC),
+DROP INDEX `subType_mapping_subTypeId` ,
+ADD INDEX `course_variant_subType_mapping_subTypeId` (`subTypeId` ASC),
+DROP INDEX `subType_mapping_evaluationTypeCourseId` ,
+ADD INDEX `course_variant_subType_mapping_evaluationTypeCourseId` (`evaluationTypeCourseId` ASC),
+DROP INDEX `subType_mapping_evaluationTypeProgramId` ,
+ADD INDEX `course_variant_subType_mapping_evaluationTypeProgramId` (`evaluationTypeProgramId` ASC),
+DROP INDEX `subType_mapping_lastUpdatedBy` ,
+ADD INDEX `course_variant_subType_mapping_lastUpdatedBy` (`lastUpdatedBy` ASC);
+;
+
+
+-------------------------------------------------------------
+
+
+===port number checking====
+
+netstat -tunlp
+
+netstat -tnlp | grep :21
+netstat -tnlp | grep :20
+
+ss -tunlp
+
+
+
+==================== vm problem ====================================================================
+
+We were successfully able to login to the machine by performing below step in grep. Please find the screen-shot for the same.
+ 
+ 
+grub> ls
+(hd0) (hd0,msdos2) (hd0,msdos1)
+:
+grub> set root=(hd0,1)
+grub> linux /boot/vmlinuz-4.15.0-45-generic root=/dev/sda1
+grub> initrd /boot/initrd.img-3.13.0-29-generic
+grub> boot
+
+
+https://docs.microsoft.com/en-us/troubleshoot/azure/virtual-machines/troubleshoot-vm-boot-error
+
+https://docs.microsoft.com/en-us/troubleshoot/azure/virtual-machines/serial-console-linux?WT.mc_id=docs-azuredevtipsvideo-micrum
+
+https://docs.microsoft.com/en-us/troubleshoot/azure/virtual-machines/serial-console-linux
+
+https://www.youtube.com/watch?v=HnvUxnNzbe4
+
+
+=====tag-LA-Tendulkar-Sunshine-1.0.111 === query run=================
+
+
+DELIMITER $$
+DROP PROCEDURE IF EXISTS V20210222224215__Update_GridDataColumnBtnTrue $$
+CREATE PROCEDURE V20210222224215__Update_GridDataColumnBtnTrue()
+BEGIN
+SET SQL_SAFE_UPDATES=0;
+IF EXISTS ((SELECT * FROM information_schema.columns WHERE table_schema=DATABASE() AND table_name='data_grid' AND column_name='isVisibleColumn')) THEN
+UPDATE data_grid SET `isVisibleColumn` = true;
+END IF;
+SET SQL_SAFE_UPDATES=1;
+END $$
+CALL V20210222224215__Update_GridDataColumnBtnTrue () $$
+DROP PROCEDURE IF EXISTS V20210222224215__Update_GridDataColumnBtnTrue $$
+DELIMITER ;
+
+
+
+
+=============================================================================
+SeroFbc@2020
+
+
+
+translation problem 
+
+Translation file was already deployed which was created with build. If you have issue with translation files than pls contact to concern person of dev team.
+
+
+this instance translation not generating, so i replaced to old translation file , you have any issue regarding translation, please contact deployment team
+
+
+
+========================================================================
+ye AUS ki windows machine ka mount point hai
+jaha data share hota hai 
+1. sudo mount -t cifs -o username=admin,password=ashoka,uid=102,gid=106 //192.168.9.4/CSVFiles /opt/CSVFiles
+2. df -Th
+
+
+windows server aur ubuntu server restart hone par hat jaati hai 
+waise mene script likh di hai mounting auto
+ki
+but phir bhi issue aata hai to ye do command chala kar dekh lena
+aus ka DB , Tomcat & Apache same par hai
+client side
+
+
+
+------------------------------------------
+Mount windows share folder in Ubuntu
+
+https://serverfault.com/questions/134996/problem-in-accessing-windows-shared-folder-on-ubuntu-using-terminal
+
+sudo apt-get install gvfs-fuse
+
+sudo mount -t cifs -o username=user,password=password //server/share /mnt/yourmountpoint
+
+
+
+
+windows share drive ko ubuntu me mount kaise karte hai wo link hai 
+ye bhi apne pass likh kar rakh lo
+maine sangam live par configure kiya tha DB backup k liye
+------------------------------------------
+
+========================================================
+
+
+
+Azure certificat 
+
+
+Microsoft Certified: Azure Administrator Associate Exam AZ-104 (beta)
+
+====================================
+
+forty one server  === local server
+
+passwd ====   serosoft@2020
+
+=========================================================================================================
+
+
+iF  koha-common    20.11.02-1   all          integrated (physical) library man
+
+
+nginx 
+
+Amandeep@123
+
+
+https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-18-04
+
+school-od database name 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+24-03-2022=================================
+================  >>> =============================
+
+mysql aus_demo --force < aus_demo_2022_03_21_17_00_23_DB.sql
+
+drop database --force aus_demo;
+
+mysql db_name --force
+mysql> use your_db_name;
+
+mysql> source /opt/file.sql;
+
+
+E.g.:
+mysql> source E:/test/dump.sql;
+
+
+
+mysql> source /home/serosoft/aus_demo_2022_03_21_17_00_23_DB.sql;
+
+
+=======================    ====================
+aus-demo build failed issues
+
+
+1- 20210923113648   V20210923113648__Create_sp_tvet_persondetails.sql failed
+20210923114058
+V20210923114202
+V20211020115512__Alter_BillHeader.sql
+V20211208170641
+
+
+
+============ azure-ad check on tomcat  ==
+
+
+
+https://buzzuat-azure-ad.academiaerp.com/authacademiacontroller/secureazurepage
+
+open it on broweser 
+
+buzzafrica.southafricanorth.cloudapp.azure.com:9099/authacademiacontroller/secureazurepage
+
+
+=== zip creater =====
+
+sudo zip -r paymentprocess.zip paymentprocess
+
+
+
+
+====== disk space check ======================
+#df -hT /*
+
+#du -sh
+
+df -ah
+
+lsblk
+
+fdisk -l
+
+
+
+
+
+
+
+
+
+
+
+===Gna-koha === 
+Static IP Address (public) : 112.196.36.138
+Accessing Ports are : 80, 443, 3306, 15672, 22,8080
+Local IP Address of Server : 10.10.0.131
+ssh gnau@112.196.36.138 
+Password gna@#1567
+
+
+===run two command ==
+
+sudo chown -R www-data:www-data enquire && sudo chmod -R 755 enquire
+
+
+====old db – database 5.6 to convert new db database 8.00 ===== 
+
+run this query in old db and taking dump and go ahead 
+
+
+Please execute this query on server db on mysql 5.6.
+
+ALTER TABLE `course_variant_subType_
+DROP INDEX `subType_mapping_unique_
+ADD UNIQUE INDEX `course_variant_subType_
+DROP INDEX `subType_mapping_unique_
+ADD UNIQUE INDEX `course_variant_subType_
+DROP INDEX `subType_mapping_subTypeId` ,
+ADD INDEX `course_variant_subType_
+DROP INDEX `subType_mapping_
+ADD INDEX `course_variant_subType_
+DROP INDEX `subType_mapping_
+ADD INDEX `course_variant_subType_
+DROP INDEX `subType_mapping_
+ADD INDEX `course_variant_subType_
+;
+
+=====end ==================
+
+
+
+
+
+<li><a class="7" href="" id="portalSelectionLink"><img src="resources/images/newUI/parent.png" /></a>
+	<h5><a class="7" href="" id="portalSelectionLink">Parent/Guardian</a></h5>
+	</li>
+
+
+<li><a class="6" href="" id="portalSelectionLink"><img src="resources/images/newUI/applicaint.png" /></a>
+<h5><a class="6" href="" id="portalSelectionLink">Applicant</a></h5>
+	</li>
+
+
+=================vpn connection ===================================================
+
+p == 183.182.84.235
+port == 5443
+useri  
+passwd
+
+Username someshwarV
+password Vinay#456
+
+
+12- vpn connection in jenkins
+
+login jenkins
+#cd /home/labadmin
+#cd /forticlientsslvpn/64bit
+
+#./forticlientsslvpn_cli --server 183.182.84.235:5443 --vpnuser someshwarV
+
+enter vpn user and passwd
+press y
+
+
+
+
+
+===========================================
+#free  -h buffer clear / cache clean
+
+#sync; echo 1 > /proc/sys/vm/drop_caches
+
+#sync; echo 1 > /proc/sys/vm/drop_caches
+
+
+-----------------------------------
+124 
+
+VM Name: PRODJenkins (124 Jenkins)
+
+VM DNS Name: prodjenkins.centralindia.cloudapp.azure.com
+Password:  TAbcdJ%qNK8jFc^Ga9BgU
+ssh labadmin@prodjenkins.centralindia.cloudapp.azure.com
+
+se
+
+---------------------------------------------------------------------------
+
+7.20 jenkins
+
+
+http://jenkin-vm.centralindia.cloudapp.azure.com:9080/jenkins/
+
+
+Amandeep@123
+
+---------------------------------------------------------------------------
+175
+
+VM Private IP: 10.1.1.5
+VM Public IP: 52.172.130.175
+ssh africaadmin@pocjenkins.centralindia.cloudapp.azure.com
+pass - VuqQM3ySgLbndgZRmsKQ7N5Swm8eHf
+ye try karo
+
+
+http://pocjenkins.centralindia.cloudapp.azure.com:19080/jenkins
+
+
+userid == ashish
+passwd == ashishserosoft
+----------------------------------------------------------------------------
+
+==== rabitmq service =====
+
+15672
+
+http://fbctemperp.centralindia.cloudapp.azure.com:15672/
+
+#systemctl status rabbitmq-server.service
+
+
+==== tomcat startup file check karna
+
+
+grep -n "startup" catalina.out
+
+==============================================================================================
+
+udo apt autoremove
+sudo apt update
+sudo apt upgrade
+sudo apt install -f
+sudo apt update
+ye sab command ek ek karke chala do 
+
+koh --- opac installation process 
+open port vm server  
+
+8000
+8001
+http://libtechbwn.blogspot.com/2018/09/install-koha-in-ubuntu-1804-lts.html
+
+apt-get install koha-common
+
+echo 'deb http://debian.koha-community.org/koha stable main xenial' | sudo tee /etc/apt/sources.list.d/koha.list
+
+apt-get upadate
+
+apt-get install koha-common
+
+
+161  sudo apt install liblocale-codes-perl
+ 162  sudo apt install liblocale-codes-perl*
+ 163  sudo perl -MCPAN -e 'install Bundle::KohaSupport'
+ 164  sudo service apache2 restart
+ 165  sudo perl -MCPAN -e 'install Class::Inspector'
+ 166  sudo perl -MCPAN -e 'install Net::Stomp'
+ 167  sudo perl -MCPAN -e 'install Email::Sender'
+
+
+http://libtechbwn.blogspot.com/2018/09/install-koha-in-ubuntu-1804-lts.html
+
+Issue resolved
+
+http://koha.1045719.n5.nabble.com/Error-accessing-quot-About-Koha-quot-after-the-upgrade-20-5-td6088651.html
+
+sudo apt install libcpan-meta-requirements-perl
+
+
+gu-library
+
+gu_library
+
+
+
+
+
+cpanel ip mapp and mail to 
+
+creater ticket cpanal map to ip 
+below 
+
+Hi Team,
+
+
+Please map the url with ip address.
+aitkoha.academiaerp.com = 52.172.184.205
+aitopac.academiaerp.com = 52.172.184.205
+
+
+
+s3r0s0ft124
+
+
+======koh ====================================================================================
+
+
+
+http://libtechbwn.blogspot.com/2018/09/install-koha-in-ubuntu-1804-lts.html
+
+
+
+
+s3r0s0ft
+
+===  Database name change in database.sql file   ===
+
+sed -i 's/`iihmr`/`iihmr_demo`/g' iihmr17decbackup.sql
+
+
+=== content change ==
+
+sudo sed -i 's/'ss_root'/'prod_root'/g' autest.txt
+
+
+===database select by cmd===
+
+
+use iihmr;
+
+===================archive manager ======== winzip 
+
+apt-get install file-roller
+
+
+
+paragrindne >>> _
+
+
+==============================================
+
+
+
+
+
+
+Parishkar ERP Database
+IP: 13.233.46.247
+DB-user ::: ss_root
+DB-Passwd: 3-PvVU82Zz$cvbWG
+User: ssh ubuntu@13.233.46.247
+Password: 3-PvVU82Zz$cvbWG
+
+
+
+=====mysql ===
+
+#sudo service mysql restart
+
+systemctl restart mysql.services
+
+
+
+===mysql max connection ==
+
+location  : /etc/mysql/mysql.conf.d/mysqld.cnf
+max_connections=9100
+max_user_connections=4000
+mysqlx_max_connections=4000
+
+
+
+============threadbump===========
+
+jstack -l 1875 >> trhreaddump21jan.log
+
+
+=====  cronetab set  == every 15 days catalina.out null ===
+
+0 5 */15 * * cat /dev/null > /opt/serosoft/tomcat_erp/logs/catalina.out
+
+=====catlina.out====== in blank ====
+
+cat /dev/null > catalina.out
+
+
+
+
+1972  du -sh catalina.out 
+1973  cat /dev/null > catalina.out 
+1974  du -sh catalina.out 
+1975  df -h
+
+=============================
+
+
+
+newrelic.com
+
+newrelic login
+user: siddharth@serosoft.in
+pass: Serosoft123$
+or try serosoft123$
+
+
+
+"gmail id - no-reply@stasy.iie.edu.za 
+Pass: Stasy!123$
+use this ID to create a new new-relic account
+and use this for  and buzz 
+
++++++
+
+
+
+=====MS Team ======== 
+
+smbclient  //10.253.1.151/Schools_Data_Sync_sds$ -U 
+
+/Schools_Data_Sync -W .advtech.co.za -m SMB2 -c 'put "MSTeam-CSV-SDS.zip"'
+smbclient  //10.253.1.151/Schools_Data_Sync_cisk$ -U /Schools_Data_Sync -W vpn.advtech.co.za -m SMB2 -c 'put "MSTeam-CSV-CISK.zip"'
+smbclient  //10.253.1.151/Schools_Data_Sync_cisk_lg$ -U vpn/Schools_Data_Sync -W vpn.advtech.co.za -m SMB2 -c 'put "MSTeam-CSV-CISK-LG.zip"'
+smbclient  //10.253.1.151/Schools_Data_Sync_sds_lg$ -U vpn/Schools_Data_Sync -W vpn.advtech.co.za -m SMB2 -c 'put "MSTeam-CSV-SDS-LG.zip"'
+
+Password: 3z.oFy=D-&eWw#IYtoW~
+
+===========================================================================
+
+====Remove packeges ===================
+
+apt-get purge 'php*
+apt-get purge php*
+
+
+dpkg --list   (list to installed pakages )
+
+=====================mysql 8===========================
+How to Install MySQL 8.0 on Ubuntu 18.04
+
+
+s3r0s0ft
+==============08-02-2022 ==============>>>>>>>>>>>>>>
+https://tastethelinux.com/how-to-install-mysql-8-ubuntu-18-04-linux/
+=======================
+
+
+https://techexpert.tips/mysql/mysql-password-recovery/
+
+https://linoxide.com/linux-how-to/install-mysql-ubuntu/
+
+https://linoxide.com/install-mysql-ubuntu/
+
+sudo curl -OL https://dev.mysql.com/get/mysql-apt-config_0.8.13-1_all.deb
+sudo dpkg -i mysql-apt-config_0.8.13-1_all.deb     (click to " ok " buttons )
+sudo apt update
+sudo apt install mysql-server
+mysql -V
+sudo mysqladmin -u root -p version
+
+Next, you'll be required to answer yes or no to the following questions:
+
+    Remove anonymous users? (Press y|Y for Yes, any other key for No)
+    Disallow root login remotely? (Press y|Y for Yes, any other key for No)
+    Remove test database and access to it? (Press y|Y for Yes, any other key for No)
+    Reload privilege tables now? (Press y|Y for Yes, any other key for No)
+
+
+sudo systemctl status mysql
+sudo systemctl disable mysql
+sudo ufw disable
+sudo mysql_secure_installation
+
+
+s3r0s0ft
+==============================mysql 8 18.04 ====================================================
+
+====apache testing=====
+
+$ sudo apachectl configtest
+
+$ sudo systemctl restart apache2
+
+
+===============remove step mysql 8===================
+
+https://www.codegrepper.com/code-examples/delphi/remove+mysql+from+ubuntu+18.04+completely
+
+“remove mysql from ubuntu 18.04 completely” Code Answer’s
+
+sudo apt-get remove --purge mysql-server mysql-client mysql-common -y
+$ sudo apt-get autoremove -y
+$ sudo apt-get autoclean
+
+rm -rf /etc/mysql
+# Delete all MySQL files on your server:
+sudo find / -iname 'mysql*' -exec rm -rf {} \;
+
+
+
+$ sudo apt-get remove --purge mysql-server mysql-client mysql-common -y
+$ sudo apt-get autoremove -y
+$ sudo apt-get autoclean
+$ sudo rm -rf /etc/mysql
+# Delete all MySQL files on your server: 
+$ sudo find / -iname 'mysql*' -exec rm -rf {} \;
+$ sudo apt-get remove --purge mysql-server mysql-client mysql-common -y
+
+
+
+========================================================
+
