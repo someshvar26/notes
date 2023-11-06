@@ -1,0 +1,46 @@
+---
+- hosts: 150.230.233.13
+  tasks:
+    - name: Create backup directory with current date and time
+      become: true
+      file:
+        path: /home/ubuntu/backup/{{ ansible_date_time.date }}_{{ ansible_date_time.hour }}{{ ansible_date_time.minute }}{{ ansible_date_time.second }}
+        state: directory
+
+    - name: Take Backup files to today's date directory
+      command: >
+        sh -c "cp /opt/tomcat/webapps/digitization.war /home/ubuntu/backup/{{ ansible_date_time.date }}_{{ ansible_date_time.hour }}{{ ansible_date_time.minute }}{{ ansible_date_time.second }} &&
+              cp -r /opt/tomcat/webapps/digitization /home/ubuntu/backup/{{ ansible_date_time.date }}_{{ ansible_date_time.hour }}{{ ansible_date_time.minute }}{{ ansible_date_time.second }}"
+
+#  - name: Backup files to today's date directory
+#      command: cp /opt/tomcat/webapps/digitization.war /home/ubuntu/backup/{{ ansible_date_time.date }}_{{ ansible_date_time.hour }}{{ ansible_date_time.minute }}{{ ansible_date_time.second }}
+#      command: cp -r /opt/tomcat/webapps/digitization /home/ubuntu/backup/{{ ansible_date_time.date }}_{{ ansible_date_time.hour }}{{ ansible_date_time.minute }}{{ ansible_date_time.second }}
+
+    - name: Stopped, tomcat service
+      become: true
+      service:
+        name: tomcat
+        state: stopped
+
+    - name: Remove data
+      command: rm -rf /opt/tomcat/webapps/digitization.war
+      command: rm -rf /opt/tomcat/webapps/digitization
+
+    - name: Copy a file from local to remote
+      copy:
+        src: /root/.jenkins/workspace/tomcat_digitazition/target/digitization.war
+        dest: /opt/tomcat/webapps
+
+    - name: Set file permissions to 755
+      file:
+        path: /opt/tomcat/
+        mode: '0755'
+
+    - name: Set chown ship to tomcat
+      shell: chown -R tomcat:tomcat /opt/tomcat/webapps
+
+    - name: Start tomcat service
+      become: true
+      service:
+        name: tomcat
+        state: started
