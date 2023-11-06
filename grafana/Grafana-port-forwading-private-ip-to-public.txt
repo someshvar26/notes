@@ -1,0 +1,28 @@
+
+
+
+
+
+--------------- grafana with port forwading private ip to public ip ----
+
+iptables -I INPUT 1 -p tcp --dport 8080 -j ACCEPT
+
+iptables-save
+
+iptables-save > /etc/iptables/rules.v4
+
+ssh -i ssh-key-2023-05-04.key -f -N -L 0.0.0.0:8080:10.0.1.207:9100 ubuntu@10.0.1.207
+									   (App-server) :(DB-server)     (App-server)
+
+
+
+=======================
+iptables -I INPUT 1 -p tcp --dport 8080 -j ACCEPT
+
+iptables-save
+
+iptables-save > /etc/iptables/rules.v4
+
+
+ssh -i ssh-key-2023-05-04.key -f -N -L 0.0.0.0:8080:10.0.1.207:9100 ubuntu@10.0.1.207
+
